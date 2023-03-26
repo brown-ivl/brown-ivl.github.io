@@ -1,0 +1,240 @@
+[ 
+    {
+        "category": "Principal Investigator",
+        "name": "Srinath Sridhar",
+        "years": "2020 - Present", 
+        "imgPath": "images/people/srinath.png",
+        "alt": "Srinath Sridhar Profile Picture"   ,
+        "link": "https://cs.brown.edu/people/ssrinath/index.html"
+    },
+    {
+        "category": "PhD Students",
+        "name": "Arthur Chen",
+        "years": "2022 - Present",
+        "imgPath": "images/people/arthur.jpg",
+        "alt": "Arthur Chen Profile Picture",
+        "link": "https://arthurchen0518.github.io/"
+    },    
+    {
+        "category": "PhD Students",
+        "name": "Rao Fu",
+        "years": "2021 - Present",
+        "imgPath": "images/people/rao.jpg",
+        "alt": "Rao Fu Profile Picture",
+        "link": "https://freddierao.github.io/"
+    },   
+    {
+        "category": "PhD Students",
+        "name": "Rahul Sajnani",
+        "years": "2022 - Present",
+        "imgPath": "images/people/rahul.jpg",
+        "alt": "Rahul Sajnani Profile Picture",
+        "link": "https://www.linkedin.com/in/rahul-sajnani-432609178/"
+    },    
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Yiwen Chen",
+        "years": "2022 - Present",
+        "imgPath": "images/people/Yiwen_Chen.jpg",
+        "alt": "Yiwen Chen Profile Picture",
+        "link": "https://cs.brown.edu/people/grad/ychen485/"
+    },              
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Jacob Frausto",
+        "years": "2022 - Present",
+        "imgPath": "images/people/Jacob_Frausto.jpg",
+        "alt": "Jacob Frausto Profile Picture"    ,
+        "link": "https://frausto.tech/"
+    },       
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Cheng-You Lu",
+        "years": "2022 - Present",
+        "imgPath": "images/people/Cheng-You_Lu.jpg",
+        "alt": "Cheng-You Lu Profile Picture"       ,
+        "link": "https://johnnylu305.github.io/"
+    },   
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Rugved Mavidipalli",
+        "years": "2022 - Present",
+        "imgPath": "images/people/rig.jpg",
+        "alt": "Rugved Mavidipalli Profile Picture",
+        "link": "https://www.linkedin.com/in/rugvedm/"
+    },        
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Theo McArn",
+        "years": "2022 - Present",
+        "imgPath": "images/people/Theo.jpeg",
+        "alt": "Theo McArn Profile Picture",
+        "link": "https://theomcarn.myportfolio.com/"
+    },  
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Qiuhong (Anna) Wei",
+        "years": "2021 - Present",
+        "imgPath": "images/people/anna.png",
+        "alt": "Qiuhong Wei Profile Picture",
+        "link": "https://github.com/QiuhongAnnaWei"
+    },   
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Angela Xing",
+        "years": "2022 - Present",
+        "imgPath": "images/people/Angela_Xing.jpg",
+        "alt": "Angela Xing Profile Picture"       ,
+        "link": "https://xing-angela.github.io/"
+    },     
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Xiao (Sean) Zhan",
+        "years": "2022 - Present",
+        "imgPath": "images/people/Xiao_Zhan(Sean).jpg",
+        "alt": "Xiao Zhan Profile Picture",
+        "moreInfo": "Co-advised with Daniel Ritchie",
+        "link": "https://seanzhan.com/#/"
+    },    
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Peisen Zhou",
+        "years": "2022 - Present",
+        "imgPath": "images/people/peisen.jpeg",
+        "alt": "Peisen Zhou Profile Picture",
+        "link": "https://www.linkedin.com/in/peisen-zhou-a11332135/"
+    },
+    {
+        "category": "Research Staff/Visitors",
+        "name": "Arnab Dey",
+        "years": "2022 - Present",
+        "imgPath": "images/people/Arnab_Dey.jpg",
+        "alt": "Arnab Dey Profile Picture",
+        "link": "https://www.linkedin.com/in/arnabdey0503"     
+    },    
+    {
+        "category": "Research Staff/Visitors",
+        "name": "Chandradeep Pokhariya",
+        "years": "2022 - Present",
+        "imgPath": "images/people/chandradeep.jpeg",
+        "alt": "Chandradeep Pokhariya Profile Picture",
+        "link": "https://coreqode.github.io"     
+    }, 
+    {
+        "category": "Research Staff/Visitors",
+        "name": "Iris Huang",
+        "years": "2023 - Present",
+        "imgPath": "images/people/iris.jpg",
+        "alt": "Iris Huang Profile Picture",
+        "link": "https://www.linkedin.com/in/iris-h-6623a3220/"     
+    }, 
+    {
+        "category": "Research Staff/Visitors",
+        "name": "Rohith Agaram",
+        "years": "2023 - Present",
+        "imgPath": "images/people/rohith.jpg",
+        "alt": "Rohith Agaram Profile Picture",
+        "link": ""     
+    }, 
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Tarun Rajnish",
+        "years": "2022",
+        "status": "Now Software Engineer at Starbucks"
+        },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Helen Huang",
+        "years": "2022",
+        "status": "Now Undergraduate at Brown University"
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Siddharth Diwan",
+        "years": "2021",
+        "imgPath": "images/people/siddharth.jpg",
+        "alt": "Siddharth Diwan Profile Picture",
+        "link": "https://www.linkedin.com/in/siddharth-diwan/?originalSubdomain=in",
+        "status": "Now Undergraduate at Brown University"
+    },  
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Trevor Houchens",
+        "years": "2021",
+        "imgPath": "images/people/trevor.jpg",
+        "alt": "Trevor Houchens Profile Picture",
+        "link": "https://www.trevorhouchens.com/",
+        "status": ""
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Jivitesh Jain",
+        "years": "2021",
+        "imgPath": "images/people/jivitesh.jpg",
+        "alt": "Jivitesh Jain Profile Picture",
+        "link": "https://www.linkedin.com/in/jiviteshjain/",
+        "status": "Now Master's student at CMU"  
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Sijie Ding",
+        "years": "2021 - 2022",
+        "status": "Now PhD student at Stony Brook University"        
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Yiheng Xie",
+        "years": "2021",
+        "status": "Now PhD student at Caltech"        
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Radhika Dua",
+        "years": "2020 - 2021",
+        "status": "Student at KAIST"      
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Aparna Natarajan",
+        "years": "2021",
+        "status": ""
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Shivam Duggal",
+        "years": "2020 - 2021",
+        "status": "Now Master's student at CMU"
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Farnaz Nouraei",
+        "years": "2020 - 2021",
+        "status": "Now PhD student at Northeastern University"
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Qimin Chen",
+        "years": "2020 - 2021",
+        "status": "UCSD, Now PhD student at Simon Fraser University"
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Eliza Macneal",
+        "years": "2021",
+        "status": ""
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Daniel Masotti",
+        "years": "2021",
+        "status": ""
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Ge Zhang",
+        "years": "2020 - 2021",
+        "status": "Shanghai Tech, Now Master's student at University of Michigan",
+        "additionalInfo": "(Co-supervised with Leo Guibas and Or Litany)"
+    }
+        
+]

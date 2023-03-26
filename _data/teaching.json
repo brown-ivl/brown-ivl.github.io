@@ -1,0 +1,81 @@
+[
+    {
+        "category": "Courses",
+        "sem": "Spring 2023",        
+        "title": "CSCI 2952-O: A Practical Introduction to Advanced 3D Robot Perception",
+        "page": "http://cs.brown.edu/courses/csci2952o/",
+        "image": "images/teaching/52-o.jpeg"
+    },
+    {
+        "category": "Courses",
+        "sem": "Fall 2022",        
+        "title": "CSCI 1430: Introduction to Computer Vision",
+        "page": "https://cs.brown.edu/courses/csci1430/2022_Fall/index.html",
+        "image": "images/teaching/cv2022Fall.png"
+    },
+    {
+        "category": "Courses",
+        "sem": "Spring 2022",        
+        "title": "CSCI 2952-O: A Practical Introduction to Advanced 3D Robot Perception",
+        "page": "http://cs.brown.edu/courses/csci2952o/",
+        "image": "images/teaching/52-o.jpeg"
+    },
+    {
+        "category": "Courses",
+        "sem": "Fall 2021",        
+        "title": "CSCI 1430: Introduction to Computer Vision",
+        "page": "https://cs.brown.edu/courses/csci1430/2021_Fall/index.html",
+        "image": "images/teaching/1430.jpeg"
+    },
+    {
+        "category": "Courses",
+        "sem": "Spring 2021",        
+        "title": "CSCI 1430: Introduction to Computer Vision",
+        "page": "https://cs.brown.edu/courses/csci1430/2021_Spring/index.html",
+        "subText": "Co-taught with James Tompkin",
+        "subTextLink": "https://jamestompkin.com/",
+        "image": "images/teaching/1430.jpeg"
+    },
+    {
+        "category": "Courses",
+        "sem": "Fall 2020",        
+        "title": "CSCI 2952-K: Topics in 3D Computer Vision and Machine Learning",
+        "page": "https://cs.brown.edu/courses/csci2952k/",
+        "image": "images/teaching/2952k.jpeg"
+    },
+    {
+        "category": "Workshops & Tutorials",
+        "sem": "2023",        
+        "title": "ICLR 2023 Neural Fields Workshop",
+        "page": "https://sites.google.com/view/neural-fields",
+        "image": "images/teaching/iclr.png"
+    },
+    {
+        "category": "Workshops & Tutorials",
+        "sem": "2022",        
+        "title": "Eurographics 2022 STAR Report",
+        "page": "https://neuralfields.cs.brown.edu/eg22.html",
+        "image": "images/teaching/eg22.jpg"
+    },
+    {
+        "category": "Workshops & Tutorials",
+        "sem": "2022",        
+        "title": "CVPR 2022 Neural Fields Tutorial",
+        "page": "https://neuralfields.cs.brown.edu/cvpr22.html",
+        "image": "images/teaching/cvpr.png"
+    },
+    {
+        "category": "Workshops & Tutorials",
+        "sem": "2021",        
+        "title": "ICCV 2021 Workshop: Learning 3D Representations for Shape and Appearance",
+        "page": "https://ivl.cs.brown.edu/3DReps",
+        "image": "images/teaching/iccv-2021.png"
+    },    
+    {
+        "category": "Workshops & Tutorials",
+        "sem": "2020",        
+        "title": "ECCV 2020 Workshop: Learning 3D Representations for Shape and Appearance",
+        "page": "https://geometry.stanford.edu/3DReps/index.html",
+        "image": "images/teaching/eccv-2020.png"
+    }
+]
