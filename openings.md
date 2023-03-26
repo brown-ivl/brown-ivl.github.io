@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: Openings
 permalink: /openings
 ---

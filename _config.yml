@@ -51,9 +51,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-header_pages:
-  - index.md
-  - research.md
-  - people.md
-  - teaching.md
-  - openings.md
+collections:
+  - research
+  - people
+  - teaching

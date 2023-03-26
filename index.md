@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: base
 ---
 
 # Interactive 3D Vision & Learning Lab (IVL)
