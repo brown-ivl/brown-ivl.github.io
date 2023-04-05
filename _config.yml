@@ -19,13 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Brown IVL
-email: srinath@brown.edu
 description: >- # this means to ignore newlines until "baseurl:"
   The Interactive 3D Vision & Learning Lab (IVL) led by Srinath Sridar, part of Brown Visual Computing, works on 3D computer vision and machine learning problems to better understand how humans interact with the world. Our research spans 3D spatiotemporal visual understanding objects, humans in motion, and human-object interactions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ivl.cs.brown.edu/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: drsrinathsridha
-github_username: drsrinathsridhar
 
 # Build settings
 theme: minima
@@ -39,19 +36,44 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+nav: top
+encoding: utf8
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 collections:
   - research
   - people
   - teaching
+
+defaults:
+  - scope:
+      path: ""
+      type: "tables"
+    values:
+      layout: "generated_table"
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "people"
+  - scope:
+      path: ""
+      type: "aligned_content"
+    values:
+      layout: "aligned_content"
