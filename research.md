@@ -4,7 +4,7 @@ title: Research
 permalink: /research
 ---
 
-<h1>Research</h1>
+# Research
 
 <ul>
   {% for page in site.posts %}
