@@ -5,3 +5,22 @@
 .current {
     font-weight: bold;
   }
+
+.people-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-item {
+    width: 205px;
+    height: 310px;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.person-image {
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
