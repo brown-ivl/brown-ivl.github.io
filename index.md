@@ -14,8 +14,9 @@ The Interactive 3D Vision & Learning Lab (IVL) led by [Srinath Sridhar](https://
 
 <!-- TODO: figure out box for markdown -->
 
-> **_Prospective Students/Postdocs:_**
-> We are always looking for motivated students/postdocs to join us. Please see the [Openings](/openings/) page for more details.
+<div class="alert alert-info" role="alert">
+    <b>Prospective Students/Postdocs:</b> We are always looking for motivated students/postdocs to join us. Please see the <a href="/openings/">Openings</a> page for more details.
+</div>
 
 ### Updates
 
@@ -68,4 +69,6 @@ The Interactive 3D Vision & Learning Lab (IVL) led by [Srinath Sridhar](https://
 
 </details>
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="50" unit="%" duration="5" number="1" %}
+
+<!-- TODO: improve carousel https://getbootstrap.com/docs/5.0/components/carousel/ -->
