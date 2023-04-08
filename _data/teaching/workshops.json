@@ -1,0 +1,32 @@
+[
+    {
+        "title": "ICLR 2023 Neural Fields Workshop",
+        "year": "2023",        
+        "page": "https://sites.google.com/view/neural-fields",
+        "image": "images/teaching/iclr.png"
+    },
+    {
+        "title": "Eurographics 2022 STAR Report",
+        "year": "2022",        
+        "page": "https://neuralfields.cs.brown.edu/eg22.html",
+        "image": "images/teaching/eg22.jpg"
+    },
+    {
+        "title": "CVPR 2022 Neural Fields Tutorial",
+        "year": "2022",        
+        "page": "https://neuralfields.cs.brown.edu/cvpr22.html",
+        "image": "images/teaching/cvpr.png"
+    },
+    {
+        "title": "ICCV 2021 Workshop: Learning 3D Representations for Shape and Appearance",
+        "year": "2021",        
+        "page": "https://ivl.cs.brown.edu/3DReps",
+        "image": "images/teaching/iccv-2021.png"
+    },    
+    {
+        "title": "ECCV 2020 Workshop: Learning 3D Representations for Shape and Appearance",
+        "year": "2020",        
+        "page": "https://geometry.stanford.edu/3DReps/index.html",
+        "image": "images/teaching/eccv-2020.png"
+    }
+]
