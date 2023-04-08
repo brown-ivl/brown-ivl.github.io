@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching
 ---
 
-# Courses
+## Courses
 
 <div class="courses">
     {% for course in site.data.teaching.courses %}
@@ -24,7 +24,7 @@ permalink: /teaching
     {% endfor %}
 </div>
 
-# Workshops & Tutorials
+## Workshops & Tutorials
 
 <div class="workshops">
     {% for workshop in site.data.teaching.workshops %}

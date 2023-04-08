@@ -2,25 +2,8 @@
     margin-top: 2rem;
 }
 
-.current {
-    font-weight: bold;
-  }
-
-.people-category {
-    display: flex;
+.center {
     align-items: center;
+    display: flex;
     justify-content: center;
-}
-
-.person-item {
-    width: 205px;
-    height: 310px;
-    text-align: center;
-    margin: 0.5rem;
-}
-
-.person-image {
-    max-width: 200px;
-    object-fit: cover;
-    margin-bottom: 0.5rem;
 }
