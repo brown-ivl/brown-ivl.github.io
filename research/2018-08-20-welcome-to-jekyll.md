@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: base
 title: "Welcome to Jekyll!"
 date: 2023-03-21 17:57:30 -0400
 categories: jekyll update

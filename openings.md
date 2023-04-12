@@ -1,8 +1,10 @@
 ---
 title: Openings
-layout: generated_page
+layout: base
 permalink: /openings
 ---
+
+# Openings
 
 Thank you for your interest in IVL. We receive a lot of emails about open positions, but cannot respond to all of them, unfortunately. In this page, we provide answers to common requests.
 

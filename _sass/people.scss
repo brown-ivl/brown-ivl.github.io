@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
+body {
+    font-family: 'Titillium Web' , sans-serif;
+}
+
 .people-category {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .person-item {
+        width: 220px;
+        height: 325px;
+        text-align: center;
+        margin: 0.5rem;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
-.person-item {
-    width: 200px;
-    height: 300px;
-    text-align: center;
-    margin: 0.5rem;
-}
-
-.person-image {
-    object-fit: cover;
-    margin-bottom: 0.5rem;
-}

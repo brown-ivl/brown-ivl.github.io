@@ -1,8 +1,10 @@
 ---
-layout: generated_page
+layout: base
 title: People
 permalink: /people
 ---
+
+# People
 
 ## Principal Investigator
 
@@ -13,7 +15,7 @@ permalink: /people
     {% for person in site.data.people %}
         {% if person.category == "Principal Investigator" %}
         <div class="card person-item">
-            <img class="card-img-top person-image" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
+            <img class="card-img-top img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
             <div class="card-body">
                 <a href="{{person.link}}" target="_blank" class="card-title">{{person.name}}</a>
                 <div class="card-text"> 
@@ -54,7 +56,7 @@ permalink: /people
             <img class="card-img-top person-image" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
             <div class="card-body">
                 <a href="{{person.link}}" target="_blank" class="card-title">{{person.name}}</a>
-                <div class="card-text"> 
+                <div class="card-text">
                     <h6>{{ person.years }} </h6>
                     <h6>{{ person.moreInfo }} </h6>
                 </div>
@@ -66,7 +68,7 @@ permalink: /people
 
 ## Research Staff/Visitors
 
-<div class="row people-category">
+<div class="people-category">
     {% for person in site.data.people %}
         {% if person.category == "Research Staff/Visitors" %}
         <div class="card person-item">

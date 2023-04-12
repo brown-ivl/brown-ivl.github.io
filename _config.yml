@@ -59,11 +59,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-collections:
-  - research
-  - people
-  - teaching
-
 defaults:
   - scope:
       path: ""

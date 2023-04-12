@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: base
 title: "LEGO-Net: Learning Regular Rearrangements of Objects in Rooms"
 author: Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas
 ---
