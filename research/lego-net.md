@@ -32,20 +32,18 @@ Videos may appear smaller when viewed on Firefox, it is optimized for Edge and C
 
 [comment]: put the image content in a table
 
-## Citation
-
 ## Acknowledgements
 
 This work was supported by AFOSR grant FA9550-21-1-0214, NSF CloudBank, an AWS Cloud Credits award, ARL grant W911NF-21-2-0104, a Vannevar Bush Faculty Fellowship, and a gift from the Adobe Corporation. We thank Kai Wang, Daniel Ritchie, Rao Fu, and Selene Lee.
 
-{% include table_helper.html name="lego-net-sponsors_table" %}
+<!-- {% include table_helper.html name="lego-net-sponsors_table" %}
 
 ![AFOSR Logo](/assets/images/logos/afosr.png "AFOSR Logo")
 ![NSF Logo](/assets/images/logos/nsf.png "NSF Logo")
 ![AWS Logo](/assets/images/logos/aws_logo.png "AWS Logo")
 ![ARL Logo](/assets/images/logos/ARL_logo.png "ARL Logo")
 ![VBF Logo](/assets/images/logos/vbf_logo.jpg "VBF Logo")
-![Adobe Logo](/assets/images/logos/adobe_logo.png "Adobe Logo")
+![Adobe Logo](/assets/images/logos/adobe_logo.png "Adobe Logo") -->
 
 ## Contact
 
