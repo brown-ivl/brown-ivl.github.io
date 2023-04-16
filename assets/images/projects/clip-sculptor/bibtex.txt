@@ -1,0 +1,17 @@
+@misc{https://doi.org/10.48550/arxiv.2211.01427,
+  doi = {10.48550/ARXIV.2211.01427},
+  
+  url = {https://arxiv.org/abs/2211.01427},
+  
+  author = {Sanghi, Aditya and Fu, Rao and Liu, Vivian and Willis, Karl and Shayani, Hooman and Khasahmadi, Amir Hosein and Sridhar, Srinath and Ritchie, Daniel},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {TextCraft: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Text},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
