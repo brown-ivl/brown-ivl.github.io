@@ -5,6 +5,8 @@ title: Research
 
 # Research
 
+<input type="text" id="myInput" onkeyup="searchProjects()" placeholder="Search">
+
 <div class="row research">
   {% for page in site.data.research %}
     <div class="card research-item">
@@ -15,11 +17,11 @@ title: Research
       </div>
       <div class="card-body">
           <a href="{{ page.projectPage }}" target="_blank">
-            <h5 class="card-title"> {{page.title}}</h5>
+            <h5 class="card-title research-title"> {{page.title}}</h5>
           </a>
-          <h6>{{page.journal}}</h6>
-          <h6 class="card-text">{{page.author}}</h6>
-          <h6 class="card-text">{{page.year}}</h6>
+          <h6 class="research-journal">{{page.journal}}</h6>
+          <h6 class="card-text research-author">{{page.author}}</h6>
+          <h6 class="card-text research-year">{{page.year}}</h6>
       </div>
     </div>
   {% endfor %}
