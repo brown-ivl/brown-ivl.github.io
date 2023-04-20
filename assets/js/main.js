@@ -1,7 +1,7 @@
 function searchProjects() {
 	// Declare variables
 	var input, searchQuery, projects
-	input = document.getElementById("myInput")
+	input = document.getElementById("searchInput")
 	searchQuery = input.value.toLowerCase()
 	projects = document.getElementsByClassName("research-item")
 

@@ -5,7 +5,9 @@ title: Research
 
 # Research
 
-<input type="text" id="myInput" onkeyup="searchProjects()" placeholder="Search">
+<div class="search-div">
+  <input class="form-control form-control-md" type="text" id="searchInput" onkeyup="searchProjects()" placeholder="Search for a publication or report">
+</div>
 
 <div class="row research">
   {% for page in site.data.research %}
