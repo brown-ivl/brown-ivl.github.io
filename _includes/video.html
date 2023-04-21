@@ -1,7 +1,10 @@
-{% assign name = include.name %}
 <div class="video">
-    <video width="400" controls>
-        <source src="{{page.videos.name}}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <video autoplay="autoplay"
+      class="projects-video"
+      loop
+      controls
+      muted="muted">
+      <source src="{{ include.link }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 </div>
