@@ -59,6 +59,10 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  - authors
+  - author
+
 defaults:
   - scope:
       path: ""

@@ -1,9 +1,44 @@
 ---
-layout: base
+layout: project
 title: "LEGO-Net: Learning Regular Rearrangements of Objects in Rooms"
-authors: Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas
+authors:
+  - author:
+      - name: "Qiuhong Anna Wei"
+      - affiliation: 1
+      - link: "https://qiuhongannawei.me/"
+  - author:
+      - name: "Sijie Ding"
+      - affiliation: 1
+      - link: "https://sjdingcn.github.io"
+  - author:
+      - name: "Jeong Joon Park"
+      - affiliation: 2
+      - link: "https://jjparkcv.github.io/"
+  - author:
+      - name: "Rahul Sajnani"
+      - affiliation: 1
+      - link: "https://scholar.google.com/citations?user=HAtfBjoAAAAJ&hl=en&oi=ao"
+  - author:
+      - name: "Adrien Poulenard"
+      - affiliation: 2
+      - link:
+  - author:
+      - name: "Srinath Sridhar"
+      - affiliation: 1
+      - link: "https://cs.brown.edu/people/ssrinath/"
+  - author:
+      - name: "Leonidas Guibas"
+      - affiliation: 2
+      - link: "https://geometry.stanford.edu/member/guibas/"
+affiliations:
+  - 1: "Brown University"
+  - 2: "Stanford University"
 journal: CVPR 2023
-bibtex: ADD A STRING HERE
+bibtex: "@article{wei2023legonet,\n" +
+		"author={Qiuhong Anna Wei and Sijie Ding and Jeong Joon Park and Rahul Sajnani and Adrien Poulenard and Srinath Sridhar and Leonidas Guibas},\n" +
+		"title={LEGO-Net: Learning Regular Rearrangements of Objects in Rooms},\n" +
+		"journal={arXiv preprint arXiv:2301.09629},\n" +
+		"year={2023}}"
 ---
 
 # LEGO-Net: Learning Regular Rearrangements of Objects in Rooms
