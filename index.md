@@ -1,6 +1,6 @@
 ---
-title: BrownIVL
 layout: base
+title: BrownIVL
 carousels:
   - images:
       - image: /assets/images/carousel/2021_fall_01.jpg

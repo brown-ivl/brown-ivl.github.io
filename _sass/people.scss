@@ -4,10 +4,16 @@ body {
     font-family: 'Titillium Web' , sans-serif;
 }
 
+h2 {
+    margin-top: 1rem;
+}
+
 .people-category {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
     .person-item {
         width: 220px;

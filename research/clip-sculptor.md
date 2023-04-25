@@ -6,8 +6,6 @@ journal: CVPR 2023
 bibtex: ADD A STRING HERE
 ---
 
-# CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language
-
 {% include full_image.html path="/assets/images/projects/clip-sculptor/teaser_new.png" alt="CLIP-Sculptor teaser" %}
 
 ## Overview
