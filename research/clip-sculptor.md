@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: project
 title: "CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language"
 authors: Aditya Sanghi, Rao Fu, Vivian Liu, Karl Willis, Hooman Shayani, Amir H. Khasahmad, Srinath Sridhar, Daniel Ritchie
 journal: CVPR 2023
@@ -8,7 +8,7 @@ bibtex: ADD A STRING HERE
 
 # CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language
 
-![CLIP-Scuptor teaser](/assets/images/projects/clip-sculptor/teaser_new.png "CLIP-Sculptor")
+{% include full_image.html path="/assets/images/projects/clip-sculptor/teaser_new.png" alt="CLIP-Sculptor teaser" %}
 
 ## Overview
 

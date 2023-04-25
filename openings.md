@@ -1,6 +1,6 @@
 ---
-title: Openings
 layout: base
+title: Openings
 permalink: /openings
 ---
 
