@@ -10,10 +10,9 @@ h2 {
 
 .people-category {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    // justify-content: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
     .person-item {
         width: 220px;
@@ -22,6 +21,27 @@ h2 {
         margin: 0.5rem;
         padding-left: 0px;
         padding-right: 0px;
+
+            .img-fluid {
+                border-radius: 50%;
+            }
+    }
+
+    .pi-about {
+        .pi-image {
+            margin-right: 1rem;
+            .img-fluid {
+                border-radius: 50%;
+            }
+        }
+
+        .pi-body {
+            padding: 2rem;
+            .bio {
+                margin: 1rem 0rem;
+                line-height: 150%;
+            }
+        }
     }
 }
 
