@@ -1,0 +1,36 @@
+{% assign paper = includes.paper | default: false %}
+
+<div class="row icons">
+    {% if paper %}
+        <div class="col">
+            <a href="{{includes.paper}}">
+                <span class="material-symbols-outlined">picture_as_pdf</span>
+                Paper
+            </a>
+        </div>s
+    {% endif %}
+    {% if includes.supplementary %}
+        <div class="col">
+            <a href="{{includes.supplementary}}">
+                <span class="material-symbols-outlined"> description</span>
+                Supplementary
+            </a>
+        </div>
+    {% endif %}
+    {% if includes.code %}
+        <div class="col">
+            <a href="{{includes.code}}">
+                <span class="material-symbols-outlined">code</span>
+                Code
+            </a>
+        </div>
+    {% endif %}
+    {% if includes.dataset %}
+        <div class="col">
+            <a href="{{includes.dataset}}">
+                <span class="material-symbols-outlined">dataset</span>
+                Dataset
+            </a>
+        </div>
+    {% endif %}
+</div>

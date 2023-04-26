@@ -1,0 +1,7 @@
+<div class="row aligned-images">
+    {% for item in include.images %}
+        <div class="col">
+            <img class="projects-image img-fluid" src="{{ item.path }}" alt="{{item.alt}}"/>
+        </div>
+    {% endfor %}
+</div>

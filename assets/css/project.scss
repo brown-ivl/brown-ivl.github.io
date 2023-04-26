@@ -9,14 +9,15 @@ img {
     margin-bottom: 1rem;
 }
 
-.projects-video {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+
+.projects-video-div, .projects-image-div {
+    padding: 1rem;
+    margin: 1rem;
+
+    .projects-video {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 }
 
-.projects-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}

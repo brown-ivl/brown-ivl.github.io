@@ -1,26 +1,24 @@
 ---
-layout: base
-title: ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model
+layout: project
+title: "ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model"
 authors: Rao Fu, Xiao Zhan, Yiwen Chen, Daniel Ritchie, Srinath Sridhar
 journal: NeurIPS 2022
 bibtex: ADD A STRING HERE
 ---
 
-# ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model
-
-![ShapeCrafter Teaser](/assets/images/projects/shapecrafter/teaser.gif "ShapeCrafter")
-
 ## Overview
 
-[comment]: video here
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HhYN8Y6etkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-[comment]: paper, supplementary, github, dataset here
+{% include icons.html paper="https://arxiv.org/pdf/2207.09446.pdf" code="https://github.com/FreddieRao/ShapeCrafter.git" %}
 
 ## Results
 
-images here
+{% include full_image.html path="/assets/images/projects/shapecrafter/chair.gif" alt="Chair" %}
 
-[comment]: image here
+{% include full_image.html path="/assets/images/projects/shapecrafter/table.gif" alt="Table" %}
 
 ## Abstract
 
@@ -30,16 +28,37 @@ We present ShapeCrafter, a neural network for recursive text-conditioned 3D shap
 
 Recursive generation starts with an initial description of an object, and progressively adds phrases to better describe it or modify it. The shapes can be generated from scratch as well as edited using text input.
 
-[comment]: image here
+{% include full_image.html path="/assets/images/projects/shapecrafter/teaser.gif" alt="ShapeCrafter Teaser" %}
 
 ShapeCrafter is composed of three sub-models: a text feature extraction model, a feature concatenation model, and a shape feature refinement model.
 
-[comment]: image here
+{% include full_image.html path="/assets/images/projects/shapecrafter/pipeline.png" alt="ShapeCrafter Pipeline" %}
 
 ## Text2Shape++ Dataset
 
 Constituency parser decompose a sentence into phrases with meaningful semantic attributes. Text2Shape++ contains phrase sequences, and each phrase sequence corresponds to one or more shapes.
 
-[comment]: image here
+{% include full_image.html path="/assets/images/projects/shapecrafter/dataset.png" alt="Dataset" %}
 
 ## Citation
+
+    ```
+    @inproceedings{NEURIPS2022_3a33ae4d,
+    author = {Fu, Rao and Zhan, Xiao and CHEN, YIWEN and Ritchie, Daniel and Sridhar, Srinath},
+    booktitle = {Advances in Neural Information Processing Systems},
+    editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+    pages = {8882--8895},
+    publisher = {Curran Associates, Inc.},
+    title = {ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model},
+    url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/3a33ae4d634b49b0866b4142a1f82a2f-Paper-Conference.pdf},
+    volume = {35},
+    year = {2022}}
+    ```
+
+## Acknowledgements
+
+This research was supported by AFOSR grant FA9550-21-1-0214, NSF CNS2038897, and the Google Research Scholar Program.
+
+## Contact
+
+Rao Fu rao_fu@brown.edu

@@ -34,11 +34,6 @@ affiliations:
   - 1: "Brown University"
   - 2: "Stanford University"
 journal: CVPR 2023
-bibtex: "@article{wei2023legonet,\n" +
-		"author={Qiuhong Anna Wei and Sijie Ding and Jeong Joon Park and Rahul Sajnani and Adrien Poulenard and Srinath Sridhar and Leonidas Guibas},\n" +
-		"title={LEGO-Net: Learning Regular Rearrangements of Objects in Rooms},\n" +
-		"journal={arXiv preprint arXiv:2301.09629},\n" +
-		"year={2023}}"
 ---
 
 {% include full_image.html path="/assets/images/projects/lego-net/teaser.png" alt="Lego-Net Teaser" %}
