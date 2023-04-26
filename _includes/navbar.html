@@ -8,10 +8,10 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             {% for item in site.data.navigation %}
             <li class="nav-item">
-                <a class="nav-item nav-link" href="{{ item.link }}" 
+                <a class="nav-item nav-link" href="{{ item.link }}"
                   {% if page.url == item.link %}
-                    class="current"
-                  {% endif %}> 
+                    class="active"
+                  {% endif %} > 
                   {{ item.name }}
                 </a>
             </li>
