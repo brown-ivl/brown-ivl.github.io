@@ -31,7 +31,7 @@ permalink: /people
 
 ## PhD Students
 
-<div class="people-category">
+<div class="row people-category">
     {% for person in site.data.people %}
         {% if person.category == "PhD Students" %}
         <div class="person-item">
@@ -73,7 +73,7 @@ permalink: /people
 
 ## Research Staff/Visitors
 
-<div class="people-category">
+<div class="row people-category">
     {% for person in site.data.people %}
         {% if person.category == "Research Staff/Visitors" %}
         <div class="person-item">

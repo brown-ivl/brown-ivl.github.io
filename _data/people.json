@@ -32,6 +32,38 @@
         "link": "https://www.linkedin.com/in/rahul-sajnani-432609178/"
     },    
     {
+        "category": "PhD Students",
+        "name": "Aashish Rai",
+        "years": "2023 - Present",
+        "imgPath": "images/people/aashish.jpg",
+        "alt": "Aashish Rai Profile Picture",
+        "link": "https://aashishrai3799.github.io/"
+    },  
+    {
+        "category": "PhD Students",
+        "name": "Hongyu Li",
+        "years": "2023 - Present",
+        "imgPath": "images/people/Hongyu_li.jpg",
+        "alt": "Hongyu Li Profile Picture",
+        "link": "https://lhy.xyz/"
+    },    
+    {
+        "category": "PhD Students",
+        "name": "Sudarshan Harithas",
+        "years": "2023 - Present",
+        "imgPath": "images/people/sudarshan_harithas.jpg",
+        "alt": "Sudarshan Harithas Profile Picture",
+        "link": "https://sudarshan-s-harithas.github.io/"
+    },    
+    {
+        "category": "PhD Students",
+        "name": "Chaerin Min",
+        "years": "2023 - Present",
+        "imgPath": "images/people/Chaerin_Min.jpg",
+        "alt": "Chaerin Min Profile Picture",
+        "link": "https://chaerinmin.github.io/"
+    }, 
+    {
         "category": "Undergraduate/Master's Students",
         "name": "Yiwen Chen",
         "years": "2022 - Present",
