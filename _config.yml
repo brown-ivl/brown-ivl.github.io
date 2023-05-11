@@ -75,3 +75,6 @@ defaults:
       type: "aligned_content"
     values:
       layout: "aligned_content"
+
+collections:
+  - author

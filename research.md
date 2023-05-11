@@ -22,9 +22,9 @@ permalink: /research
           <a href="{{ page.projectPage }}" target="_blank">
             <h5 class="card-title research-title"> {{page.title}}</h5>
           </a>
+          <h6 class="card-text research-authors">{{page.authors}}</h6>
           <h6 class="research-journal">{{page.journal}}</h6>
-          <h6 class="card-text research-author">{{page.author}}</h6>
-          <h6 class="card-text research-year">{{page.year}}</h6>
+          <!-- <h6 class="card-text research-year">{{page.year}}</h6> -->
       </div>
     </div>
   {% endfor %}

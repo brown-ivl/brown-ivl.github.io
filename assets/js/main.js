@@ -10,11 +10,12 @@ function searchProjects() {
 	// Loop through all list items, and hide those who don't match the search query
 	for (i = 0; i < projects.length; i++) {
 		title = document.getElementsByClassName("research-title")[i].innerText
-		author = document.getElementsByClassName("research-author")[i].innerText
+		author = document.getElementsByClassName("research-authors")[i].innerText
 		journal = document.getElementsByClassName("research-journal")[i].innerText
-		year = document.getElementsByClassName("research-year")[i].innerText
+		// year = document.getElementsByClassName("research-year")[i].innerText
 
-		projectInfo = title + " " + author + " " + journal + " " + year
+		projectInfo = title + " " + author + " " + journal
+		// projectInfo = title + " " + author + " " + journal + " " + year
 		projectInfo = projectInfo.toLowerCase()
 
 		keepPaper = projectInfo.includes(searchQuery)
