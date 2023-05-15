@@ -1,7 +1,29 @@
 ---
 layout: project
 title: "ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model"
-authors: Rao Fu, Xiao Zhan, Yiwen Chen, Daniel Ritchie, Srinath Sridhar
+authors:
+  - author:
+      name: "Rao Fu"
+      affiliation: 1
+      link:
+  - author:
+      name: "Xiao Zhan"
+      affiliation: 1
+      link:
+  - author:
+      name: "Yiwen Chen"
+      affiliation: 1
+      link:
+  - author:
+      name: "Daniel Ritchie"
+      affiliation: 1
+      link:
+  - author:
+      name: "Srinath Sridhar"
+      affiliation: 1
+      link:
+affiliations:
+  - "Brown University<sup>1</sup>"
 journal: NeurIPS 2022
 bibtex: ADD A STRING HERE
 ---

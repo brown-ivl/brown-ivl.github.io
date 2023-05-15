@@ -1,15 +1,24 @@
 ---
 layout: project
 title: ""
-authors: ""
+authors:
+  - author:
+      name: "Author Name"
+      affiliation: 1
+      link:
+  - author:
+      name: "Author Name"
+      affiliation: 1
+      link:
+  - author:
+      name: "Author Name"
+      affiliation: 2
+      link:
+affiliations:
+  - "[affiliation]<sup>1</sup>"
+  - "[affiliation]<sup>2</sup>"
 journal: ""
 bibtex: ""
-logos:
-  - image: img.jpg
-  - image: img.jpg
-affiliations:
-  - affiliation: 1
-  - affiliation: 2
 ---
 
 # Title

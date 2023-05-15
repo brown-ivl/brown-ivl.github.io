@@ -1,7 +1,42 @@
 ---
 layout: project
 title: "CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language"
-authors: Aditya Sanghi, Rao Fu, Vivian Liu, Karl Willis, Hooman Shayani, Amir H. Khasahmad, Srinath Sridhar, Daniel Ritchie
+authors:
+  - author:
+      name: "Aditya Sanghi"
+      affiliation: 1
+      link: "https://www.autodesk.com/research/people/aditya-sanghi"
+  - author:
+      name: "Rao Fu"
+      affiliation: 2
+      link: "https://freddierao.github.io/"
+  - author:
+      name: "Vivian Liu"
+      affiliation: 3
+      link: "https://vivian-liu.com/"
+  - author:
+      name: "Karl Willis"
+      affiliation: 1
+      link: "https://www.karlddwillis.com/"
+  - author:
+      name: "Hooman Shayani"
+      affiliation: 1
+      link: "https://www.autodesk.com/research/people/hooman-shayani"
+    - author:
+      name: "Amir H. Khasahmad"
+      affiliation: 1
+      link: "https://www.autodesk.com/research/people/amir-hosein-khasahmadi"
+  - author:
+      name: "Srinath Sridhar"
+      affiliation: 2
+      link: "https://cs.brown.edu/people/ssrinath/"
+  - author:
+      name: "Leonidas Guibas"
+      affiliation: 2
+      link: "https://geometry.stanford.edu/member/guibas/"
+affiliations:
+  - "Brown University<sup>1</sup>"
+  - "Stanford University<sup>2</sup>"
 journal: CVPR 2023
 bibtex: ADD A STRING HERE
 ---

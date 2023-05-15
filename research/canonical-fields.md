@@ -3,34 +3,33 @@ layout: project
 title: "Canonical Fields: Self-Supervised Learning of Pose-Canonicalized Neural Fields"
 authors:
   - author:
-      - name: "Rohith Agaram"
-      - affiliation: 1
-      - link: "https://scholar.google.com/citations?user=Ni6qG7wAAAAJ"
+      name: "Rohith Agaram"
+      affiliation: 1
+      link: "https://scholar.google.com/citations?user=Ni6qG7wAAAAJ"
   - author:
-      - name: "Shaurya Dewan"
-      - affiliation: 1
-      - link: "https://scholar.google.com/citations?user=1FLYpxAAAAAJ"
+      name: "Shaurya Dewan"
+      affiliation: 1
+      link: "https://scholar.google.com/citations?user=1FLYpxAAAAAJ"
   - author:
-      - name: "Rahul Sajnani"
-      - affiliation: 2
-      - link: "https://scholar.google.com/citations?user=HAtfBjoAAAAJ&hl=en&oi=ao"
+      name: "Rahul Sajnani"
+      affiliation: 2
+      link: "https://scholar.google.com/citations?user=HAtfBjoAAAAJ&hl=en&oi=ao"
   - author:
-      - name: "Adrien Poulenard"
-      - affiliation: 3
-      - link: "https://scholar.google.com/citations?hl=en&user=zsGbyGYAAAAJ"
+      name: "Adrien Poulenard"
+      affiliation: 3
+      link: "https://scholar.google.com/citations?hl=en&user=zsGbyGYAAAAJ"
   - author:
-      - name: "Madhava Krishna"
-      - affiliation: 1
-      - link: "https://scholar.google.com/citations?user=QDuPGHwAAAAJ"
+      name: "Madhava Krishna"
+      affiliation: 1
+      link: "https://scholar.google.com/citations?user=QDuPGHwAAAAJ"
   - author:
-      - name: "Srinath Sridhar"
-      - affiliation: 2
-      - link: "https://cs.brown.edu/people/ssrinath/"
-
+      name: "Srinath Sridhar"
+      affiliation: 2
+      link: "https://cs.brown.edu/people/ssrinath/"
 affiliations:
-  - 1: RRC, IIIT-Hyderabad
-  - 2: "Brown University"
-  - 3: "Stanford University"
+  - "RRC, IIIT-Hyderabad<sup>1</sup>"
+  - "Brown University<sup>2</sup>"
+  - "Stanford University<sup>3</sup>"
 journal: CVPR 2023
 bibtex: "@InProceedings{agaram2023_cafinet, \
   author = {Rohith Agaram and \

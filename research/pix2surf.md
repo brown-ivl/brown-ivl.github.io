@@ -1,7 +1,36 @@
 ---
 layout: project
 title: "Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images"
-authors: Jiahui Lei, Srinath Sridhar, Paul Guerrero, Minhyuk Sung, Niloy Mitra, Leonidas J.Guibas
+authors:
+  - author:
+      name: "Jiahui Lei"
+      affiliation: 1
+      link:
+  - author:
+      name: "Srinath Sridhar"
+      affiliation: 2
+      link:
+  - author:
+      name: "Paul Guerrero"
+      affiliation: 3
+      link:
+  - author:
+      name: "Minhyuk Sung"
+      affiliation: 3
+      link:
+  - author:
+      name: "Niloy Mitra"
+      affiliation: "4,3"
+      link:
+  - author:
+      name: "Leonidas J. Guibas"
+      affiliation: 2
+      link:
+affiliations:
+  - "Zhejiang University<sup>1</sup>"
+  - "Stanford University<sup>2</sup>"
+  - "Adobe Research<sup>3</sup>"
+  - "University College London<sup>4</sup>"
 journal: ECCV 2020
 bibtex: ADD A STRING HERE
 ---
