@@ -9,6 +9,15 @@ img {
     margin-bottom: 1rem;
 }
 
+.project-authors, .project-affiliations {
+    display: flex;
+
+    .project-author, .affiliation {
+        margin-right: 0.5rem;
+    }
+}
+
+
 
 .projects-video-div, .projects-image-div {
     padding: 1rem;

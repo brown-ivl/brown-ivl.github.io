@@ -17,9 +17,16 @@
                 <div class="header">
                     <h3>{{page.journal}}</h3>
                     <h1>{{page.title}}</h1>
-                    {% for author in page.authors %}
-                        <h6>{{author.name}}</h6>
-                    {% endfor %}
+                    <div class="project-authors">
+                        {% for item in page.authors %}
+                            <a class="project-author" href="{{item.author.link}}">{{item.author.name}}<sup>{{item.author.affiliation}}</sup></a> 
+                        {% endfor %}
+                    </div>
+                    <div class="project-affiliations">
+                        {% for item in page.affiliations %}
+                            <h6 class="affiliation">{{item}}</h6>
+                        {% endfor %}
+                    </div>
                 </div>
                 {{ content }}
             </div>
