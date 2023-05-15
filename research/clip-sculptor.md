@@ -22,7 +22,7 @@ authors:
       name: "Hooman Shayani"
       affiliation: 1
       link: "https://www.autodesk.com/research/people/hooman-shayani"
-    - author:
+  - author:
       name: "Amir H. Khasahmad"
       affiliation: 1
       link: "https://www.autodesk.com/research/people/amir-hosein-khasahmadi"

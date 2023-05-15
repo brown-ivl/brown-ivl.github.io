@@ -37,7 +37,9 @@ bibtex: ADD A STRING HERE
 
 ## Overview
 
-https://www.youtube.com/embed/jaxB0VSuvms
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jaxB0VSuvms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 [comment]: add links here
 
@@ -57,11 +59,11 @@ https://github.com/JiahuiLei/Pix2Surf#dataset -->
 
 ## Results
 
-![pix2surf car](/assets/images/projects/pix2surf/car.jpeg "Car")
+{% include full_image.html path="/assets/images/projects/pix2surf/car.jpeg" alt="Car" %}
 
-![pix2surf chair](/assets/images/projects/pix2surf/chair.jpeg "Chair")
+{% include full_image.html path="/assets/images/projects/pix2surf/chair.jpeg" alt="Chair" %}
 
-![pix2surf airplane](/assets/images/projects/pix2surf/airplane.jpeg "Airplane")
+{% include full_image.html path="/assets/images/projects/pix2surf/airplane.jpeg" alt="Airplane" %}
 
 # Abstract
 
