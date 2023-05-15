@@ -77,4 +77,7 @@ defaults:
       layout: "aligned_content"
 
 collections:
-  - author
+  author:
+    name: true
+    affiliation: true
+    link: true

@@ -12,19 +12,19 @@ permalink: /research
 
 <div class="row research">
   {% for page in site.data.research %}
-    <div class="card research-item">
-      <div class="image-div">
+    <div class="research-item row">
+      <div class="img-div-research col-sm-3">
           <a href="{{ page.projectPage }}" target="_blank">
-            <img src="assets/{{ page.image }}" class="card-img-left img-fluid" alt="{{page.title}}">
+            <img src="assets/{{ page.image }}" class="img-fluid" alt="{{page.title}}">
           </a>
       </div>
-      <div class="card-body">
+      <div class="content-div-research col-sm-9">
           <a href="{{ page.projectPage }}" target="_blank">
             <h5 class="card-title research-title"> {{page.title}}</h5>
           </a>
-          <h6 class="card-text research-authors">{{page.authors}}</h6>
+          <h6 class="research-authors">{{page.authors}}</h6>
           <h6 class="research-journal">{{page.journal}}</h6>
-          <!-- <h6 class="card-text research-year">{{page.year}}</h6> -->
+          <h6 class="research-year">{{page.year}}</h6>
       </div>
     </div>
   {% endfor %}

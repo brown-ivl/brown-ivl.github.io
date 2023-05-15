@@ -3,36 +3,36 @@ layout: project
 title: "LEGO-Net: Learning Regular Rearrangements of Objects in Rooms"
 authors:
   - author:
-      - name: "Qiuhong Anna Wei"
-      - affiliation: 1
-      - link: "https://qiuhongannawei.me/"
+      name: "Qiuhong Anna Wei"
+      affiliation: 1
+      link: "https://qiuhongannawei.me/"
   - author:
-      - name: "Sijie Ding"
-      - affiliation: 1
-      - link: "https://sjdingcn.github.io"
+      name: "Sijie Ding"
+      affiliation: 1
+      link: "https://sjdingcn.github.io"
   - author:
-      - name: "Jeong Joon Park"
-      - affiliation: 2
-      - link: "https://jjparkcv.github.io/"
+      name: "Jeong Joon Park"
+      affiliation: 2
+      link: "https://jjparkcv.github.io/"
   - author:
-      - name: "Rahul Sajnani"
-      - affiliation: 1
-      - link: "https://scholar.google.com/citations?user=HAtfBjoAAAAJ&hl=en&oi=ao"
+      name: "Rahul Sajnani"
+      affiliation: 1
+      link: "https://scholar.google.com/citations?user=HAtfBjoAAAAJ&hl=en&oi=ao"
   - author:
-      - name: "Adrien Poulenard"
-      - affiliation: 2
-      - link:
+      name: "Adrien Poulenard"
+      affiliation: 2
+      link:
   - author:
-      - name: "Srinath Sridhar"
-      - affiliation: 1
-      - link: "https://cs.brown.edu/people/ssrinath/"
+      name: "Srinath Sridhar"
+      affiliation: 1
+      link: "https://cs.brown.edu/people/ssrinath/"
   - author:
-      - name: "Leonidas Guibas"
-      - affiliation: 2
-      - link: "https://geometry.stanford.edu/member/guibas/"
+      name: "Leonidas Guibas"
+      affiliation: 2
+      link: "https://geometry.stanford.edu/member/guibas/"
 affiliations:
-  - 1: "Brown University"
-  - 2: "Stanford University"
+  1: "Brown University"
+  2: "Stanford University"
 journal: CVPR 2023
 ---
 

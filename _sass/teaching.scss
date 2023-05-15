@@ -1,9 +1,15 @@
 
 .teaching-card {
-    width: 18rem;
-    margin: 1rem;
-    padding-left: 0px;
-    padding-right: 0px;
+    height: auto;
+    overflow: hidden;
+    min-height: 150px;
+    margin-bottom: 1rem;
+
+    .img-div-teaching {
+        width: 10rem;
+        float: left;
+        margin: 1rem;
+    }
 
     .img-fluid {
         object-fit: cover;
