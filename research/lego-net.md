@@ -42,6 +42,9 @@ journal: CVPR 2023
 
 Humans universally dislike the task of cleaning up a messy room. If machines were to help us with this task, they must understand human criteria for regular arrangements, such as several types of symmetry, co-linearity or co-circularity, spacing uniformity in linear or circular patterns, and further inter-object relationships that relate to style and functionality. Previous approaches for this task relied on human input to explicitly specify goal state, or synthesized scenes from scratch – but such methods do not address the rearrangement of existing messy scenes without providing a goal state. In this paper, we present LEGO-Net, a data-driven transformer-based iterative method for LEarning reGular rearrangement of Objects in messy rooms. LEGO-Net is partly inspired by diffusion models--it starts with an initial messy state and iteratively “denoises” the position and orientation of objects to a regular state while reducing distance traveled. Given randomly perturbed object positions and orientations in an existing dataset of professionally-arranged scenes, our method is trained to recover a regular re-arrangement. Results demonstrate that our method is able to reliably rearrange room scenes and outperform other methods. We additionally propose a metric for evaluating regularity in room arrangements using number-theoretic machinery.
 
+\[[Paper](https://arxiv.org/pdf/2301.09629.pdf)\]
+\[[GitHub](https://github.com/QiuhongAnnaWei/LEGO-Net)\]
+
 ## Method Overview
 
 LEGO-Net takes an input messy scene and attempts to clean the scene via iterative denoising. Given the current scene state, it computes the denoising gradient towards the clean manifold, and makes changes to the scene accordingly. This denoising step is taken repeatedly until the scene is "regular". On the right, we show our backbone transformer block f_theta that computes the denoising gradient at each step. This transformer takes the scene attributes of the current state and outputs 2D transformations of each object that would make the scene "cleaner".
@@ -51,6 +54,104 @@ LEGO-Net takes an input messy scene and attempts to clean the scene via iterativ
 ## Results - Iterative Denoising Without Noise
 
 Videos may appear smaller when viewed on Firefox, it is optimized for Edge and Chrome. Double click on the videos (2nd col.) to view full-screen.
+
+<div class="aligned-content">
+    <div class="row aligned-items">
+        <div class="col content-item">
+            <img class="projects-image img-fluid" src="/assets/images/projects/lego-net/living1_init.jpg" alt="Lego-net result living1_init jpg"/>
+        </div>
+        <div class="col content-item">
+            <video
+                autoplay="autoplay"
+                loop
+                controls
+                muted="muted"
+                data-setup='{"fluid": true}'>
+                <source
+                    src="/assets/images/projects/lego-net/living_nonoise1_angle1.mov"
+                    type="video/mp4"
+                />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="row aligned-items">
+        <div class="col content-item">
+            <img class="projects-image img-fluid" src="/assets/images/projects/lego-net/living2_init.jpg" alt="Lego-net result living2_init jpg"/>
+        </div>
+        <div class="col content-item">
+            <video
+                autoplay="autoplay"
+                loop
+                controls
+                muted="muted"
+                data-setup='{"fluid": true}'>
+                <source
+                    src="/assets/images/projects/lego-net/livingroom_nonoise2.mov"
+                    type="video/mp4"
+                />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="row aligned-items">
+        <div class="col content-item">
+            <img class="projects-image img-fluid" src="/assets/images/projects/lego-net/living3_init.png" alt="Lego-net result living3_init png"/>
+        </div>
+        <div class="col content-item">
+            <video
+                autoplay="autoplay"
+                loop
+                controls
+                muted="muted"
+                data-setup='{"fluid": true}'>
+                <source
+                    src="/assets/images/projects/lego-net/livingroom_nonoise3.mov"
+                    type="video/mp4"
+                />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="row aligned-items">
+        <div class="col content-item">
+            <img class="projects-image img-fluid" src="/assets/images/projects/lego-net/bedroom1_init.jpg" alt="Lego-net result bedroom1_init jpg"/>
+        </div>
+        <div class="col content-item">
+            <video
+                autoplay="autoplay"
+                loop
+                controls
+                muted="muted"
+                data-setup='{"fluid": true}'>
+                <source
+                    src="/assets/images/projects/lego-net/bedroom_nonoise1.mov"
+                    type="video/mp4"
+                />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="row aligned-items">
+        <div class="col content-item">
+            <img class="projects-image img-fluid" src="/assets/images/projects/lego-net/bedroom2_init.jpg" alt="Lego-net result bedroom2_init jpg"/>
+        </div>
+        <div class="col content-item">
+            <video
+                autoplay="autoplay"
+                loop
+                controls
+                muted="muted"
+                data-setup='{"fluid": true}'>
+                <source
+                    src="/assets/images/projects/lego-net/bedroom_nonoise2.mov"
+                    type="video/mp4"
+                />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
 
 ## Results - Iterative Denoising With Noise
 
