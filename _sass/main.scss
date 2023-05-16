@@ -20,8 +20,16 @@
 
 .navbar {
     padding: 1rem;
-    font-size: larger;
-    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        color: rgb(222, 222, 222) !important;
+    }
 }
 
 a { 
