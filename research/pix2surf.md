@@ -27,10 +27,10 @@ authors:
       affiliation: 2
       link:
 affiliations:
-  - "Zhejiang University<sup>1</sup>"
-  - "Stanford University<sup>2</sup>"
-  - "Adobe Research<sup>3</sup>"
-  - "University College London<sup>4</sup>"
+  - "<sup>1</sup> Zhejiang University"
+  - "<sup>2</sup> Stanford University"
+  - "<sup>3</sup> Adobe Research"
+  - "<sup>4</sup> University College London"
 journal: ECCV 2020
 bibtex: ADD A STRING HERE
 ---

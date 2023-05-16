@@ -23,7 +23,7 @@ authors:
       affiliation: 1
       link:
 affiliations:
-  - "Brown University<sup>1</sup>"
+  - "<sup>1</sup> Brown University"
 journal: NeurIPS 2022
 bibtex: ADD A STRING HERE
 ---

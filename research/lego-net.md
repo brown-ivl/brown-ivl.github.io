@@ -31,8 +31,8 @@ authors:
       affiliation: 2
       link: "https://geometry.stanford.edu/member/guibas/"
 affiliations:
-  - "Brown University<sup>1</sup>"
-  - "Stanford University<sup>2</sup>"
+  - "<sup>1</sup> Brown University"
+  - "<sup>2</sup> Stanford University"
 journal: CVPR 2023
 ---
 

@@ -27,9 +27,9 @@ authors:
       affiliation: 2
       link: "https://cs.brown.edu/people/ssrinath/"
 affiliations:
-  - "RRC, IIIT-Hyderabad<sup>1</sup>"
-  - "Brown University<sup>2</sup>"
-  - "Stanford University<sup>3</sup>"
+  - "<sup>1</sup> RRC, IIIT-Hyderabad"
+  - "<sup>2</sup> Brown University"
+  - "<sup>3</sup> Stanford University"
 journal: CVPR 2023
 bibtex: "@InProceedings{agaram2023_cafinet, \
   author = {Rohith Agaram and \

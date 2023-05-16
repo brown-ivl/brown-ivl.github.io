@@ -8,8 +8,14 @@
 .project-authors, .project-affiliations {
     display: flex;
 
-    .project-author, .affiliation {
+    .project-author {
         margin-right: 0.5rem;
+        font-size: 18px;
+    }
+
+    .affiliation {
+        margin-right: 0.5rem;
+        font-size: 16px;
     }
 }
 
