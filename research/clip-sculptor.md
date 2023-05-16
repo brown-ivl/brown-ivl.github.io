@@ -53,7 +53,7 @@ View our paper [here](https://arxiv.org/pdf/2211.01427.pdf).
 
 The CLIP-Sculptor architecture during training (top) and inference (bottom). CLIP-Sculptor is trained in three stages. In Stage 1, we train two separate VQ-VAE models for low and high resolution voxel grids. In Stage 2 we train a coarse transformer conditioned on a CLIP embedding to generate low resolution VQ-VAE latent grids. In Stage 3, we train a fine transformer to perform super resolutionon these latent grids. During inference, a text prompt is passed through the CLIP text encoder and used to condition the coarse transformer to generate a coarse latent grid. This coarse grid is then used to condition the fine transformer to generate a fine latent grid. Finally, this fine latent grid is then passed through the Training Stage 1 high resolution VQ-VAE decoder to generate the output shape.".
 
-[comment]: TODO: add image here
+{% include full_image.html path="/assets/images/projects/clip-sculptor/method_diagram.jpg" alt="CLIP-Sculptor Method Diagram" %}
 
 ## Results on ShapeNetCore (13 Categories)
 
@@ -67,4 +67,10 @@ Multiple generated 3D shapes by CLIP-Sculptor with different text input. The tex
 
 ## Citation
 
+@InProceedings{sanghi2023clipsculptor, title={CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language}, author={Sanghi, Aditya and Fu, Rao and Liu, Vivian and Willis, Karl and Shayani, Hooman and Khasahmadi, Amir Hosein and Sridhar, Srinath and Ritchie, Daniel}, booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, year = {2023}}
+
 ## Contact
+
+Aditya Sanghi ([aditya.sanghi@autodesk.com](aditya.sanghi@autodesk.com))
+
+Rao Fu ([rao_fu@brown.edu](rao_fu@brown.edu))

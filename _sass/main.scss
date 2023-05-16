@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Roboto&family=Titillium+Web&display=swap');
 
+.container {
+    width: 60%;
+}
+
 .container.content {
     margin-top: 2rem;
 }
@@ -24,3 +28,7 @@ a {
     color: #987373; 
     text-decoration: none;
 } 
+
+p {
+    line-height: 150%;
+}

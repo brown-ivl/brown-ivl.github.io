@@ -10,7 +10,7 @@ permalink: /research
   <input class="form-control form-control-md" type="text" id="searchInput" onkeyup="searchProjects()" placeholder="Search for a publication or report">
 </div>
 
-<div class="row research">
+<div class="research">
   {% for page in site.data.research %}
     <div class="research-item row">
       <div class="img-div-research col-sm-2">

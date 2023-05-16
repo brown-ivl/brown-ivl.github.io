@@ -41,21 +41,12 @@ bibtex: ADD A STRING HERE
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jaxB0VSuvms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-[comment]: add links here
+## Materials
 
-<!-- https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf
-
-# Supplementary
-
-https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf
-
-# GitHub
-
-https://github.com/JiahuiLei/Pix2Surf
-
-# Dataset
-
-https://github.com/JiahuiLei/Pix2Surf#dataset -->
+\[[Paper](https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf)\]
+\[[Supplementary](https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf)\]
+\[[GitHub](https://github.com/JiahuiLei/Pix2Surf)\]
+\[[Dataset](https://github.com/JiahuiLei/Pix2Surf#dataset)\]
 
 ## Results
 
@@ -102,5 +93,6 @@ Program, UCL AI Center, and a gift from the Adobe. We thank
 
 # Contact
 
-Jiahui Lei-lei_jiahui@zju.edu.cn
-Srinath Sridhar-ssrinath@cs.stanford.edu
+Jiahui Lei ([lei_jiahui@zju.edu.cn](lei_jiahui@zju.edu.cn))
+
+Srinath Sridhar ([ssrinath@cs.stanford.edu](ssrinath@cs.stanford.edu))
