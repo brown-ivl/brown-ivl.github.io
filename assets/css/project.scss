@@ -20,8 +20,6 @@
     }
 }
 
-
-
 .projects-video-div, .projects-image-div {
     padding: 1rem;
     display: flex;
@@ -40,14 +38,15 @@
     }
 }
 
-.aligned-items {
-    object-fit: fill;
-    margin: 0px;
-    padding: 0px;
+.aligned-items-div {
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
 
-    .content-item {
-        max-width: 100%;
-        max-height: 100%;
+    .content-item-two-col {
+        width: 49%;
+        height: 49%;
+        object-fit: contain;
     }
 
 }

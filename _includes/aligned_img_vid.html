@@ -1,0 +1,16 @@
+<div class="row aligned-items-div">
+    <img class="content-item-two-col img-fluid" src="{{ include.img }}" alt="{{ include.img }}"/>
+    <video
+        class="content-item-two-col"
+        autoplay="autoplay"
+        loop
+        controls
+        muted="muted"
+        data-setup='{"fluid": true}'>
+        <source
+            src="{{ include.vid }}"
+            type="video/mp4"
+        />
+        Your browser does not support the video tag.
+    </video>
+</div>

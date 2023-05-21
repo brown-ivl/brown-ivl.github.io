@@ -51,6 +51,9 @@ bibtex: "@InProceedings{agaram2023_cafinet, \
 
 Coordinate-based implicit neural networks, or neural fields, have emerged as useful representations of shape and appearance in 3D computer vision. Despite advances, however, it remains challenging to build neural fields for categories of objects without datasets like ShapeNet that provide “canonicalized” object instances that are consistently aligned for their 3D position and orientation (pose). We present Canonical Field Network (<b>CaFi-Net</b>), a self-supervised method to canonicalize the 3D pose of instances from an object category represented as neural fields, specifically neural radiance fields (NeRFs). CaFi-Net directly learns from continuous and noisy radiance fields using a Siamese network architecture that is designed to extract equivariant field features for category-level canonicalization. During inference, our method takes pre-trained neural radiance fields of novel object instances at arbitrary 3D pose and estimates a canonical field with consistent 3D pose across the entire category. Extensive experiments on a new dataset of 1300 NeRF models across 13 object categories show that our method matches or exceeds the performance of 3D point cloud-based methods.
 
+\[[Paper](https://arxiv.org/pdf/2212.02493.pdf)\]
+\[[arXiv](https://arxiv.org/abs/2212.02493)\]
+
 ## Method Overview
 
 {% include full_image.html path="/assets/images/projects/canonical-fields/method.jpg" alt="Method" %}

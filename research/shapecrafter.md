@@ -35,6 +35,13 @@ journal: NeurIPS 2022
 
 {% include icons.html paper="https://arxiv.org/pdf/2207.09446.pdf" code="https://github.com/FreddieRao/ShapeCrafter.git" %}
 
+## Materials
+
+\[[Paper](https://arxiv.org/pdf/2207.09446.pdf)\]
+\[[Supplementary](https://arxiv.org/pdf/2207.09446.pdf)\]
+\[[GitHub](https://github.com/FreddieRao/ShapeCrafter.git)\]
+\[[Dataset](https://github.com/FreddieRao/ShapeCrafter.git)\]
+
 ## Results
 
 {% include full_image.html path="/assets/images/projects/shapecrafter/chair.gif" alt="Chair" %}
