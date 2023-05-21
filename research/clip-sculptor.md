@@ -67,7 +67,11 @@ Multiple generated 3D shapes by CLIP-Sculptor with different text input. The tex
 
 ## Citation
 
-@InProceedings{sanghi2023clipsculptor, title={CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language}, author={Sanghi, Aditya and Fu, Rao and Liu, Vivian and Willis, Karl and Shayani, Hooman and Khasahmadi, Amir Hosein and Sridhar, Srinath and Ritchie, Daniel}, booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, year = {2023}}
+    @InProceedings{sanghi2023clipsculptor,
+    title={CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language},
+    author={Sanghi, Aditya and Fu, Rao and Liu, Vivian and Willis, Karl and Shayani, Hooman and Khasahmadi, Amir Hosein and Sridhar, Srinath and Ritchie, Daniel},
+    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2023}}
 
 ## Contact
 

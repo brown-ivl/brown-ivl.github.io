@@ -32,7 +32,6 @@ affiliations:
   - "<sup>3</sup> Adobe Research"
   - "<sup>4</sup> University College London"
 journal: ECCV 2020
-bibtex: ADD A STRING HERE
 ---
 
 ## Overview
@@ -74,13 +73,13 @@ significantly outperforms previous work, while qualitative results demonstrate t
 
 ## Citation
 
-@inproceedings{pix2surf_2020,
-author = {Lei, Jiahui and Sridhar, Srinath and Guerrero, Paul and Sung, Minhyuk and Mitra, Niloy and Guibas, Leonidas J.},
-title = {Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images},
-booktitle = {Proceedings of European Conference on Computer Vision ({ECCV})},
-url = {https://geometry.stanford.edu/projects/pix2surf},
-month = August,
-year = {2020}}
+    @inproceedings{pix2surf_2020,
+    author = {Lei, Jiahui and Sridhar, Srinath and Guerrero, Paul and Sung, Minhyuk and Mitra, Niloy and Guibas, Leonidas J.},
+    title = {Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images},
+    booktitle = {Proceedings of European Conference on Computer Vision ({ECCV})},
+    url = {https://geometry.stanford.edu/projects/pix2surf},
+    month = August,
+    year = {2020}}
 
 # Acknowledgements
 

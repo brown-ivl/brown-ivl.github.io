@@ -157,6 +157,14 @@ Videos may appear smaller when viewed on Firefox, it is optimized for Edge and C
 
 Videos may appear smaller when viewed on Firefox, it is optimized for Edge and Chrome. Double click on the videos (2nd col.) to view full-screen.
 
+## Citation
+
+    @article{wei2023legonet,
+    author={Qiuhong Anna Wei and Sijie Ding and Jeong Joon Park and Rahul Sajnani and Adrien Poulenard and Srinath Sridhar and Leonidas Guibas},
+    title={LEGO-Net: Learning Regular Rearrangements of Objects in Rooms},
+    journal={arXiv preprint arXiv:2301.09629},
+    year={2023}}
+
 ## Acknowledgements
 
 This work was supported by AFOSR grant FA9550-21-1-0214, NSF CloudBank, an AWS Cloud Credits award, ARL grant W911NF-21-2-0104, a Vannevar Bush Faculty Fellowship, and a gift from the Adobe Corporation. We thank Kai Wang, Daniel Ritchie, Rao Fu, and Selene Lee.

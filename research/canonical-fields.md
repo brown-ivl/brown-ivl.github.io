@@ -61,6 +61,15 @@ Coordinate-based implicit neural networks, or neural fields, have emerged as use
 
 {% include video.html path="/assets/images/projects/canonical-fields/canonical_grid.mov" %}
 
+## Citation
+
+    @InProceedings{agaram2023_cafinet,
+    author={Rohith Agaram and Shaurya Dewan and Rahul Sajnani and Adrien Poulenard and Madhava Krishna and Srinath Sridhar},
+    title={Canonical Fields: Self-Supervised Learning of Pose-Canonicalized Neural Fields},
+    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June}
+    year={2023}}
+
 # Acknowledgements
 
 This work was supported by NSF grant CNS-2038897, an AWS Cloud Credits award, NSF CloudBank, and a gift from Meta Reality Labs. We thank Chandradeep Pokhariya and Ishaan Shah.

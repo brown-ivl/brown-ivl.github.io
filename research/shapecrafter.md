@@ -25,7 +25,6 @@ authors:
 affiliations:
   - "<sup>1</sup> Brown University"
 journal: NeurIPS 2022
-bibtex: ADD A STRING HERE
 ---
 
 ## Overview
@@ -64,7 +63,6 @@ Constituency parser decompose a sentence into phrases with meaningful semantic a
 
 ## Citation
 
-    ```
     @inproceedings{NEURIPS2022_3a33ae4d,
     author = {Fu, Rao and Zhan, Xiao and CHEN, YIWEN and Ritchie, Daniel and Sridhar, Srinath},
     booktitle = {Advances in Neural Information Processing Systems},
@@ -75,7 +73,6 @@ Constituency parser decompose a sentence into phrases with meaningful semantic a
     url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/3a33ae4d634b49b0866b4142a1f82a2f-Paper-Conference.pdf},
     volume = {35},
     year = {2022}}
-    ```
 
 ## Acknowledgements
 

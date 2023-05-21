@@ -15,10 +15,9 @@ authors:
       affiliation: 2
       link:
 affiliations:
-  - "[affiliation]<sup>1</sup>"
-  - "[affiliation]<sup>2</sup>"
+  - "<sup>1</sup>[affiliation]"
+  - "<sup>2</sup>[affiliation]"
 journal: ""
-bibtex: ""
 ---
 
 # Title

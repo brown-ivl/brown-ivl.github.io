@@ -12,12 +12,12 @@ permalink: /people
     {% for person in site.data.people %}
         {% if person.category == "Principal Investigator" %}
         <div class="row pi-about">
-            <div class="col pi-image"> 
+            <div class="col-xs-6 pi-image"> 
                 <a href="{{person.link}}" target="_blank">
                     <img class="img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
                 </a>
             </div>
-            <div class="col pi-body">
+            <div class="col-xs-6 pi-body">
                 <h3>{{person.name}}</h3>
                 <h5>{{ person.years }} </h5>
                 <h5 class="bio"> 
