@@ -40,12 +40,7 @@ journal: ECCV 2020
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jaxB0VSuvms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-## Materials
-
-\[[Paper](https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf)\]
-\[[Supplementary](https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf)\]
-\[[GitHub](https://github.com/JiahuiLei/Pix2Surf)\]
-\[[Dataset](https://github.com/JiahuiLei/Pix2Surf#dataset)\]
+{% include icons.html paper="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf" supplementary="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf" code="https://github.com/JiahuiLei/Pix2Surf" dataset="https://github.com/JiahuiLei/Pix2Surf#dataset" %}
 
 ## Results
 

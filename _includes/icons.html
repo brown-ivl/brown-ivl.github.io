@@ -11,6 +11,12 @@
             <h6>Supplementary</h6>
         </a>
     {% endif %}
+    {% if include.arXiv %}
+        <a class="btn btn-outline-info icon-item" href="{{include.supplementary}}">
+            <img class="icon-svg" src="/assets/images/icons/material-ui/paper.svg"/>
+            <h6>arXiv</h6>
+        </a>
+    {% endif %}
     {% if include.code %}
         <a class="btn btn-outline-info icon-item" href="{{include.code}}">
             <img class="icon-svg" src="/assets/images/icons/material-ui/code.svg"/>
