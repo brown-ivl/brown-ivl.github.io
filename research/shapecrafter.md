@@ -33,14 +33,7 @@ journal: NeurIPS 2022
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HhYN8Y6etkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-{% include icons.html paper="https://arxiv.org/pdf/2207.09446.pdf" code="https://github.com/FreddieRao/ShapeCrafter.git" %}
-
-## Materials
-
-\[[Paper](https://arxiv.org/pdf/2207.09446.pdf)\]
-\[[Supplementary](https://arxiv.org/pdf/2207.09446.pdf)\]
-\[[GitHub](https://github.com/FreddieRao/ShapeCrafter.git)\]
-\[[Dataset](https://github.com/FreddieRao/ShapeCrafter.git)\]
+{% include icons.html paper="https://arxiv.org/pdf/2207.09446.pdf" code="https://github.com/FreddieRao/ShapeCrafter.git" supplementary="https://arxiv.org/pdf/2207.09446.pdf" dataset="https://github.com/FreddieRao/ShapeCrafter.git" %}
 
 ## Results
 

@@ -1,36 +1,26 @@
-{% assign paper = includes.paper | default: false %}
-
-<div class="row icons">
-    {% if paper %}
-        <div class="col">
-            <a href="{{includes.paper}}">
-                <span class="material-symbols-outlined">picture_as_pdf</span>
-                Paper
-            </a>
-        </div>s
+<div class="icons">
+    {% if include.paper %}
+        <a class="btn btn-outline-info icon-item" href="{{include.paper}}">
+            <img class="icon-svg" src="/assets/images/icons/material-ui/pdf.svg"/>
+            <h6>Paper</h6>
+        </a>
     {% endif %}
-    {% if includes.supplementary %}
-        <div class="col">
-            <a href="{{includes.supplementary}}">
-                <span class="material-symbols-outlined"> description</span>
-                Supplementary
-            </a>
-        </div>
+    {% if include.supplementary %}
+        <a class="btn btn-outline-info icon-item" href="{{include.supplementary}}">
+            <img class="icon-svg" src="/assets/images/icons/material-ui/paper.svg"/>
+            <h6>Supplementary</h6>
+        </a>
     {% endif %}
-    {% if includes.code %}
-        <div class="col">
-            <a href="{{includes.code}}">
-                <span class="material-symbols-outlined">code</span>
-                Code
-            </a>
-        </div>
+    {% if include.code %}
+        <a class="btn btn-outline-info icon-item" href="{{include.code}}">
+            <img class="icon-svg" src="/assets/images/icons/material-ui/code.svg"/>
+            <h6>Code</h6>
+        </a>
     {% endif %}
-    {% if includes.dataset %}
-        <div class="col">
-            <a href="{{includes.dataset}}">
-                <span class="material-symbols-outlined">dataset</span>
-                Dataset
-            </a>
-        </div>
+    {% if include.dataset %}
+        <a class="btn btn-outline-info icon-item" href="{{include.dataset}}">
+            <img class="icon-svg" src="/assets/images/icons/material-ui/data.svg"/>
+            <h6>Dataset</h6>
+        </a>
     {% endif %}
 </div>
