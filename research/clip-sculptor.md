@@ -73,6 +73,10 @@ Multiple generated 3D shapes by CLIP-Sculptor with different text input. The tex
     booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     year = {2023}}
 
+## Acknowledgements
+
+This work was supported by AFOSR grant FA9550-21-1-0214.
+
 ## Contact
 
 Aditya Sanghi ([aditya.sanghi@autodesk.com](aditya.sanghi@autodesk.com))

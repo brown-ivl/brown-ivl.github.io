@@ -55,7 +55,7 @@ journal: ECCV 2020
 
 {% include full_image.html path="/assets/images/projects/pix2surf/airplane.jpeg" alt="Airplane" %}
 
-# Abstract
+## Abstract
 
 We investigate the problem of learning to generate 3D parametric surface representations for novel object instances, as seen from one
 or more views. Previous work on learning shape reconstruction from
@@ -81,7 +81,7 @@ significantly outperforms previous work, while qualitative results demonstrate t
     month = August,
     year = {2020}}
 
-# Acknowledgements
+## Acknowledgements
 
 We thank the anonymous reviewers for their comments and suggestions.
 This work was supported by a Vannevar Bush Faculty Fellowship, NSF
@@ -90,7 +90,7 @@ SAIL-Toyota Center for AI Research, AWS Machine Learning Awards
 Program, UCL AI Center, and a gift from the Adobe. We thank
 [Supriya Krishnan](https://supadupa09.cargo.site/) for help with the voice over.
 
-# Contact
+## Contact
 
 Jiahui Lei ([lei_jiahui@zju.edu.cn](lei_jiahui@zju.edu.cn))
 

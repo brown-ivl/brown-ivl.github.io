@@ -73,11 +73,11 @@ Coordinate-based implicit neural networks, or neural fields, have emerged as use
     month = {June}
     year={2023}}
 
-# Acknowledgements
+## Acknowledgements
 
-This work was supported by NSF grant CNS-2038897, an AWS Cloud Credits award, NSF CloudBank, and a gift from Meta Reality Labs. We thank Chandradeep Pokhariya and Ishaan Shah.
+This work was supported by AFOSR grant FA9550-21-1-0214, NSF grant CNS-2038897, an AWS Cloud Credits award, NSF CloudBank, and a gift from Meta Reality Labs. We thank Chandradeep Pokhariya and Ishaan Shah.
 
-# Contact
+## Contact
 
 Rohith Agaram rohithagaram@gmail.com \
 Shaurya Dewan shauryadewanmanu@gmail.com
