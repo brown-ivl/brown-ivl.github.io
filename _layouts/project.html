@@ -18,9 +18,11 @@
                     <h3>{{page.journal}}</h3>
                     <h1>{{page.title}}</h1>
                     <div class="project-authors">
-                        {% for item in page.authors %}
-                            <a class="project-author" href="{{item.author.link}}">{{item.author.name}}<sup>{{item.author.affiliation}}</sup></a> 
-                        {% endfor %}
+                        <h6>
+                            {% for item in page.authors %}
+                                <a class="project-author" href="{{item.author.link}}">{{item.author.name}}<sup>{{item.author.affiliation}}</sup></a> 
+                            {% endfor %}
+                        </h6>
                     </div>
                     <div class="project-affiliations">
                         {% for item in page.affiliations %}
