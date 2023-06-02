@@ -38,7 +38,6 @@ affiliations:
   - "<sup>1</sup> Brown University"
   - "<sup>2</sup> Stanford University"
 journal: CVPR 2023
-bibtex: ADD A STRING HERE
 ---
 
 ## Overview
