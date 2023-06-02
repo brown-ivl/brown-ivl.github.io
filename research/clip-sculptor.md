@@ -58,11 +58,11 @@ The CLIP-Sculptor architecture during training (top) and inference (bottom). CLI
 
 Multiple generated 3D shapes by CLIP-Sculptor with different text input. The text inputs are (sub-)category names of ShapeNet13, and phases with semantic attributes.
 
-{% include full_image.html path="/assets/images/projects/clip-sculptor/results/airplane.gif" alt="Airplane" %}
+{% include full_image.html path="/assets/images/projects/clip-sculptor/results/13-categories.png" alt="13 Categories" %}
 
 ## Results on ShapeNetCore (55 Categories)
 
-[comment]: TODO: add images here
+{% include full_image.html path="/assets/images/projects/clip-sculptor/results/55-categories.png" alt="55 Categories" %}
 
 ## Citation
 
