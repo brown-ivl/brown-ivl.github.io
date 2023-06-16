@@ -2,16 +2,24 @@
 .teaching-card {
     height: auto;
     overflow: hidden;
-    min-height: 150px;
+    min-height: 125px;
     margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 15px;
 
     .img-div-teaching {
         width: 10rem;
         float: left;
         margin: 1rem;
+
+        .img-fluid {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
     }
 
-    .img-fluid {
-        object-fit: cover;
+    .content-div-teaching {
+        padding: 1rem 0rem;
     }
 }
