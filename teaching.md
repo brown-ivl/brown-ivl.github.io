@@ -9,12 +9,12 @@ permalink: /teaching
 <div class="row courses">
     {% for course in site.data.teaching.courses %}
         <div class="teaching-card row">
-            <div class="img-div-teaching col-sm-3">
+            <div class="img-div-teaching col">
                 <a href="{{course.sems[0].page}}" target="_blank">
                     <img src="assets/{{ course.image }}" class="img-fluid" alt="{{course.title}}">
                 </a>
             </div>
-            <div class="content-div-teaching col-sm-9">
+            <div class="content-div-teaching col">
                 <h4 class="card-title">{{course.title}}</h4>
                 <div class="course-sems">
                     {% for item in course.sems %}
@@ -39,10 +39,10 @@ permalink: /teaching
 <div class="row workshops">
     {% for workshop in site.data.teaching.workshops %}
         <div class="teaching-card row">
-            <div class="img-div-teaching col-sm-3">
+            <div class="img-div-teaching col">
                 <a href="{{workshop.page}}" target="_blank"> <img src="assets/{{ workshop.image }}" class="card-img-top teaching-image" alt="{{workshop.title}}"></a>
             </div>
-            <div class="content-div-teaching col-sm-9">
+            <div class="content-div-teaching col">
                 <h5 class="card-title">{{workshop.title}}</h5>
                 <h6><a href="{{ workshop.page }}" target="_blank"> {{workshop.year}} </a></h6>
             </div>
