@@ -11,12 +11,12 @@ permalink: /research
 <div class="research">
   {% for page in site.data.research %}
     <div class="research-item row">
-      <div class="img-div-research col-sm-2">
+      <div class="img-div-research col">
           <a href="{{ page.projectPage }}" target="_blank">
             <img src="assets/{{ page.image }}" class="img-fluid" alt="{{page.title}}">
           </a>
       </div>
-      <div class="content-div-research col-sm-10">
+      <div class="content-div-research col">
           <div class="title-year">
             <div class="research-title-div">
               <a href="{{ page.projectPage }}" target="_blank">
