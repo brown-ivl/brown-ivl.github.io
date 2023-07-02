@@ -31,10 +31,12 @@ permalink: /research
           <h6 class="research-journal">{{page.journal}}</h6>
           <div class="research-resources">
             {% if page.pdf %}
-              <h6>[<a href="{{page.pdf}}">PDF</a>]</h6>
+              <a class="research-icon" href="{{page.pdf}}">
+                <img class="icon-svg" src="/assets/images/icons/material-ui/pdf-small.svg"/> PDF </a>
             {% endif %}
             {% if page.projectPage %}
-              <h6>[<a href="{{page.projectPage}}">Project Page</a>]</h6>
+              <a class="research-icon" href="{{page.projectPage}}">
+              <img class="icon-svg" src="/assets/images/icons/material-ui/web-small.svg"/> Project Page</a>
             {% endif %}
           </div>
       </div>
