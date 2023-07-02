@@ -4,6 +4,8 @@ title: Teaching
 permalink: /teaching
 ---
 
+# Courses
+
 <div class="row courses">
     {% for course in site.data.teaching.courses %}
         <div class="teaching-card row">

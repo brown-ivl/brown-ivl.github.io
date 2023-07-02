@@ -11,7 +11,7 @@ permalink: /people
         {% if person.category == "Principal Investigator" %}
         <div class="person-item">
             <a href="{{person.link}}" target="_blank">
-                <img class="card-img-top img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
+                <img class="img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
             </a>
             <div class="card-body">
                 <h5 class="card-title">{{person.name}}</h5>
