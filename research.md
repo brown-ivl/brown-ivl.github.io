@@ -1,10 +1,8 @@
 ---
-layout: base
+layout: page
 title: Research
 permalink: /research
 ---
-
-# Research
 
 <div class="search-div">
   <input class="form-control form-control-md" type="text" id="searchInput" onkeyup="searchProjects()" placeholder="Search for a publication or report">

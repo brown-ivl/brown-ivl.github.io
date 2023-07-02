@@ -1,14 +1,12 @@
 ---
-layout: base
-title: BrownIVL
+layout: page
+title: Interactive 3D Vision & Learning Lab (IVL)
 carousels:
   - images:
       - image: /assets/images/carousel/2021_fall_01.jpg
       - image: /assets/images/carousel/2022_summer_01.jpg
       - image: /assets/images/carousel/2022_summer_02.jpg
 ---
-
-# Interactive 3D Vision & Learning Lab (IVL)
 
 The Interactive 3D Vision & Learning Lab (IVL) led by [Srinath Sridhar](https://cs.brown.edu/people/ssrinath/), part of [Brown Visual Computing](https://visual.cs.brown.edu/), works on 3D computer vision and machine learning problems to better understand how humans interact with the world. Our research spans 3D spatiotemporal visual understanding objects, humans in motion, and human-object interactions. Please see the [research tab](https://ivl.cs.brown.edu/#/research) for details on our research.
 

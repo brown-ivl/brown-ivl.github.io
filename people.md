@@ -1,10 +1,8 @@
 ---
-layout: base
+layout: page
 title: People
 permalink: /people
 ---
-
-# People
 
 ## Principal Investigator
 
