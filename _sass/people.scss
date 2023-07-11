@@ -2,15 +2,11 @@ body {
     font-family: 'Titillium Web' , sans-serif;
 }
 
-h2 {
-    margin-top: 1rem;
-}
-
 .people-category {
     display: flex;
     // justify-content: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
     .person-item {
         width: 220px;
