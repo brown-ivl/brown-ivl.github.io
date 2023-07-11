@@ -13,7 +13,7 @@ permalink: /people
             <a href="{{person.link}}" target="_blank">
                 <img class="img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
             </a>
-            <div class="card-body">
+            <div class="people-info">
                 <h5 class="card-title">{{person.name}}</h5>
                 <div class="card-text"> 
                     <h6>{{ person.years }} </h6>
@@ -55,7 +55,7 @@ permalink: /people
             <a href="{{person.link}}" target="_blank">
                 <img class="card-img-top img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
             </a>
-            <div class="card-body">
+            <div class="people-info">
                 <h5 class="card-title">{{person.name}}</h5>
                 <div class="card-text"> 
                     <h6>{{ person.years }} </h6>
@@ -76,7 +76,7 @@ permalink: /people
             <a href="{{person.link}}" target="_blank">
                 <img class="card-img-top img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
             </a>
-            <div class="card-body">
+            <div class="people-info">
                 <h5 class="card-title">{{person.name}}</h5>
                 <div class="card-text"> 
                     <h6>{{ person.years }} </h6>
@@ -97,7 +97,7 @@ permalink: /people
             <a href="{{person.link}}" target="_blank">
                 <img class="card-img-top img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
             </a>
-            <div class="card-body">
+            <div class="people-info">
                 <h5 class="card-title">{{person.name}}</h5>
                 <div class="card-text"> 
                     <h6>{{ person.years }} </h6>

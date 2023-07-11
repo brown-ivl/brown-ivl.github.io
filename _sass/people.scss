@@ -9,26 +9,30 @@ body {
     margin-bottom: 1rem;
 
     .person-item {
-        width: 225px;
-        height: 325px;
+        width: 200px;
+        height: 275px;
         text-align: center;
         margin: 0.5rem;
         padding-left: 0px;
         padding-right: 0px;
 
-            .img-fluid {
-                border-radius: 50%;
-                width: 200px;
-                height: 200px;
-            }
-        
+        .people-info {
+            padding-top: 0.5rem;
+
             .card-title {
                 font-size: 20px;
             }
-
+    
             .cart-text {
                 font-size: 18px;
             }
+        }
+
+        .img-fluid {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+        }
     }
 
     // .pi-about {
