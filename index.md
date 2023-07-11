@@ -10,7 +10,7 @@ carousels:
 
 <div class="home-split-div row">
   <div class="team-image-div">
-    <img class="group-image" src="/assets/images/carousel/2022_summer_01.jpg">
+    <img class="group-image" src="/assets/images/carousel/group-image-cropped.jpg">
   </div>
   <div class="intro-text col-sm">
     <p>
