@@ -58,11 +58,105 @@ The CLIP-Sculptor architecture during training (top) and inference (bottom). CLI
 
 Multiple generated 3D shapes by CLIP-Sculptor with different text input. The text inputs are (sub-)category names of ShapeNet13, and phases with semantic attributes.
 
-{% include full_image.html path="/assets/images/projects/clip-sculptor/results/13-categories.png" alt="13 Categories" %}
+<div class="center">
+    <h4>"an airplane"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a airplane_combined.gif" alt="Airplane" %}
+
+<div class="center">
+    <h4>"a ak-47"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a ak-47_combined.gif" alt="ak-47" %}
+
+<div class="center">
+    <h4>"a delta wing"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a delta wing_combined.gif" alt="delta-wing" %}
+
+<div class="center">
+    <h4>"an jet"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a jet_combined.gif" alt="Jet" %}
+
+<div class="center">
+    <h4>"a machine gun"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a machine gun_combined.gif" alt="machine gun" %}
+
+<div class="center">
+    <h4>"a office chair"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a office chair_combined.gif" alt="office chair" %}
+
+<div class="center">
+    <h4>"a round shaped lamp"</h4>
+</div>
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a round shaped lamp_combined.gif" alt="round shaped lamp" %}
+
+<div class="center">
+    <h4>"a round table"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a round table_combined.gif" alt="round table" %}
+
+<div class="center">
+    <h4>"an egg chair"</h4>
+</div>
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/an egg chair_combined.gif" alt="egg chair" %}
 
 ## Results on ShapeNetCore (55 Categories)
 
-{% include full_image.html path="/assets/images/projects/clip-sculptor/results/55-categories.png" alt="55 Categories" %}
+<div class="center">
+    <h4>"a truck"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a truck_combined.gif" alt="truck" %}
+
+<div class="center">
+    <h4>"a bathtub"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a bathtub_combined.gif" alt="bathtub" %}
+
+<div class="center">
+    <h4>"a bowl"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a bowl_combined.gif" alt="bowl" %}
+
+<div class="center">
+    <h4>"a formula one car"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a formula one car_combined.gif" alt="formula one car" %}
+
+<div class="center">
+    <h4>"a motor bike"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a motor bike_combined.gif" alt="motor bike" %}
+
+<div class="center">
+    <h4>"a round guitar"</h4>
+</div>
+
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a round guitar_combined.gif" alt="round guitar" %}
+
+<div class="center">
+    <h4>"a round jar"</h4>
+</div>
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a round jar_combined.gif" alt="round jar" %}
+
+<div class="center">
+    <h4>"a trash can"</h4>
+</div>
+{% include full_image.html path="/assets/images/projects/clip-sculptor/combined-gifs/a trash can_combined.gif" alt="trash can" %}
 
 ## Citation
 
