@@ -93,7 +93,7 @@ p {
 
 ul {
     p {
-        margin-bottom: 0;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -129,5 +129,12 @@ ul {
         display: inline-block;
     }
 
+}
+
+li > p > strong > em { // only apply styling in updates section
+    background-color: #49d7f3;
+    border-radius: 15px;
+    padding: 0px 8px;
+    font-style: normal;
 }
 

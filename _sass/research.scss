@@ -20,19 +20,15 @@
         }
       }
 
-    .title-year {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-top: 1rem;
-
-        .research-year-div {
-            text-align: right;
     
-            .research-year {
-                font-weight: bold;
-            }
-        }
+    .content-div-research {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .title-div {
+        padding-top: 1rem;
      }
 
     .research-journal {
@@ -41,9 +37,21 @@
 
     .research-resources {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 0.25rem;
         
         h6 {
             margin-right: 0.25rem;
+        }
+    }
+
+    .research-year-div {
+        text-align: right;
+
+        .research-year {
+            font-weight: 800;
+            font-size: 18px;
         }
     }
 }
