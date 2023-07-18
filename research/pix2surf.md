@@ -34,13 +34,13 @@ affiliations:
 journal: ECCV 2020
 ---
 
+{% include icons.html paper="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf" supplementary="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf" code="https://github.com/JiahuiLei/Pix2Surf" dataset="https://github.com/JiahuiLei/Pix2Surf#dataset" %}
+
 ## Overview
 
 <div class="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jaxB0VSuvms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-{% include icons.html paper="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf" supplementary="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf" code="https://github.com/JiahuiLei/Pix2Surf" dataset="https://github.com/JiahuiLei/Pix2Surf#dataset" %}
 
 ## Results
 

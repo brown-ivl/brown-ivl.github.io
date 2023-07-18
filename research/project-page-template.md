@@ -20,8 +20,6 @@ affiliations:
 journal: ""
 ---
 
-# Title
-
 ## Overview
 
 ## Methods
