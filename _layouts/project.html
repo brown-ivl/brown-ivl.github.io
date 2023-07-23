@@ -30,3 +30,20 @@
         </main>
     </body>
 </html>
+
+<script>
+    const bibTex = document.querySelector("code");
+
+    bibTex.onclick = function() {
+        document.execCommand("copy");
+    }
+
+    bibTex.addEventListener("copy", function(event) {
+    event.preventDefault();
+    if (event.clipboardData) {
+        event.clipboardData.setData("text/plain", bibTex.innerText);
+        alert("Citation copied to clipboard!");
+    }
+    });
+
+</script>
