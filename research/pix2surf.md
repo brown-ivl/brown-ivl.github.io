@@ -32,6 +32,7 @@ affiliations:
   - "<sup>3</sup> Adobe Research"
   - "<sup>4</sup> University College London"
 journal: ECCV 2020
+redirect_from: /projects/pix2surf
 ---
 
 {% include icons.html paper="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf" supplementary="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf" code="https://github.com/JiahuiLei/Pix2Surf" dataset="https://github.com/JiahuiLei/Pix2Surf#dataset" %}

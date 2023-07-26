@@ -34,6 +34,7 @@ affiliations:
   - "<sup>1</sup> Brown University"
   - "<sup>2</sup> Stanford University"
 journal: CVPR 2023
+redirect_from: /projects/lego-net
 ---
 
 {% include icons.html paper="https://arxiv.org/pdf/2301.09629.pdf" code="https://github.com/QiuhongAnnaWei/LEGO-Net" %}

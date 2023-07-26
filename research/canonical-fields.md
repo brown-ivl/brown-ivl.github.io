@@ -31,6 +31,7 @@ affiliations:
   - "<sup>2</sup> Brown University"
   - "<sup>3</sup> Stanford University"
 journal: CVPR 2023 (Highlight Paper)
+redirect_from: /projects/canonicalfields
 ---
 
 {% include icons.html paper="https://arxiv.org/pdf/2212.02493.pdf" arXiv="https://arxiv.org/abs/2212.02493" code="https://github.com/brown-ivl/Cafi-Net/tree/main" dataset="https://nerf-fields.s3.amazonaws.com/final_fields/final_res_32.zip" %}

@@ -25,6 +25,7 @@ authors:
 affiliations:
   - "<sup>1</sup> Brown University"
 journal: NeurIPS 2022
+redirect_from: /projects/shapecrafter
 ---
 
 {% include icons.html paper="https://arxiv.org/pdf/2207.09446.pdf" code="https://github.com/FreddieRao/ShapeCrafter.git" supplementary="https://arxiv.org/pdf/2207.09446.pdf" dataset="https://github.com/FreddieRao/ShapeCrafter.git" %}

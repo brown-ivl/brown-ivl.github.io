@@ -27,3 +27,13 @@ function searchProjects() {
 		}
 	}
 }
+
+// reroute old hashlink pages to new url
+window.onload = function () {
+	const hashLink = "/#/"
+	const link = window.location.href
+	if (link.includes(hashLink)) {
+		const newLink = link.replace("/#/", "/")
+		window.location.href = newLink
+	}
+}
