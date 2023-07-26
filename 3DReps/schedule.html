@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133713714-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133713714-2');
+    </script>
+
+    <link rel="icon" type="image/png" href="data/seal_icon.png">
+    <title>ICCV 2021 Workshop: Learning 3D Representations for Shape and Appearance</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="data/default.css" rel="stylesheet" type="text/css" />
+    <meta property='og:title' content='ICCV 2021 Workshop: Learning 3D Representations for Shape and Appearance'/>
+    <meta property='og:url' content='http://ivl.cs.brown.edu/3DReps/' />
+    <meta property='og:image' content='http://ivl.cs.brown.edu/3DReps//teaserim.jpg' />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="logo">
+	<h1>
+		<center>
+	    	 <span style="font-size:50%;color:#777;font-weight:normal">The second ICCV 2021 Workshop on</span><br>Learning 3D Representations for Shape and Appearance
+		</center>
+	</h1><br>
+	<h2>
+		<center>
+      <span style="font-size:92%;color:#777;font-weight:normal">7am-6pm ET, October 17, @ ICCV 2021.
+        </span>
+      <span style="font-size:92%;color:#777;font-weight:bold">Virtual</span>
+		</center>
+	</h2><br>
+	</div>
+	
+  <div id="menu">
+    <center>
+      <ul>
+        <li class="first"><a href="./index.html" accesskey="1">Home</a></li>
+        <li><a href="./schedule.html" accesskey="2">Schedule</a></li>
+        <li><a href="./posters.html", accesskey="3">Posters</a></li>
+      </ul>
+    </center>
+  </div>
+<div id="content">
+
+<!--
+  <div id="tz_select">
+    <p><h2 style="color:red;">Select your time zone:</h2></p>
+    <select class="form-control"></select>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./tz_selector/timezones.full.js"></script>
+        <script>
+          function setTimezone(tz) {
+            options = {
+              timeZone: tz,
+              hour: 'numeric',
+              minute: '2-digit'
+            }
+            block_options = {
+              timeZone: tz,
+              month: 'short',
+              day: 'numeric',
+              hour: 'numeric',
+              minute: '2-digit'
+            }
+            schedule = {
+              "#opening_remarks_start" : new Date(Date.parse("27 Aug 2020 16:00:00 PDT")),
+              "#opening_remarks_end": new Date(Date.parse("27 Aug 2020 16:15:00 PDT")),
+
+              "#kristen_start" : new Date(Date.parse("27 Aug 2020 16:15:00 PDT")),
+              "#kristen_end": new Date(Date.parse("27 Aug 2020 16:45:00 PDT")),
+
+              "#angjoo_start" : new Date(Date.parse("27 Aug 2020 16:45:00 PDT")),
+              "#angjoo_end": new Date(Date.parse("27 Aug 2020 17:15:00 PDT")),
+
+              "#poster_start" : new Date(Date.parse("27 Aug 2020 17:15:00 PDT")),
+              "#poster_end": new Date(Date.parse("27 Aug 2020 18:15:00 PDT")),
+
+              "#thomas_start" : new Date(Date.parse("27 Aug 2020 18:20:00 PDT")),
+              "#thomas_end": new Date(Date.parse("27 Aug 2020 18:50:00 PDT")),
+
+              "#angela_start" : new Date(Date.parse("28 Aug 2020 08:00:00 PDT")),
+              "#angela_end": new Date(Date.parse("28 Aug 2020 08:30:00 PDT")),
+
+              "#niloy_start" : new Date(Date.parse("28 Aug 2020 08:30:00 PDT")),
+              "#niloy_end": new Date(Date.parse("28 Aug 2020 09:00:00 PDT")),
+
+              "#noah_start" : new Date(Date.parse("28 Aug 2020 09:00:00 PDT")),
+              "#noah_end": new Date(Date.parse("28 Aug 2020 09:30:00 PDT")),
+
+              "#jitendra_start" : new Date(Date.parse("28 Aug 2020 09:30:00 PDT")),
+              "#jitendra_end": new Date(Date.parse("28 Aug 2020 10:00:00 PDT")),
+
+              "#panel_start" : new Date(Date.parse("28 Aug 2020 10:00:00 PDT")),
+              "#panel_end": new Date(Date.parse("28 Aug 2020 11:00:00 PDT")),
+            }
+            blocks = {
+              "#block_one_start" : new Date(Date.parse("27 Aug 2020 16:00:00 PDT")),
+              "#block_one_end" : new Date(Date.parse("27 Aug 2020 19:00:00 PDT")),
+
+              "#block_two_start" : new Date(Date.parse("28 Aug 2020 08:00:00 PDT")),
+              "#block_two_end" : new Date(Date.parse("28 Aug 2020 11:00:00 PDT")),
+            }
+            var keys = Object.keys(schedule)
+            for (var i = 0; i < keys.length; ++i) {
+              $(keys[i]).html(schedule[keys[i]].toLocaleString(navigator.language, options))
+            }
+            var keys = Object.keys(blocks)
+            for (var i = 0; i < keys.length; ++i) {
+              $(keys[i]).html("<b>" + blocks[keys[i]].toLocaleString(navigator.language, block_options) + "</b>")
+            }
+          }
+          $('select').timezones();
+          $('select').change(function() {
+            setTimezone($('select').val())
+          });
+          $(document).ready(function() {
+            setTimezone($('select').val())
+          })
+      </script>-->
+	    <center>
+	    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSbQKLSg_zFWmCS0IOMTAsFH1HN9Mg8wAQdhHKxYUsY9ZekKdQLK4n8A4MfcmjwLg5ch2dtYASJz66M/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="border:solid 1px #777" width="800" height="1000" frameborder="0" scrolling="no"></iframe>
+	</center>
+
+<!--<table class="schedule" id="program">-->
+<!--  <tr class="row_type_B">-->
+<!--    <td width="42px">-->
+<!--	    <b>Start</b>-->
+<!--    </td>-->
+<!--    <td width="42px">-->
+<!--      <b>End</b>-->
+<!--    </td>-->
+<!--    <td width="192px">-->
+<!--	    <b>Event</b>-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!--  <tr class="block">-->
+<!--    <td id="block_one_start">-->
+<!--	    <b>27 August (PST)</b>-->
+<!--    </td>-->
+<!--    <td id="block_one_end">-->
+<!--        <b>27 August (PST)</b>-->
+<!--    </td>-->
+<!--    <td><b> Session 1 </b>-->
+<!--    </td>-->
+<!--  </tr>-->
+<!--  <tr class="row_type_B">-->
+<!--    <td id="opening_remarks_start">-->
+<!--      4:00 PM-->
+<!--    </td>-->
+<!--    <td id="opening_remarks_end">-->
+<!--      4:15 PM-->
+<!--    </td>-->
+<!--    <td>-->
+<!--	    <p class="poster_title">Opening Remarks</p>-->
+<!--		<a href="https://geometry.stanford.edu/member/guibas/" target="_blank"><img src="data/leo.jpg" width=80px></a><br>-->
+<!--		Leonidas J. Guibas-->
+<!--    </td>-->
+<!--  </tr>-->
+
+
+<!-- <tr class="row_type_A">-->
+<!--    <td id="kristen_start">-->
+<!--      04:15 PM-->
+<!--    </td>-->
+<!--    <td id="kristen_end">-->
+<!--        04:45 PM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--	  <p class="poster_title">Sound and Space: 3D Audio-Visual Learning</p>-->
+<!--      <a href="http://www.cs.utexas.edu/users/grauman/"><img alt src="data/kristen.jpg" height="80"/> </a></br>-->
+<!--      Kristen Grauman-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!-- <tr class="row_type_B">-->
+<!--    <td id="angjoo_start">-->
+<!--      04:45 PM-->
+<!--    </td>-->
+<!--    <td id="angjoo_end">-->
+<!--        05:15 PM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--	<p class="poster_title">Learning Morphable Shape Models from Image Collections</p>-->
+<!--      <a href="https://people.eecs.berkeley.edu/~kanazawa/"> <img alt src="data/angjoo.jpg" height="80"/></a><br>-->
+<!--      Angjoo Kanazawa-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!-- <tr class="row_type_A">-->
+<!--    <td id="poster_start">-->
+<!--      05:15 PM-->
+<!--    </td>-->
+<!--    <td id="poster_end">-->
+<!--        06:15 PM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--	    <p class="poster_title"><a href="./posters.html">Poster Presentation</a></p>-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!-- <tr class="row_type_B">-->
+<!--    <td id="thomas_start">-->
+<!--      06:20 PM-->
+<!--    </td>-->
+<!--    <td id="thomas_end">-->
+<!--      06:50 PM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--	<p class="poster_title">Learning Implicit 3D Shape Representations</p>-->
+<!--      <a href="https://www.cs.princeton.edu/~funk/"><img alt src="data/tom.jpg" height="80"/> </a><br>-->
+<!--      Thomas Funkhouser-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!--  <tr class="block">-->
+<!--    <td id="block_two_start">-->
+<!--	    <b>28 August (PDT)</b>-->
+<!--    </td>-->
+<!--    <td id="block_two_end">-->
+<!--      <b>28 August (PDT)</b>-->
+<!--    </td>-->
+<!--    <td> <b> Session 2 </b>-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!-- <tr class="row_type_B">-->
+<!--    <td id="angela_start">-->
+<!--      08:00 AM-->
+<!--    </td>-->
+<!--    <td id="angela_end">-->
+<!--      08:30 AM-->
+<!--    </td>-->
+<!--    <td>-->
+<!--		<p class="poster_title">Self-Supervision for 3D Scene Generation from RGB-D Scans</p>-->
+<!--      <a href="https://www.3dunderstanding.org/"> <img alt src="data/angela.jpg" height="80"/> </a><br>-->
+<!--      Angela Dai-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!-- <tr class="row_type_A">-->
+<!--    <td id="niloy_start">-->
+<!--      08:30 AM-->
+<!--    </td>-->
+<!--    <td id="niloy_end">-->
+<!--        09:00 AM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--	<p class="poster_title">Controllable Content Creation from Unlabelled Data</p>-->
+<!--	   <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/"> <img alt src="data/niloy.jpg" height="80"/> </a><br>-->
+<!--      Niloy Mitra-->
+<!--    </td>-->
+<!--  </tr>-->
+
+
+<!-- <tr class="row_type_B">-->
+<!--    <td id="noah_start">-->
+<!--      09:00 AM-->
+<!--    </td>-->
+<!--    <td id="noah_end">-->
+<!--        09:30 AM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--      <p class="poster_title">Reconstructing the Plenoptic Function</p>-->
+<!--      <a href="http://www.cs.cornell.edu/~snavely/"> <img alt src="data/noah.jpg" height="80"/> </a><br>-->
+<!--      Noah Snavely-->
+<!--    </td>-->
+<!--  </tr>-->
+
+
+<!-- <tr class="row_type_A">-->
+<!--    <td id="jitendra_start">-->
+<!--      09:30 AM-->
+<!--    </td>-->
+<!--    <td id="jitendra_end">-->
+<!--        10:00 AM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--	    	<p class="poster_title">On Learning 3D</p>-->
+<!--      <a href="https://people.eecs.berkeley.edu/~malik/"> <img alt src="data/jitendra.jpg" height="80"/> </a><br>-->
+<!--      Jitendra Malik-->
+<!--    </td>-->
+<!--  </tr>-->
+
+
+<!-- <tr class="row_type_B">-->
+<!--    <td id="panel_start">-->
+<!--      10:00 AM-->
+<!--    </td>-->
+<!--    <td id="panel_end">-->
+<!--        11:00 AM-->
+<!--      </td>-->
+<!--    <td>-->
+<!--	<br>-->
+<!--      <p class="poster_title">Expert Panel Discussion</p>-->
+<!--		<a href="https://stanford.edu/~gordonwz/"><img alt src="data/gordon.jpg" height="80"/></a><br>-->
+<!--		Host: Gordon Wetzstein-->
+<!--    </td>-->
+<!--  </tr>-->
+
+<!--  </table>-->
+  </p>
+
+<h2>Contact Info</h2>
+<p>E-mail: <a href="mailto:3dreps@gmail.com" target="_blank">3dreps@gmail.com</a></p>
+
+<div style="clear: both;">&nbsp;</div>
+</div><br><br>
+
+</body>
+</html>

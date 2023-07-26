@@ -28,7 +28,7 @@ carousels:
 
 - **_Feb-2023_** IVL will present papers on canonicalizing neural fields, room rearrangement, and text-to-3D shape at CVPR 2023. More details coming soon.
 
-- **_Oct-2022_** At NeurIPS, Rao Fu will be presenting our work on **recursive** 3D shape generation. Please see the [project page](https://ivl.cs.brown.edu/projects/shapecrafter) for details.
+- **_Oct-2022_** At NeurIPS, Rao Fu will be presenting our work on **recursive** 3D shape generation. Please see the [project page](https://ivl.cs.brown.edu/research/shapecrafter) for details.
 
 - **_Jun-2022_** We are looking for postdocs to join us at Brown. Please see [this link](https://docs.google.com/forms/d/e/1FAIpQLSdwz7TSI92hy1ipJdaN_8Xqx-eKpts4YAkw1C8KA1fobo0qZA/viewform) for more information.
 
