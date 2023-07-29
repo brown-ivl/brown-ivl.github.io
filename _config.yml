@@ -22,12 +22,11 @@ title: Brown IVL
 description: >- # this means to ignore newlines until "baseurl:"
   The Interactive 3D Vision & Learning Lab (IVL) led by Srinath Sridar, part of Brown Visual Computing, works on 3D computer vision and machine learning problems to better understand how humans interact with the world. Our research spans 3D spatiotemporal visual understanding objects, humans in motion, and human-object interactions.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://brown-ivl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ivl.cs.brown.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-paginate
   - jekyll-redirect-from
 # Exclude from processing.
 # The following items will not be processed, by default.

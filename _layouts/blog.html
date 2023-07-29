@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    {%- include head.html -%}
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/project.css">
+    </head>
+    <body>
+        {% include navbar.html %}
+        <main>
+            <div class="container content">
+                <div class="header">
+                    <h5>{{page.date}}</h5>
+                    <h1>{{page.title}}</h1>
+                    <div class="project-authors">
+                        <h6>
+                            {% for item in page.authors %}
+                                <a class="project-author" href="{{item.author.link}}">{{item.author.name}}<sup>{{item.author.affiliation}}</sup></a> 
+                            {% endfor %}
+                        </h6>
+                    </div>
+                    <div class="project-affiliations">
+                        {% for item in page.affiliations %}
+                            <h6 class="affiliation">{{item}}</h6>
+                        {% endfor %}
+                    </div>
+                </div>
+                {{ content }}
+            </div>
+        </main>
+    </body>
+</html>
