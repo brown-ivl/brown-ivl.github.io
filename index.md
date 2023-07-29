@@ -14,7 +14,7 @@ carousels:
   </div>
   <div class="intro-text col-sm">
     <p>
-      The Interactive 3D Vision & Learning Lab (IVL) led by <a href="https://cs.brown.edu/people/ssrinath/">Srinath Sridhar</a>, part of <a href="https://visual.cs.brown.edu/">Brown Visual Computing</a>, works on 3D computer vision and machine learning problems to better understand how humans interact with the world. Our research spans 3D spatiotemporal visual understanding objects, humans in motion, and human-object interactions. Please see the <a href="https://ivl.cs.brown.edu/#/research"> research tab</a> for details on our research.
+      The Interactive 3D Vision & Learning Lab (IVL) led by <a href="https://cs.brown.edu/people/ssrinath/">Srinath Sridhar</a>, part of <a href="https://visual.cs.brown.edu/">Brown Visual Computing</a>, works on 3D computer vision and machine learning problems to better understand how humans interact with the world. Our research spans 3D spatiotemporal visual understanding of objects, humans in motion, and human-object interactions. Please see the <a href="https://ivl.cs.brown.edu/#/research"> research tab</a> for details on our research.
     </p>
   </div>
 
@@ -26,6 +26,8 @@ carousels:
 
 ### Updates
 
+- **_Jul-2023_** Two papers from IVL and collaborators will appear at ICCV 2023. More details coming soon.
+  
 - **_Feb-2023_** IVL will present papers on canonicalizing neural fields, room rearrangement, and text-to-3D shape at CVPR 2023. More details coming soon.
 
 - **_Oct-2022_** At NeurIPS, Rao Fu will be presenting our work on **recursive** 3D shape generation. Please see the [project page](https://ivl.cs.brown.edu/research/shapecrafter) for details.
