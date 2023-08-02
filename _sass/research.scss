@@ -59,9 +59,14 @@
 .search-div {
     margin-top: 1rem;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    // justify-content: center;
     margin-bottom: 2rem;
-    width: 24rem;
+
+    .publications-search {
+        width: 24rem;
+        margin-right: 1rem;
+    }
 }
 
 .research-icon {

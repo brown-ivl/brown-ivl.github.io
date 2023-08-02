@@ -5,8 +5,10 @@ permalink: /research
 ---
 
 <div class="search-div">
-  <input class="form-control form-control-md" type="text" id="searchInput" onkeyup="searchProjects()" placeholder="Search for a publication or report">
+  <input class="publications-search form-control form-control-md" type="text" id="searchInput" onkeyup="searchProjects()" placeholder="Search for a publication or report">
+  <h6 id="num-results"><i></i></h6>
 </div>
+<div>
 
 <div class="research">
   {% for page in site.data.research %}
