@@ -67,10 +67,13 @@
 
     .navbar-brand {
         font-size: 30px;
+        display: flex;
+        align-items: center;
     }
 
     .navbar-logo {
         max-height: 48px;
+        margin-right: 0.5rem;
     }
 
     .nav-link {

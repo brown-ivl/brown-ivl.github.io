@@ -31,12 +31,13 @@ authors:
       affiliation: 2
       link: "https://cs.brown.edu/people/ssrinath/"
   - author:
-      name: "Leonidas Guibas"
+      name: "Daniel Ritchie"
       affiliation: 2
-      link: "https://geometry.stanford.edu/member/guibas/"
+      link: ""
 affiliations:
-  - "<sup>1</sup> Brown University"
-  - "<sup>2</sup> Stanford University"
+  - "<sup>1</sup> Autodesk AI Research"
+  - "<sup>2</sup> Brown University"
+  - "<sup>3</sup> Columbia University"
 journal: CVPR 2023
 redirect_from: /projects/clip-sculptor
 ---
