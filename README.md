@@ -83,8 +83,7 @@ To change/add carousel images:
 
 ### Research Page
 
-To modify the Research page, edit the file [`research.md`](/research.md). To modify the research items displayed on the page, edit the file [`\_data/research.json](/_data/research.json).
-...
+To modify the Research page, edit the file [`research.md`](/research.md). To modify the research items displayed on the page, edit the file [`_data/research.json`](/_data/research.json).
 
 #### Search Bar
 
@@ -92,7 +91,7 @@ The Javascript used for the search bar can be found in the `searchProjects()` fu
 
 ### Teaching Page
 
-To modify the Teaching page, edit the file [`teaching.md`](/teaching.md). To modify the courses displayed on the page, edit the file [`_data/teaching/courses.json`](/_data/teaching/courses.json). To modify the workshops displayed on the page, edit the file [`\_data/teaching/workshops.json`](/_data/teaching/workshops.json).
+To modify the Teaching page, edit the file [`teaching.md`](/teaching.md). To modify the courses displayed on the page, edit the file [`_data/teaching/courses.json`](/_data/teaching/courses.json). To modify the workshops displayed on the page, edit the file [`_data/teaching/workshops.json`](/_data/teaching/workshops.json).
 
 ### People Page
 
@@ -104,14 +103,14 @@ To modify the Openings page, edit the file [`openings.md`](/openings.md).
 
 ## Creating and Modifying Project Pages
 
-The Markdown files for project pages can be found at in the [`research/`](/research/) folder.
+The Markdown files for project pages can be found at in the [`research`](/research/) folder.
 
 ### Creating a New Markdown Page
 
-To build a new project page, create a .md file in the /research folder. Note that your filename will become the link to the page, i.e. ivl.cs.brown.edu/research/[filename].
+To build a new project page, create a .md file in the [`research`](/research/) folder. Note that your filename will become the link to the page, i.e. ivl.cs.brown.edu/research/[filename].
 
 Refer to the [project-page-template.md](research/project-page-template.md) for more information about formatting your Markdown project page.
 
 ### Updating the Research Page
 
-In order to have a link to access your new project page, you will need to either update the existing link for the research item or add a new research item. You can do so by updating \_data/research.json to include the appropriate information.
+In order to have a link to access your new project page, you will need to either update the existing link for the research item or add a new research item. You can do so by updating [`_data/research.json`](/_data/research.json) to include the appropriate information.
