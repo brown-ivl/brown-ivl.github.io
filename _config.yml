@@ -57,23 +57,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "tables"
-#     values:
-#       layout: "generated_table"
-#   - scope:
-#       path: ""
-#       type: "people"
-#     values:
-#       layout: "people"
-#   - scope:
-#       path: ""
-#       type: "aligned_content"
-#     values:
-#       layout: "aligned_content"
-
 collections:
   author:
     name: true

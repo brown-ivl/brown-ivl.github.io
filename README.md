@@ -1,4 +1,4 @@
-# Brown IVL Website (README IN PROGRESS)
+# Brown IVL Website
 
 ## General Instructions
 
@@ -58,19 +58,59 @@ This repository follows the [Jekyll file directory structure](https://jekyllrb.c
 
     -> research: The markdown files in the root of the repository correspond to their respective pages on the webpage. It is important to note that the file name and location of a markdown file in the repository will determine its url on the website.
 
-    - index.md: https://ivl.cs.brown.edu/
-    - research.md: https://ivl.cs.brown.edu/research.html
-    - people.md: https://ivl.cs.brown.edu/people.html
-    - teaching.md: https://ivl.cs.brown.edu/teaching.html
-    - openings.md: https://ivl.cs.brown.edu/openings.html
+    - _config.yml: This is the config file meant for settings that affect the entire webpage.
 
-## Creating New Project Pages
+    - Gemfile: This file contains the Jekyll gems used on the website. It is similar in function to a requirements.txt file.
 
-### Creating the Markdown Page
+## Modifying Main Pages & Components
+
+### Navbar
+
+The code for the Navbar is located at [`_includes_/navbar.html`](/_includes/navbar.html). To add or remove pages from the Navbar, edit the file [`_data/navigation.yml`](/_data/navigation.yml). The file contains a list of pages that will be displayed in the Navbar.
+
+### Home Page
+
+To modify homepage content, edit the file [`index.md`](/index.md). This page uses an include tag to add a carousel component.
+
+#### Carousel
+
+The code for the Carousel is located at [`_includes_/carousel.html`](/_includes/carousel.html). Its functionality is to render the Carousel for the IVL homepage. Information is passed via the front matter in [`index.md`](/index.md).
+
+To change/add carousel images:
+
+- Add images to [`assets/images/carousel`](assets/images/carousel/)
+- Add a new image item in carousels.images in the front matter of `index.md`.
+
+### Research Page
+
+To modify the Research page, edit the file [`research.md`](/research.md). To modify the research items displayed on the page, edit the file [`\_data/research.json](/_data/research.json).
+...
+
+#### Search Bar
+
+The Javascript used for the search bar can be found in the `searchProjects()` function in [`/assets/js/main.js`](/assets/js/main.js).
+
+### Teaching Page
+
+To modify the Teaching page, edit the file [`teaching.md`](/teaching.md). To modify the courses displayed on the page, edit the file [`_data/teaching/courses.json`](/_data/teaching/courses.json). To modify the workshops displayed on the page, edit the file [`\_data/teaching/workshops.json`](/_data/teaching/workshops.json).
+
+### People Page
+
+To modify the People page, edit the file [`teaching.md`](/people.md). To modify the people displayed on the page, edit the file [`\_data/people.json](/_data/people.json).
+
+### Openings Page
+
+To modify the Openings page, edit the file [`openings.md`](/openings.md).
+
+## Creating and Modifying Project Pages
+
+The Markdown files for project pages can be found at in the [`research/`](/research/) folder.
+
+### Creating a New Markdown Page
 
 To build a new project page, create a .md file in the /research folder. Note that your filename will become the link to the page, i.e. ivl.cs.brown.edu/research/[filename].
 
-Refer to [project-page-template.md](https://github.com/brown-ivl/brown-ivl.github.io/blob/main/research/project-page-template.md) for more information about formatting your Markdown project page.
+Refer to the [project-page-template.md](research/project-page-template.md) for more information about formatting your Markdown project page.
 
 ### Updating the Research Page
 
