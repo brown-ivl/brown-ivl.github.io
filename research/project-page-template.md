@@ -44,9 +44,9 @@ Below are ways to add different types of media:
 
 ### Notes on Media Content
 
-Please make sure to add all of your resource files needed for the website to the folder at the following path: assets/images/projects/[project name]
+Please make sure to add all of your resource files needed for the website to the folder at the following path: [assets/images/projects/[project name]](/assets/images/projects/)
 
-You can also add content via html for additional customization if desired. If you have other formats for content you would like to display, please feel free to contact me (Iris Huang) on Slack!
+You can also add content via HTML for additional customization if desired. If you have other formats for content you would like to display, please feel free to contact me (Iris Huang) on Slack!
 
 ## Methods
 

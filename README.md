@@ -1,6 +1,18 @@
 # Brown IVL Website
 
-## General Instructions
+## Creating Project Pages & Blog Posts
+
+For most users, you will likely only need to create or modify a project page. This section will describe the steps required to create or update a project page or blog post.
+
+1. Create a fork of the repository.
+
+2. To create a new project page, add a .md file in the [`research`](/research/) folder. To create a new blog post, add a new .md file in the [`blogs`](/blogs/) folder. Note that your filename will become the link to the page, i.e. ivl.cs.brown.edu/research/[filename]. Refer to the [project-page-template.md](research/project-page-template.md) for more information about formatting your Markdown project page. To modify an existing page, you can find the corresponding Markdown file in the [`research`](/research/) or [`blogs`](/blogs/) folders.
+
+3. Once you have made your desired changes to your page, open a pull request from your fork. Once you have created your pull request, it can then be approved by Srinath for your changes to be added to the website.
+
+## Setup for Local Development
+
+This section below contains instructions on how to setup Jekyll to build the site on a local server. Most users will **not** need to do so. If you are looking to create or modify a project page or blog post, please follow the instructions above on [creating project pages and blog posts](#creating-project-pages-&-blog-posts).
 
 To clone the repository, navigate to your desired location in your directory via your terminal then use the following command:
 
