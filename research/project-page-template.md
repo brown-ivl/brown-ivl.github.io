@@ -18,6 +18,9 @@ affiliations:
   - "<sup>1</sup>[affiliation]"
   - "<sup>2</sup>[affiliation]"
 journal: ""
+redirect_from:
+  - add redirect_path here
+  - another path here
 ---
 
 {% include icons.html paper="[add link here]" supplementary="[add link here]" code="[add link here]" dataset="[add link here]" %}
@@ -25,6 +28,8 @@ journal: ""
 ## Overview
 
 You can add text and links as normal in Markdown. For example, [this](isalink.com). _This_ text is italicized and **this** text is bolded.
+
+Fill in the frontmatter (the section above between the 3 dashes) with the appropriate content. The redirect_from item is optional. However, if you are switching from an old project url to a new one created via a Markdown page here, you may want to add redirect links so that people who access your old project url will be redirected to this new page. To do so, add the links you would like to redirect from to the redirect_from item in the frontmatter. Note that a trailing backslash will make a difference. You may want to add both the path with and without the trailing backslash in your redirect_from list. 
 
 Below are ways to add different types of media:
 

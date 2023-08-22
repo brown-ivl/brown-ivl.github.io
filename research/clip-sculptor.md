@@ -39,7 +39,9 @@ affiliations:
   - "<sup>2</sup> Brown University"
   - "<sup>3</sup> Columbia University"
 journal: CVPR 2023
-redirect_from: /projects/clip-sculptor
+redirect_from: 
+  - /projects/clip-sculptor
+  - /projects/clip-sculptor/
 ---
 
 {% include icons.html paper="https://arxiv.org/pdf/2211.01427.pdf" %}

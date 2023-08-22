@@ -107,7 +107,7 @@ To modify the Teaching page, edit the file [`teaching.md`](/teaching.md). To mod
 
 ### People Page
 
-To modify the People page, edit the file [`teaching.md`](/people.md). To modify the people displayed on the page, edit the file [`\_data/people.json](/_data/people.json).
+To modify the People page, edit the file [`teaching.md`](/people.md). To modify the people displayed on the page, edit the file [`_data/people.json`](/_data/people.json).
 
 ### Openings Page
 
@@ -122,6 +122,22 @@ The Markdown files for project pages can be found at in the [`research`](/resear
 To build a new project page, create a .md file in the [`research`](/research/) folder. Note that your filename will become the link to the page, i.e. ivl.cs.brown.edu/research/[filename].
 
 Refer to the [project-page-template.md](research/project-page-template.md) for more information about formatting your Markdown project page.
+
+### Redirecting Your Page
+
+1. Redirecting from ordinary URL paths:
+
+If you are switching from an old project url to a new one created via a Markdown page here, you may want to add redirect links so that people who access your old project url will be redirected to this new page. To do so, add the following to your frontmatter (the section between the 3 dashes):
+
+    redirect_from:
+      - /redirect/link/here
+      - /another/redirect/link/
+
+Note that a trailing backslash will make a difference. You may want to add both the path with and without the trailing backslash in your redirect_from list.
+
+2. Redirecting from hashed URL paths:
+
+The old IVL website utilized a hash router rather than ordinary URL paths. The redirecting for these links is handled via Javascript. The Javascript used for rerouting hashlink pages to their new urls can be found in the function attached to `window.onload` in [`/assets/js/main.js`](/assets/js/main.js).
 
 ### Updating the Research Page
 
