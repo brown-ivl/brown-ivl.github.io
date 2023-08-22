@@ -135,6 +135,8 @@ If you are switching from an old project url to a new one created via a Markdown
 
 Note that a trailing backslash will make a difference. You may want to add both the path with and without the trailing backslash in your redirect_from list.
 
+Refer to the documentation for the [jekyll redirect-from](https://github.com/jekyll/jekyll-redirect-from) plugin for more information.
+
 2. Redirecting from hashed URL paths:
 
 The old IVL website utilized a hash router rather than ordinary URL paths. The redirecting for these links is handled via Javascript. The Javascript used for rerouting hashlink pages to their new urls can be found in the function attached to `window.onload` in [`/assets/js/main.js`](/assets/js/main.js).
