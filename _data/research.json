@@ -22,14 +22,14 @@
         "title": "Strata-NeRF : Neural Radiance Fields for Stratified Scenes",
         "authors": "Ankit Dhiman, Srinath R, Harsh Rangwani, Rishubh Parihar, Lokesh R Boregowda, Srinath Sridhar, R Venkatesh Babu",
         "journal": "ICCV 2023",
-        "projectPage": "https://arxiv.org/abs/2308.10337",
+        "projectPage": "https://ankitatiisc.github.io/Strata-NeRF/",
         "pdf": "https://arxiv.org/pdf/2308.10337.pdf",
         "bibTex": "",
         "moreInfo": "",
         "googlePatents": "",
         "pubman": "",
         "video": "https://www.youtube.com/watch?v=EzHlqoinwAg",
-        "image": "images/papers/strata-nerf.jpg"
+        "image": "images/papers/strata-nerf.png"
     },
     {
         "category": "Publications",
