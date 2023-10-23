@@ -17,9 +17,9 @@ Prospective postdocs, please [fill in this form](https://docs.google.com/forms/d
 ### Masters Positions
 
 If you are a masters student at Brown, please email Srinath **after** you have taken 2-3 visual computing courses (at Brown or elsewhere). Computer vision, graphics, deep learning, robotics, artificial intelligence, and/or a 2000-level seminar courses are all great choices.
-We do not currently have open positions for Masters visitors.
+We currently do not have open positions for external Masters students from *outside* Brown.
 
 ### Undergraduate Positions
 
 If you are an undergraduate student at Brown, please email Srinath **after** you have taken 2-3 visual computing courses. Computer vision, graphics, deep learning, robotics, artificial intelligence, and/or a 2000-level seminar courses are all great choices.
-We do not currently have open positions for undergraduate visitors.
+We currently do not have open positions for external undergraduate students from *outside* Brown.
