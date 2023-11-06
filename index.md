@@ -27,7 +27,9 @@ carousels:
 
 ### Updates
 
-- **_Jul-2023_** Two papers from IVL and collaborators will appear at ICCV 2023. More details coming soon.
+- **_Oct-2023_** [Hyp-NeRF](https://hyp-nerf.github.io/) has been accepted to NeurIPS 2023. Please see the [research page](https://ivl.cs.brown.edu/research.html) for more details.
+- 
+- **_Jul-2023_** Two NeRF papers from IVL and collaborators will appear at ICCV 2023. Please see the [research page](https://ivl.cs.brown.edu/research.html) for more details.
 
 - **_Feb-2023_** IVL will present papers on canonicalizing neural fields, room rearrangement, and text-to-3D shape at CVPR 2023. More details coming soon.
 
