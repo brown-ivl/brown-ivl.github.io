@@ -33,20 +33,18 @@ carousels:
 
 - **_Feb-2023_** IVL will present papers on canonicalizing neural fields, room rearrangement, and text-to-3D shape at CVPR 2023. More details coming soon.
 
-- **_Oct-2022_** At NeurIPS, Rao Fu will be presenting our work on **recursive** 3D shape generation. Please see the [project page](https://ivl.cs.brown.edu/research/shapecrafter) for details.
+<details>
+  <summary> More Updates </summary>
 
-- **_Jun-2022_** We are looking for postdocs to join us at Brown. Please see [this link](https://docs.google.com/forms/d/e/1FAIpQLSdwz7TSI92hy1ipJdaN_8Xqx-eKpts4YAkw1C8KA1fobo0qZA/viewform) for more information.
+  <article markdown="1" class="post-content">
+
+- **_Oct-2022_** At NeurIPS, Rao Fu will be presenting our work on **recursive** 3D shape generation. Please see the [project page](https://ivl.cs.brown.edu/research/shapecrafter) for details.
 
 - **_Jun-2022_** At CVPR, we will be presenting a paper on 3D pose canonicalization (ConDor) and a tutorial on neural fields. Please see the [ConDor project page](https://ivl.cs.brown.edu/ConDor/) and [Neural Fields tutorial page](https://neuralfields.cs.brown.edu/cvpr22.html) for more details.
 
 - **_Apr-2022_** Our Eurographics STAR [report and companion website](https://neuralfields.cs.brown.edu/) provides a consolidated overview of coordinate-based neural networks (**neural fields**) in visual computing and beyond by reviewing over 250 papers.
 
 - **_Mar-2022_** Srinath received the [NSF CAREER award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2143576) that will help further the group's research on 3D perception of human physical skills.
-
-<details>
-  <summary> More Updates </summary>
-
-  <article markdown="1" class="post-content">
 
 - **_Oct-2021_** I helped co-organize the [Second 3DReps workshop](https://ivl.cs.brown.edu/3DReps/) at ICCV. The workshop recording is now available at this [link](https://www.youtube.com/watch?v=4VKTE1Svl30).
 
