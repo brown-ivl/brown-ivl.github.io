@@ -1,19 +1,5 @@
 [
     {
-        "title": "CSCI 2952-O: A Practical Introduction to Advanced 3D Robot Perception",
-        "image": "images/teaching/52-o.jpeg",
-        "sems": [
-            {
-                "sem": "Spring 2023",        
-                "page": "http://cs.brown.edu/courses/csci2952o/"
-            }, 
-            {
-                "sem": "Spring 2022",        
-                "page": "http://cs.brown.edu/courses/csci2952o/"
-            }
-        ]        
-    },
-    {
         "title": "CSCI 1430: Introduction to Computer Vision",
         "image": "images/teaching/cv2022Fall.png",
         "sems": [
@@ -30,6 +16,20 @@
                 "page": "https://cs.brown.edu/courses/csci1430/2021_Spring/index.html",
                 "subText": "Co-taught with James Tompkin",
                 "subTextLink": "https://jamestompkin.com/"
+            }
+        ]        
+    },    
+    {
+        "title": "CSCI 2952-O: A Practical Introduction to Advanced 3D Robot Perception",
+        "image": "images/teaching/52-o.jpeg",
+        "sems": [
+            {
+                "sem": "Spring 2023",        
+                "page": "http://cs.brown.edu/courses/csci2952o/"
+            }, 
+            {
+                "sem": "Spring 2022",        
+                "page": "http://cs.brown.edu/courses/csci2952o/"
             }
         ]        
     },
