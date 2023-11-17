@@ -1,5 +1,11 @@
 [
     {
+        "title": "SIGGRAPH 2023 Course on Neural Fields in Visual Computing",
+        "year": "2023",        
+        "page": "https://neuralfields.cs.brown.edu/siggraph23.html",
+        "image": "images/teaching/iclr.png"
+    },
+    {
         "title": "ICLR 2023 Neural Fields Workshop",
         "year": "2023",        
         "page": "https://sites.google.com/view/neural-fields",
