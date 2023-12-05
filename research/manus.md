@@ -40,7 +40,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html arXiv="[add link here]" %}
+{% include icons.html paper="https://arxiv.org/pdf/2312.02137.pdf" %}
 
 ## Abstract
 
@@ -75,6 +75,16 @@ In addition to extensive qualitative results, we also show that our method outpe
 
 
 ## Citations
+```
+@misc{pokhariya2023manus,
+      title={MANUS: Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians}, 
+      author={Chandradeep Pokhariya and Ishaan N Shah and Angela Xing and Zekun Li and Kefan Chen and Avinash Sharma and Srinath Sridhar},
+      year={2023},
+      eprint={2312.02137},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
 ## Acknowledgements
