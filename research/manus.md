@@ -64,9 +64,9 @@ In addition to extensive qualitative results, we also show that our method outpe
 
 ## Qualitative Results
 
-{% include full_image.html path="/assets/images/projects/manus/handResults.mp4" alt="[Hand Results]" %}
+{% include video.html path="/assets/images/projects/manus/handResults.mp4" alt="[Hand Results]" %}
 
-{% include full_image.html path="/assets/images/projects/manus/contactResults.mp4" alt="[Contact Results]" %}
+{% include video.html path="/assets/images/projects/manus/contactResults.mp4" alt="[Contact Results]" %}
 
 ## Qualitative Comparison
 
@@ -86,9 +86,8 @@ In addition to extensive qualitative results, we also show that our method outpe
 }
 ```
 
-
 ## Acknowledgements
-`This work was supported by NSF CAREER grant #2143576, a gift from Meta Reality Labs, NSF CloudBank, and an AWS Cloud Credits award.`
+This work was supported by NSF CAREER grant #2143576, a gift from Meta Reality Labs, NSF CloudBank, and an AWS Cloud Credits award. We also thank Dingxi Zhang for helping us in hand pose estimation pipeline. 
 
 ## Contact
 
