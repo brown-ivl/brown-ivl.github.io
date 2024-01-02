@@ -107,7 +107,7 @@
         "category": "Undergraduate/Master's Students",
         "name": "Caroline Zhang",
         "years": "2023 - Present",
-        #"imgPath": "images/people/Caroline_Zhang.jpeg",
+        #"imgPath": "images/people/default.png",
         "alt": "Caroline Zhang Profile Picture"
     }, 
     {
@@ -122,7 +122,7 @@
         "category": "Research Staff/Visitors",
         "name": "Dingxi Zhang",
         "years": "2023 - Present",
-        "imgPath": "images/people/Dingxi_Zhang.jpeg",
+        "imgPath": "images/people/Dingxi_Zhang.jpg",
         "alt": "Dingxi Zhang Profile Picture",
     },
     {
