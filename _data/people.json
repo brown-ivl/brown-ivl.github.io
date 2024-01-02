@@ -73,6 +73,14 @@
     }, 
     {
         "category": "Undergraduate/Master's Students",
+        "name": "Dylan Hu",
+        "years": "2023 - Present",
+        "imgPath": "images/people/Dylan_Hu.jpg",
+        "alt": "Dylan Hu Profile Picture",
+        "link": "https://dylan.hu/"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
         "name": "Theo McArn",
         "years": "2022 - Present",
         "imgPath": "images/people/Theo.jpeg",
@@ -94,7 +102,14 @@
         "imgPath": "images/people/Angela_Xing.jpg",
         "alt": "Angela Xing Profile Picture"       ,
         "link": "https://xing-angela.github.io/"
-    },     
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Caroline Zhang",
+        "years": "2023 - Present",
+        #"imgPath": "images/people/Caroline_Zhang.jpeg",
+        "alt": "Caroline Zhang Profile Picture"
+    }, 
     {
         "category": "Research Staff/Visitors",
         "name": "Chandradeep Pokhariya",
@@ -103,6 +118,13 @@
         "alt": "Chandradeep Pokhariya Profile Picture",
         "link": "https://coreqode.github.io"     
     }, 
+    {
+        "category": "Research Staff/Visitors",
+        "name": "Dingxi Zhang",
+        "years": "2023 - Present",
+        "imgPath": "images/people/Dingxi_Zhang.jpeg",
+        "alt": "Dingxi Zhang Profile Picture",
+    },
     {
         "category": "Brown IVL Alumni",
         "name": "Jacob Frausto",
