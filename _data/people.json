@@ -107,7 +107,7 @@
         "category": "Undergraduate/Master's Students",
         "name": "Caroline Zhang",
         "years": "2023 - Present",
-        #"imgPath": "images/people/default.png",
+        "imgPath": "images/people/default.png",
         "alt": "Caroline Zhang Profile Picture"
     }, 
     {
