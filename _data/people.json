@@ -73,14 +73,6 @@
     }, 
     {
         "category": "Undergraduate/Master's Students",
-        "name": "Yiwen Chen",
-        "years": "2022 - Present",
-        "imgPath": "images/people/Yiwen_Chen.jpg",
-        "alt": "Yiwen Chen Profile Picture",
-        "link": "https://cs.brown.edu/people/grad/ychen485/"
-    },              
-    {
-        "category": "Undergraduate/Master's Students",
         "name": "Theo McArn",
         "years": "2022 - Present",
         "imgPath": "images/people/Theo.jpeg",
@@ -104,31 +96,6 @@
         "link": "https://xing-angela.github.io/"
     },     
     {
-        "category": "Undergraduate/Master's Students",
-        "name": "Xiao (Sean) Zhan",
-        "years": "2022 - Present",
-        "imgPath": "images/people/Xiao_Zhan(Sean).jpg",
-        "alt": "Xiao Zhan Profile Picture",
-        "moreInfo": "Co-advised with Daniel Ritchie",
-        "link": "https://seanzhan.com/#/"
-    },    
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Peisen Zhou",
-        "years": "2022 - Present",
-        "imgPath": "images/people/peisen.jpeg",
-        "alt": "Peisen Zhou Profile Picture",
-        "link": "https://www.linkedin.com/in/peisen-zhou-a11332135/"
-    },
-    {
-        "category": "Research Staff/Visitors",
-        "name": "Arnab Dey",
-        "years": "2022 - Present",
-        "imgPath": "images/people/Arnab_Dey.jpg",
-        "alt": "Arnab Dey Profile Picture",
-        "link": "https://www.linkedin.com/in/arnabdey0503"     
-    },    
-    {
         "category": "Research Staff/Visitors",
         "name": "Chandradeep Pokhariya",
         "years": "2022 - Present",
@@ -136,14 +103,6 @@
         "alt": "Chandradeep Pokhariya Profile Picture",
         "link": "https://coreqode.github.io"     
     }, 
-    {
-        "category": "Research Staff/Visitors",
-        "name": "Rohith Agaram",
-        "years": "2023 - Present",
-        "imgPath": "images/people/rohith.jpg",
-        "alt": "Rohith Agaram Profile Picture",
-        "link": ""     
-    },
     {
         "category": "Brown IVL Alumni",
         "name": "Jacob Frausto",
@@ -168,6 +127,36 @@
         "years": "2023",
         "status": "",
     }, 
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Yiwen Chen",
+        "years": "2022 - 2023",
+        "status": "Now PhD student at Northeastern University"
+    },              
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Xiao (Sean) Zhan",
+        "years": "2022 - Present",
+        "status": "Now PhD student at MIT"
+    },    
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Peisen Zhou",
+        "years": "2022 - 2023",
+        "status": "Now at Brown University"
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Arnab Dey",
+        "years": "2022 - 2023",
+        "status": "Now at Université Côte d'Azur"
+    },    
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Rohith Agaram",
+        "years": "2023",
+        "status": "Now at IIIT Hyderabad"
+    },
     {
         "category": "Brown IVL Alumni",
         "name": "Tarun Rajnish",
