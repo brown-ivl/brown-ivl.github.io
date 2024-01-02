@@ -81,30 +81,6 @@
     },              
     {
         "category": "Undergraduate/Master's Students",
-        "name": "Jacob Frausto",
-        "years": "2022 - Present",
-        "imgPath": "images/people/Jacob_Frausto.jpg",
-        "alt": "Jacob Frausto Profile Picture"    ,
-        "link": "https://frausto.tech/"
-    },       
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Cheng-You Lu",
-        "years": "2022 - Present",
-        "imgPath": "images/people/Cheng-You_Lu.jpg",
-        "alt": "Cheng-You Lu Profile Picture"       ,
-        "link": "https://johnnylu305.github.io/"
-    },   
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Rugved Mavidipalli",
-        "years": "2022 - Present",
-        "imgPath": "images/people/rig.jpg",
-        "alt": "Rugved Mavidipalli Profile Picture",
-        "link": "https://www.linkedin.com/in/rugvedm/"
-    },        
-    {
-        "category": "Undergraduate/Master's Students",
         "name": "Theo McArn",
         "years": "2022 - Present",
         "imgPath": "images/people/Theo.jpeg",
@@ -162,19 +138,35 @@
     }, 
     {
         "category": "Research Staff/Visitors",
-        "name": "Iris Huang",
-        "years": "2023 - Present",
-        "imgPath": "images/people/iris.jpg",
-        "alt": "Iris Huang Profile Picture",
-        "link": "https://www.linkedin.com/in/iris-h-6623a3220/"     
-    }, 
-    {
-        "category": "Research Staff/Visitors",
         "name": "Rohith Agaram",
         "years": "2023 - Present",
         "imgPath": "images/people/rohith.jpg",
         "alt": "Rohith Agaram Profile Picture",
         "link": ""     
+    },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Jacob Frausto",
+        "years": "2022 - 2023",
+        "status": "Now Masters student at Stanford University"
+    },       
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Cheng-You Lu",
+        "years": "2022 - 2023",
+        "status": "Now PhD Student at University of Technology Sydney, Australia"
+    },   
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Rugved Mavidipalli",
+        "years": "2022 - 2023",
+        "status": "Now at Nextera Robotics"
+    },     
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Iris Huang",
+        "years": "2023",
+        "status": "",
     }, 
     {
         "category": "Brown IVL Alumni",
@@ -275,6 +267,5 @@
         "years": "2020 - 2021",
         "status": "Shanghai Tech, Now Master's student at University of Michigan",
         "additionalInfo": "(Co-supervised with Leo Guibas and Or Litany)"
-    }
-        
+    }   
 ]
