@@ -129,19 +129,19 @@
         "category": "Brown IVL Alumni",
         "name": "Jacob Frausto",
         "years": "2022 - 2023",
-        "status": "Now Masters student at Stanford University"
+        "status": "Next Masters student at Stanford University"
     },       
     {
         "category": "Brown IVL Alumni",
         "name": "Cheng-You Lu",
         "years": "2022 - 2023",
-        "status": "Now PhD Student at University of Technology Sydney, Australia"
+        "status": "Next PhD Student at University of Technology Sydney, Australia"
     },   
     {
         "category": "Brown IVL Alumni",
         "name": "Rugved Mavidipalli",
         "years": "2022 - 2023",
-        "status": "Now at Nextera Robotics"
+        "status": "Next at Nextera Robotics"
     },     
     {
         "category": "Brown IVL Alumni",
@@ -153,43 +153,43 @@
         "category": "Brown IVL Alumni",
         "name": "Yiwen Chen",
         "years": "2022 - 2023",
-        "status": "Now PhD student at Northeastern University"
+        "status": "Next PhD student at Northeastern University"
     },              
     {
         "category": "Brown IVL Alumni",
         "name": "Xiao (Sean) Zhan",
         "years": "2022 - 2023",
-        "status": "Now PhD student at MIT"
+        "status": "Next PhD student at MIT"
     },    
     {
         "category": "Brown IVL Alumni",
         "name": "Peisen Zhou",
         "years": "2022 - 2023",
-        "status": "Now at Brown University"
+        "status": "Next at Brown University"
     },
     {
         "category": "Brown IVL Alumni",
         "name": "Arnab Dey",
         "years": "2022 - 2023",
-        "status": "Now at Université Côte d'Azur"
+        "status": "Next at Université Côte d'Azur"
     },    
     {
         "category": "Brown IVL Alumni",
         "name": "Rohith Agaram",
         "years": "2023",
-        "status": "Now at IIIT Hyderabad"
+        "status": "Next at IIIT Hyderabad"
     },
     {
         "category": "Brown IVL Alumni",
         "name": "Tarun Rajnish",
         "years": "2022",
-        "status": "Now Software Engineer at Starbucks"
+        "status": "Next Software Engineer at Starbucks"
         },
     {
         "category": "Brown IVL Alumni",
         "name": "Helen Huang",
         "years": "2022",
-        "status": "Now Undergraduate at Brown University"
+        "status": "Next Undergraduate at Brown University"
     },
     {
         "category": "Brown IVL Alumni",
@@ -198,7 +198,7 @@
         "imgPath": "images/people/siddharth.jpg",
         "alt": "Siddharth Diwan Profile Picture",
         "link": "https://www.linkedin.com/in/siddharth-diwan/?originalSubdomain=in",
-        "status": "Now Undergraduate at Brown University"
+        "status": "Next Undergraduate at Brown University"
     },  
     {
         "category": "Brown IVL Alumni",
@@ -216,19 +216,19 @@
         "imgPath": "images/people/jivitesh.jpg",
         "alt": "Jivitesh Jain Profile Picture",
         "link": "https://www.linkedin.com/in/jiviteshjain/",
-        "status": "Now Master's student at CMU"  
+        "status": "Next Master's student at CMU"  
     },
     {
         "category": "Brown IVL Alumni",
         "name": "Sijie Ding",
         "years": "2021 - 2022",
-        "status": "Now PhD student at Stony Brook University"        
+        "status": "Next PhD student at Stony Brook University"        
     },
     {
         "category": "Brown IVL Alumni",
         "name": "Yiheng Xie",
         "years": "2021",
-        "status": "Now PhD student at Caltech"        
+        "status": "Next PhD student at Caltech"        
     },
     {
         "category": "Brown IVL Alumni",
@@ -246,19 +246,19 @@
         "category": "Brown IVL Alumni",
         "name": "Shivam Duggal",
         "years": "2020 - 2021",
-        "status": "Now Master's student at CMU"
+        "status": "Next Master's student at CMU"
     },
     {
         "category": "Brown IVL Alumni",
         "name": "Farnaz Nouraei",
         "years": "2020 - 2021",
-        "status": "Now PhD student at Northeastern University"
+        "status": "Next PhD student at Northeastern University"
     },
     {
         "category": "Brown IVL Alumni",
         "name": "Qimin Chen",
         "years": "2020 - 2021",
-        "status": "UCSD, Now PhD student at Simon Fraser University"
+        "status": "UCSD, Next PhD student at Simon Fraser University"
     },
     {
         "category": "Brown IVL Alumni",
@@ -276,7 +276,7 @@
         "category": "Brown IVL Alumni",
         "name": "Ge Zhang",
         "years": "2020 - 2021",
-        "status": "Shanghai Tech, Now Master's student at University of Michigan",
+        "status": "Shanghai Tech, Next Master's student at University of Michigan",
         "additionalInfo": "(Co-supervised with Leo Guibas and Or Litany)"
     }   
 ]
