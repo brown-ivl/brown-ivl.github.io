@@ -81,14 +81,6 @@
     }, 
     {
         "category": "Undergraduate/Master's Students",
-        "name": "Theo McArn",
-        "years": "2022 - Present",
-        "imgPath": "images/people/Theo.jpeg",
-        "alt": "Theo McArn Profile Picture",
-        "link": "https://theomcarn.myportfolio.com/"
-    },  
-    {
-        "category": "Undergraduate/Master's Students",
         "name": "Qiuhong (Anna) Wei",
         "years": "2021 - Present",
         "imgPath": "images/people/anna.png",
@@ -125,6 +117,12 @@
         "imgPath": "images/people/Dingxi_Zhang.jpg",
         "alt": "Dingxi Zhang Profile Picture",
     },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Theo McArn",
+        "years": "2022 - 2023",
+        "status": ""
+    },      
     {
         "category": "Brown IVL Alumni",
         "name": "Jacob Frausto",
