@@ -27,17 +27,19 @@ carousels:
 
 ### Updates
 
+- **_Feb-2024_** [MANUS](https://ivl.cs.brown.edu/research/manus.html) and [DiVa-360](https://diva360.github.io/) have been accepted to CVPR 2024. More details coming soon.
+- 
 - **_Oct-2023_** [Hyp-NeRF](https://hyp-nerf.github.io/) has been accepted to NeurIPS 2023. Please see the [research page](https://ivl.cs.brown.edu/research.html) for more details.
   
 - **_Jul-2023_** Two NeRF papers from IVL and collaborators will appear at ICCV 2023. Please see the [research page](https://ivl.cs.brown.edu/research.html) for more details.
-
-- **_Feb-2023_** IVL will present papers on canonicalizing neural fields, room rearrangement, and text-to-3D shape at CVPR 2023. More details coming soon.
 
 <details>
   <summary> More Updates </summary>
 
   <article markdown="1" class="post-content">
 
+- **_Feb-2023_** IVL will present papers on canonicalizing neural fields, room rearrangement, and text-to-3D shape at CVPR 2023. More details coming soon.
+  
 - **_Oct-2022_** At NeurIPS, Rao Fu will be presenting our work on **recursive** 3D shape generation. Please see the [project page](https://ivl.cs.brown.edu/research/shapecrafter) for details.
 
 - **_Jun-2022_** At CVPR, we will be presenting a paper on 3D pose canonicalization (ConDor) and a tutorial on neural fields. Please see the [ConDor project page](https://ivl.cs.brown.edu/ConDor/) and [Neural Fields tutorial page](https://neuralfields.cs.brown.edu/cvpr22.html) for more details.
