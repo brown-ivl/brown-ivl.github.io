@@ -1,4 +1,20 @@
 [
+      {
+        "category": "Publications",
+        "year": 2024,
+        "dateOfPublication": "2024",
+        "title": "MANUS: Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians",
+        "authors": "Chandradeep Pokhariya, Ishaan N Shah*, Angela Xing*, Zekun Li, Kefan Chen, Avinash Sharma, Srinath Sridhar (* Equal Authors)",
+        "journal": "CVPR 2024",
+        "projectPage": "https://ivl.cs.brown.edu/research/manus.html",
+        "pdf": "https://arxiv.org/pdf/2312.02137.pdf",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/manus.png"
+    },
     {
         "category": "Publications",
         "year": 2023,
