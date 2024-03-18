@@ -1,6 +1,38 @@
 [
     {
         "category": "Publications",
+        "year": 2024,
+        "dateOfPublication": "2024",
+        "title": "DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields",
+        "authors": "Cheng-You Lu, Peisen Zhou, Angela Xing, Chandradeep Pokhariya, Arnab Dey, Ishaan N Shah, Rugved Mavidipalli, Dylan Hu, Andrew Comport, Kefan Chen, Srinath Sridhar",
+        "journal": "CVPR 2024",
+        "projectPage": "/research/diva",
+        "pdf": "https://arxiv.org/abs/2307.16897",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/diva_teaser.jpeg"
+    },
+    {
+        "category": "Publications",
+        "year": 2023,
+        "dateOfPublication": "2023",
+        "title": "LEGO-Net: Learning Regular Rearrangements of Objects in Rooms",
+        "authors": "Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas",
+        "journal": "CVPR 2023",
+        "projectPage": "/research/lego-net",
+        "pdf": "https://arxiv.org/abs/2301.09629",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/lego-net.png"
+    },
+    {
+        "category": "Publications",
         "year": 2023,
         "dateOfPublication": "2023",
         "title": "HyP-NeRF: Learning Improved NeRF Priors using a HyperNetwork",
@@ -94,7 +126,7 @@
         "pubman": "",
         "video": "",
         "image": "images/papers/clip_sculptor.jpg"
-    },    
+    },
     {
         "category": "Publications",
         "year": 2023,
@@ -174,7 +206,7 @@
         "pubman": "",
         "video": "",
         "image": "images/papers/neuralfields.jpeg"
-    },   
+    },
     {
         "category": "Publications",
         "year": 2021,
@@ -567,7 +599,7 @@
         "authors": "Srinath Sridhar",
         "journal": "Extended Abstracts, SIGCHI Conference on Human Factors in Computing Systems (CHI) 2013",
         "projectPage": "http://handtracker.mpi-inf.mpg.de/projects/handsonor/",
-        "pdf": "http://handtracker.mpi-inf.mpg.de/projects/handsonor/handsonor2013.pdf",        
+        "pdf": "http://handtracker.mpi-inf.mpg.de/projects/handsonor/handsonor2013.pdf",
         "bibTex": "http://handtracker.mpi-inf.mpg.de/projects/handsonor/handsonor2013.bib",
         "moreInfo": "",
         "googlePatents": "",
