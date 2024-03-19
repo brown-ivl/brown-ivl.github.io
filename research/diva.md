@@ -69,54 +69,59 @@ redirect_from:
 
 Advances in neural fields are enablling high-fidelity capture of shape and appearance of dynamic 3D scenes. However, this capbabilities lag behind those offered by conventional representations such as 2D videos because of algorithmic challenges and the lack of large-scale multi-view real-world datasets. We address the dataset limitations with DiVa-360, a real-world 360° **d**ynam**i**c **v**isu**a**l dataset that contains synchronized high-resolution and long-duration multi-view video sequences of table-scale scenes captured using a customized low-cost system with 53 cameras. It contains 21 object-centric sequences categorized by different motion types,25 intricate hand-object interaction sequences, and 8 long-duration sequences for a total of 17.4M frames. In addition, we provide foreground-background segmentation masks, synchronized audio, and text descriptions. We benchmark the state-of-the-art dynamic neural field methods on DiVa-360 and provide insights about existing methods and future challenges on long-duration neural field capture.
 
+## Downloading Data
+We store out dynamic and static dataset on AWS, so to download the data to your local machine, we use AWS CLI. You will first need to install AWS CLI. Follow the instructions depending on your machine. You can find the installation instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html). 
+
+To download all of the raw data, run the following commands (note that this is a total of 1.4 TB of data):
+```
+aws s3 cp s3://diva360/raw_data/ --recursive --no-sign-request
+aws s3 cp s3://diva360/raw_data_long/ --recursive --no-sign-request
+```
+
+To download all of the processed data, run the following commands (note that this is a total of 1.8 TB of data):
+```
+aws s3 cp s3://diva360/processed_data/ --recursive --no-sign-request
+aws s3 cp s3://diva360/processed_data_long/ --recursive --no-sign-request
+```
+
+To download all of the trained models, run the following commands (note that this is a total of 6 TB of data):
+```
+aws s3 cp s3://diva360/model_data/ --recursive --no-sign-request
+aws s3 cp s3://diva360/model_data_long/ --recursive --no-sign-request
+aws s3 cp s3://diva360/model_data_exp/ --recursive --no-sign-request
+```
+
+To download all resulting videos, run the following command (note that this is 63.1 GB of data):
+```
+aws s3 cp s3://diva360/all_videos/ --recursive --no-sign-request
+```
+
 ## Dynamic Data Examples
 
 Note: These videos have sound
 
-{% include video.html path="/assets/images/projects/diva/data/drum_data.mp4" alt="[Drum Data]" %}
-
-{% include video.html path="/assets/images/projects/diva/data/penguin_data.mp4" alt="[Penguin Data]" %}
+{% include video.html path="/assets/images/projects/diva/drum_data.mov" alt="[Drum Data]" %}
+{% include video.html path="/assets/images/projects/diva/penguin_data.mov" alt="[Penguin Data]" %}
 
 ## Dynamic Baseline Examples
 
 ### Object Centric Sequence
 
-Note: These videos have sounds
+Note: This video has sound
 
-Dog PF-INGP
-{% include video.html path="/assets/images/projects/diva/dog/ingp.mp4" alt="[Dog I-NGP]" %}
-
-Dog K-Planes
-{% include video.html path="/assets/images/projects/diva/dog/kplanes.mp4" alt="[Dog K-Planes]" %}
-
-Dog MixVoxels
-{% include video.html path="/assets/images/projects/diva/dog/mixvoxels.mp4" alt="[Dog MixVoxels]" %}
+{% include video.html path="/assets/images/projects/diva/dog_results.mov" alt="[Dog Results]" %}
 
 ### Hand-Object Interaction Sequence
 
-Note: These videos have sounds
+Note: This video has sound
 
-Xylophone PF-INGP
-{% include video.html path="/assets/images/projects/diva/xylophone/ingp.mp4" alt="[Xylophone I-NGP]" %}
-
-Xylophone K-Planes
-{% include video.html path="/assets/images/projects/diva/xylophone/kplanes.mp4" alt="[Xylophone K-Planes]" %}
-
-Xylophone MixVoxels
-{% include video.html path="/assets/images/projects/diva/xylophone/mixvoxels.mp4" alt="[Xylophone MixVoxels]" %}
+{% include video.html path="/assets/images/projects/diva/xylophone_results.mov" alt="[Xylophone Results]" %}
 
 ### Long Duration Sequence
 
-Note: These videos have sounds
+Note: This video has sound
 
-Legos PF-INGP
-{% include video.html path="/assets/images/projects/diva/legos/ingp.mp4" alt="[Legos I-NGP]" %}
-
-Legos K-Planes
-{% include video.html path="/assets/images/projects/diva/legos/kplanes.mp4" alt="[Legos K-Planes]" %}
-
-Legos MixVoxels
-{% include video.html path="/assets/images/projects/diva/legos/mixvoxels.mp4" alt="[Legos MixVoxels]" %}
+{% include video.html path="/assets/images/projects/diva/legos_results.mov" alt="[Legos Results]" %}
 
 ## Citations
     @misc{diva360,
