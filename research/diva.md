@@ -62,7 +62,7 @@ redirect_from:
 <div class="center">
     <video autoplay="autoplay"
       style="margin: 1rem"
-      width="560" 
+      width="650" 
       height="315"
       loop
       controls
