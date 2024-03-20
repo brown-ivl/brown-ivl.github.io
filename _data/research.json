@@ -4,7 +4,7 @@
         "year": 2024,
         "dateOfPublication": "2024",
         "title": "DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields",
-        "authors": "Cheng-You Lu, Peisen Zhou, Angela Xing, Chandradeep Pokhariya, Arnab Dey, Ishaan N Shah, Rugved Mavidipalli, Dylan Hu, Andrew Comport, Kefan Chen, Srinath Sridhar",
+        "authors": "Cheng-You Lu*, Peisen Zhou*, Angela Xing*, Chandradeep Pokhariya, Arnab Dey, Ishaan N Shah, Rugved Mavidipalli, Dylan Hu, Andrew Comport, Kefan Chen, Srinath Sridhar (* Equal Authors)",
         "journal": "CVPR 2024",
         "projectPage": "/research/diva",
         "pdf": "https://arxiv.org/abs/2307.16897",
@@ -13,7 +13,7 @@
         "googlePatents": "",
         "pubman": "",
         "video": "",
-        "image": "images/papers/diva_teaser.jpeg"
+        "image": "images/papers/diva_icon.gif"
     },
     {
         "category": "Publications",

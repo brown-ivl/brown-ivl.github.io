@@ -60,6 +60,19 @@ redirect_from:
 {% include icons.html paper="https://arxiv.org/abs/2307.16897" code="https://github.com/brown-ivl/DiVa360" %}
 
 <div class="center">
+    <video autoplay="autoplay"
+      style="margin: 1rem"
+      width="560" 
+      height="315"
+      loop
+      controls
+      muted="muted">
+      <source src="/assets/images/projects/diva/origami_all.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
+
+<div class="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/eWDvmBQP7Uk?si=0TFsY7VMaA0LTUxS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -138,7 +151,7 @@ This work was supported by NSF grants CAREER #2143576 and CNS #2038897, ONR gran
 
 ## Contact
 
-Cheng-You Lu ([contact email](cheng-you_lu@brown.edu))
+Cheng-You Lu ([contact email](cheng-you_lu@alumni.brown.edu))
 
 Peisen Zhou ([contact email](peisen_zhou@alumni.brown.edu))
 
