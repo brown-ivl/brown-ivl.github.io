@@ -60,6 +60,19 @@ redirect_from:
 {% include icons.html paper="https://arxiv.org/abs/2307.16897" code="https://github.com/brown-ivl/DiVa360" %}
 
 <div class="center">
+    <video autoplay="autoplay"
+      style="margin: 1rem"
+      width="560" 
+      height="315"
+      loop
+      controls
+      muted="muted">
+      <source src="/assets/images/projects/diva/origami_all.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
+
+<div class="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/eWDvmBQP7Uk?si=0TFsY7VMaA0LTUxS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -67,33 +80,33 @@ redirect_from:
 
 {% include full_image.html path="/assets/images/projects/diva/teaser.png" alt="DiVa Teaser" %}
 
-Advances in neural fields are enablling high-fidelity capture of shape and appearance of dynamic 3D scenes. However, this capbabilities lag behind those offered by conventional representations such as 2D videos because of algorithmic challenges and the lack of large-scale multi-view real-world datasets. We address the dataset limitations with DiVa-360, a real-world 360° **d**ynam**i**c **v**isu**a**l dataset that contains synchronized high-resolution and long-duration multi-view video sequences of table-scale scenes captured using a customized low-cost system with 53 cameras. It contains 21 object-centric sequences categorized by different motion types,25 intricate hand-object interaction sequences, and 8 long-duration sequences for a total of 17.4M frames. In addition, we provide foreground-background segmentation masks, synchronized audio, and text descriptions. We benchmark the state-of-the-art dynamic neural field methods on DiVa-360 and provide insights about existing methods and future challenges on long-duration neural field capture.
+Advances in neural fields are enablling high-fidelity capture of shape and appearance of dynamic 3D scenes. However, this capbabilities lag behind those offered by conventional representations such as 2D videos because of algorithmic challenges and the lack of large-scale multi-view real-world datasets. We address the dataset limitations with DiVa-360, a real-world 360° **d**ynam**i**c **v**isu**a**l dataset that contains synchronized high-resolution and long-duration multi-view video sequences of table-scale scenes captured using a customized low-cost system with 53 cameras. It contains 21 object-centric sequences categorized by different motion types, 25 intricate hand-object interaction sequences, and 8 long-duration sequences for a total of 17.4M frames. In addition, we provide foreground-background segmentation masks, synchronized audio, and text descriptions. We benchmark the state-of-the-art dynamic neural field methods on DiVa-360 and provide insights about existing methods and future challenges on long-duration neural field capture.
 
 ## Downloading Data
 We store out dynamic and static dataset on AWS, so to download the data to your local machine, we use AWS CLI. You will first need to install AWS CLI. Follow the instructions depending on your machine. You can find the installation instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html). 
 
 To download all of the raw data, run the following commands (note that this is a total of 1.4 TB of data):
 ```
-aws s3 cp s3://diva360/raw_data/ --recursive --no-sign-request
-aws s3 cp s3://diva360/raw_data_long/ --recursive --no-sign-request
+aws s3 cp s3://diva360/raw_data/ <path_to_destination> --recursive --no-sign-request
+aws s3 cp s3://diva360/raw_data_long/ <path_to_destination> --recursive --no-sign-request
 ```
 
 To download all of the processed data, run the following commands (note that this is a total of 1.8 TB of data):
 ```
-aws s3 cp s3://diva360/processed_data/ --recursive --no-sign-request
-aws s3 cp s3://diva360/processed_data_long/ --recursive --no-sign-request
+aws s3 cp s3://diva360/processed_data/ <path_to_destination> --recursive --no-sign-request
+aws s3 cp s3://diva360/processed_data_long/ <path_to_destination> --recursive --no-sign-request
 ```
 
 To download all of the trained models, run the following commands (note that this is a total of 6 TB of data):
 ```
-aws s3 cp s3://diva360/model_data/ --recursive --no-sign-request
-aws s3 cp s3://diva360/model_data_long/ --recursive --no-sign-request
-aws s3 cp s3://diva360/model_data_exp/ --recursive --no-sign-request
+aws s3 cp s3://diva360/model_data/ <path_to_destination> --recursive --no-sign-request
+aws s3 cp s3://diva360/model_data_long/ <path_to_destination> --recursive --no-sign-request
+aws s3 cp s3://diva360/model_data_exp/ <path_to_destination> --recursive --no-sign-request
 ```
 
 To download all resulting videos, run the following command (note that this is 63.1 GB of data):
 ```
-aws s3 cp s3://diva360/all_videos/ --recursive --no-sign-request
+aws s3 cp s3://diva360/all_videos/ <path_to_destination> --recursive --no-sign-request
 ```
 
 ## Dynamic Data Examples
@@ -124,13 +137,11 @@ Note: This video has sound
 {% include video.html path="/assets/images/projects/diva/legos_results.mov" alt="[Legos Results]" %}
 
 ## Citations
-    @misc{diva360,
-        title={DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields}, 
+    @inproceedings{diva360,
+        title={DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields},
         author={Cheng-You Lu and Peisen Zhou and Angela Xing and Chandradeep Pokhariya and Arnab Dey and Ishaan N Shah and Rugved Mavidipalli and Dylan Hu and Andrew Comport and Kefan Chen and Srinath Sridhar},
-        year={2024},
-        eprint={2307.16897},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
+        booktitle = {Conference on Computer Vision and Pattern Recognition 2024},
+        year={2024}
     }
 
 ## Acknowledgements
@@ -138,8 +149,8 @@ This work was supported by NSF grants CAREER #2143576 and CNS #2038897, ONR gran
 
 ## Contact
 
-Cheng-You Lu ([contact email](cheng-you_lu@brown.edu))
+Cheng-You Lu ([cheng-you.lu@student.uts.edu.au](cheng-you.lu@student.uts.edu.au))
 
-Peisen Zhou ([contact email](peisen_zhou@alumni.brown.edu))
+Peisen Zhou ([peisen_zhou@alumni.brown.edu](peisen_zhou@alumni.brown.edu))
 
-Angela Xing ([contact email](angela_xing@brown.edu))
+Angela Xing ([angela_xing@brown.edu](angela_xing@brown.edu))
