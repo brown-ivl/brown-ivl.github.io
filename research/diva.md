@@ -47,10 +47,10 @@ authors:
       affiliation: 1
       link:
 affiliations:
-  - "<sup>1</sup>[Brown University]"
-  - "<sup>2</sup>[CVIT, IIIT Hyderabad]"
-  - "<sup>3</sup>[I3S-CNRS/Université Côte d’Azur]"
-  - "*[Equal Contributions]"
+  - "<sup>1</sup><a href="https://cs.brown.edu/" target="_blank">Brown University</a>]"
+  - "<sup>2</sup>CVIT, IIIT Hyderabad"
+  - "<sup>3</sup>I3S-CNRS/Université Côte d’Azur"
+  - "*[Equal Contribution]"
 journal: ""
 redirect_from:
   - add redirect_path here
