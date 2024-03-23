@@ -42,7 +42,7 @@ redirect_from:
 
 {% include icons.html paper="https://arxiv.org/pdf/2312.02137.pdf" %}
 
-{% include video.html path="/assets/images/projects/manus/webpage-teaser.mp4" alt="[Video Teaser]" %}
+{% include video.html path="/assets/images/projects/manus/webpage-teaser-second.mp4" alt="[Video Teaser]" %}
 
 ---
 # Abstract
@@ -58,13 +58,6 @@ We therefore build **MANUS Grasps** dataset, a new dataset that contains hand-ob
 In addition to extensive qualitative results, we also show that our method outperforms others on a quantitative contact evaluation method that uses paint transfer from the object to the hand.
 
 {% include full_image.html path="/assets/images/projects/manus/teaser.png" alt="[Teaser Figure]" %}
-
----
-# Method Overview
-
-{% include full_image.html path="/assets/images/projects/manus/methodHand.png" alt="[MANUS Hand]" %}
-
-{% include full_image.html path="/assets/images/projects/manus/methodManus.png" alt="[MANUS]" %}
 
 ---
 # MANUS Grasps Dataset
@@ -87,17 +80,19 @@ The dataset also includes 2D and 3D hand joint locations along with hand and obj
 ---
 # Qualitative Comparison
 
-<!-- <center> -->
-<!-- <video width="800px" height="400px" controls>  -->
-<!--     <source src="/assets/images/projects/manus/wetPaint.mp4" type="video/mp4"> -->
-<!-- </video> -->
-<!-- </center> -->
-
 <b><u>Novel Evaluation Setup</u></b>
 {% include video.html path="/assets/images/projects/manus/wetPaint.mp4" alt="[Evaluation]" %}
 
 <b><u>Comparison</u></b>
 {% include full_image.html path="/assets/images/projects/manus/comparison.png" alt="[Comparison]" %}
+
+---
+# Method Overview
+
+{% include full_image.html path="/assets/images/projects/manus/methodHand.png" alt="[MANUS Hand]" %}
+
+{% include full_image.html path="/assets/images/projects/manus/methodManus.png" alt="[MANUS]" %}
+
 
 # Citations
 ```
