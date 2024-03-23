@@ -81,7 +81,7 @@ The dataset also includes 2D and 3D hand joint locations along with hand and obj
 # Qualitative Comparison
 
 <b><u>Novel Evaluation Setup</u></b>
-{% include video.html path="/assets/images/projects/manus/wetPaint.mp4" alt="[Evaluation]" %}
+{% include video.html path="/assets/images/projects/manus/wetPaint.mp4" alt="[Evaluation Setup]" %}
 
 <b><u>Comparison</u></b>
 {% include full_image.html path="/assets/images/projects/manus/comparison.png" alt="[Comparison]" %}
