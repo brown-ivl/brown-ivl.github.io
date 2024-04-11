@@ -29,7 +29,7 @@ carousels:
 
 - **_Feb-2024_** [MANUS](https://ivl.cs.brown.edu/research/manus.html) and [DiVa-360](https://ivl.cs.brown.edu/research/diva) have been accepted to CVPR 2024. More details coming soon.
 
-- **_Jan-2024_** [Qiuhong Anna Wei](https://github.com/QiuhongAnnaWei) has been selected as an Honorable Mention for the 2023-2024 Outstanding Undergraduate Researcher Award (URA).
+- **_Jan-2024_** [Qiuhong Anna Wei](https://github.com/QiuhongAnnaWei) has been selected as an Honorable Mention award for the 2023-2024 Outstanding Undergraduate Researcher Award (URA).
   
 - **_Oct-2023_** [Hyp-NeRF](https://hyp-nerf.github.io/) has been accepted to NeurIPS 2023. Please see the [research page](https://ivl.cs.brown.edu/research.html) for more details.
   
