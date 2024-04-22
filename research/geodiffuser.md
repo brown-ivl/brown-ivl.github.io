@@ -31,7 +31,7 @@ redirect_from:
   - /projects/geodiffuser/
 ---
 
-{% include icons.html paper="https://arxiv.org/pdf/2212.02493.pdf" arXiv="https://arxiv.org/abs/2212.02493" %}
+{% include icons.html arXiv="https://arxiv.org/" %}
 
 ## Overview
 
@@ -52,7 +52,7 @@ Prior works leverage the learned capabilities of diffusion models to perform edi
 
 {% include full_image.html path="/assets/images/projects/geodiffuser/method_attention_sharing.jpeg" alt="Method" %}
 
-Fill in method.
+GeoDiffuser proposes a novel attention sharing mechanism that performs both 2D and 3D geometric edits within the attention sharing layer (shown in Fig.3 (a)). Our approach is a zero-shot optimization-based method that operates without the need for any additional training. We achieve this via optimization of the latents for edit guidance. The shared attention guidance provides us with a proxy of where the foreground object must be placed after the edit. We formulate an optimization procedure for the latents, in order to fill in the disocclusions and penalize the deviation of the edit attention guidance from the reference attention guidance. The loss functions are used to penalize the diffusion latents in the optimization (shown in Fig. 3 (b)) 
 
 
 ## Results
