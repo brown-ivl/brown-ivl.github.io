@@ -96,10 +96,10 @@ The dataset also includes 2D and 3D hand joint locations along with hand and obj
 
 # Citations
 ```
-@misc{pokhariya2023manus,
-      title={MANUS: Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians}, 
+@misc{pokhariya2024manus,
+      title={MANUS: Markerless Grasp Capture using Articulated 3D Gaussians}, 
       author={Chandradeep Pokhariya and Ishaan N Shah and Angela Xing and Zekun Li and Kefan Chen and Avinash Sharma and Srinath Sridhar},
-      year={2023},
+      year={2024},
       eprint={2312.02137},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
@@ -107,7 +107,7 @@ The dataset also includes 2D and 3D hand joint locations along with hand and obj
 ```
 
 # Acknowledgements
-This work was supported by NSF CAREER grant #2143576, ONR DURIP grant N00014-23-1-2804, ONR grant N00014-22-1-259, a gift from Meta Reality Labs, and an AWS Cloud Credits award. We would like to thank George Konidaris, Stefanie Tellex and Dingxi Zhang. 
+This work was supported by NSF CAREER grant #2143576, ONR DURIP grant N00014-23-1-2804, ONR grant N00014-22-1-259, a gift from Meta Reality Labs, and an AWS Cloud Credits award. We would like to thank George Konidaris, Stefanie Tellex and Dingxi Zhang. Additionally, we thank Bank of Baroda for partially funding Chandradeep's travel expenses.
 
 # Contact
 Chandradeep Pokhariya ([contact email](chandradeep.pokhariya@research.iiit.ac.in))
