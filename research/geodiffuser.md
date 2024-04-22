@@ -35,34 +35,49 @@ redirect_from:
 
 ## Overview
 
-{% include video.html path="/assets/images/projects/canonical-fields/teaser_grid.mov" %}
+{% include full_image.html path="/assets/images/projects/geodiffuser/Teaser_5.jpg" %}
 
-Coordinate-based implicit neural networks, or neural fields, have emerged as useful representations of shape and appearance in 3D computer vision. Despite advances, however, it remains challenging to build neural fields for categories of objects without datasets like ShapeNet that provide “canonicalized” object instances that are consistently aligned for their 3D position and orientation (pose). We present Canonical Field Network (<b>CaFi-Net</b>), a self-supervised method to canonicalize the 3D pose of instances from an object category represented as neural fields, specifically neural radiance fields (NeRFs). CaFi-Net directly learns from continuous and noisy radiance fields using a Siamese network architecture that is designed to extract equivariant field features for category-level canonicalization. During inference, our method takes pre-trained neural radiance fields of novel object instances at arbitrary 3D pose and estimates a canonical field with consistent 3D pose across the entire category. Extensive experiments on a new dataset of 1300 NeRF models across 13 object categories show that our method matches or exceeds the performance of 3D point cloud-based methods.
+The success of image generative models has enabled us to build methods that can edit images based on text or other user input. However, these methods are bespoke, imprecise, require additional information, or are limited to only 2D image edits. We present GeoDiffuser, a zero-shot optimization-based method that unifies common 2D and 3D image-based object editing capabilities into a single method. Our key insight is to view image editing operations as geometric transformations. We show that these transformations can be directly incorporated into the attention layers in diffusion models to implicitly perform editing operations. Our training-free optimization method uses an objective function that seeks to preserve object style but generate plausible images, for instance with accurate lighting and shadows. It also inpaints disoccluded parts of the image where the object was originally located. Given a natural image and user input, we segment the foreground object using SAM and estimate a corresponding transform which is used by our optimization approach for editing. GeoDiffuser can perform common 2D and 3D edits like object translation, 3D rotation, and removal. We present quantitative results, including a perceptual study, that shows how our approach is better than existing methods.
+
+
+## General Editing Framework
+
+
+{% include full_image.html path="/assets/images/projects/geodiffuser/background_general_editing_framework.jpeg" alt="General Editing Framework" %}
+
+Prior works leverage the learned capabilities of diffusion models to perform edits to a given image, rather than a generated one. A general framework (see Figure 2) that is followed in all prior editing works is to first perform an inversion on the image. This inversion provides us with a noise latent that sets a good starting point to regenerate the input image as well as to edit it. Starting from the inverted noise latent, two parallel diffusion processes generate the input image as well as the edited image. The <b>reference diffusion process</b> generates the original input and, in our work, helps preserve un-edited regions of the image. An <b>edit diffusion process</b> runs in parallel that utilizes the attention blocks from the reference process to perform the desired edit. This shared attention is a key insight for our proposed work. The editing framework is in Figure 2 (b).
+
 
 ## Method Overview
 
-{% include full_image.html path="/assets/images/projects/canonical-fields/method.jpg" alt="Method" %}
+{% include full_image.html path="/assets/images/projects/geodiffuser/method_attention_sharing.jpeg" alt="Method" %}
 
-<b>CaFi-Net</b> samples a density field from NeRF and uses its <b>density</b>, <b>position</b> and <b>density gradients</b> as input signals (A) to canonicalize the field. We predict rotation equivariant features and weigh them by density (B) to guide our learning from the occupied regions of the scene. We then compute an invariant embedding by taking a dot product between equivariant features. This invariant embedding is used to canonicalize the field that enables rendering all the objects in the canonical frame (E). Our method also applies an inter-instance consistency loss (D) that aligns different instances of the same category in the canonical frame. <b>We do not assume pre-canonicalized fields, and canonicalize in a self-supervised manner</b>.
+Fill in method.
+
 
 ## Results
 
-{% include video.html path="/assets/images/projects/canonical-fields/canonical_grid.mov" %}
+{% include full_image.html path="/assets/images/projects/geodiffuser/results_gallery_1.jpg" alt="Gallery 1" %}
+{% include full_image.html path="/assets/images/projects/geodiffuser/results_gallery_2.jpg" alt="Gallery 1" %}
+
+## Limitations
+{% include full_image.html path="/assets/images/projects/geodiffuser/Failure_Cases_Arxiv.jpg" alt="Failure Cases" %}
+
+Each example presents the input image at the top followed by the edited image at the bottom. As our geometric edits are performed in a lower dimensional latent space, we face aliasing and interpolation artefacts as shown in the yellow regions of the ship (left). Occasionally our optimization results in sub-optimal solutions for foreground (middle) and background dis-occlusions (right)
 
 ## Citation
 
-    @InProceedings{agaram2023_cafinet,
-    author={Rohith Agaram and Shaurya Dewan and Rahul Sajnani and Adrien Poulenard and Madhava Krishna and Srinath Sridhar},
-    title={Canonical Fields: Self-Supervised Learning of Pose-Canonicalized Neural Fields},
-    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month = {June},
-    year={2023}}
+    @InProceedings{sajnani2024_geodiffuser,
+    author={Rahul Sajnani and Jeroen Vanbaar and Jie Min and Kapil Katyal and Srinath Sridhar},
+    title={GeoDiffuser: Geometry-Based Image Editing with Diffusion Models},
+    booktitle = {Arxiv},
+    month = {April},
+    year={2024}}
 
 ## Acknowledgements
 
-This work was supported by AFOSR grant FA9550-21-1-0214, NSF grant CNS-2038897, an AWS Cloud Credits award, NSF CloudBank, and a gift from Meta Reality Labs. We thank Chandradeep Pokhariya and Ishaan Shah.
+Part of this work was done during Rahul's internship at Amazon. This work was additionally supported by NSF grant CNS #2038897, ONR grant N00014-22-1-259, and an AWS Cloud Credits award.
 
 ## Contact
 
-Rohith Agaram rohithagaram@gmail.com \
-Shaurya Dewan shauryadewanmanu@gmail.com
+Rahul Sajnani rahul_sajnani@brown.edu
