@@ -4,7 +4,7 @@ title: "GeoDiffuser: Geometry-Based Image Editing with Diffusion Models"
 authors:
   - author:
       name: "Rahul Sajnani"
-      affiliation: 1,2
+      affiliation: "1,2"
       link: "https://scholar.google.com/citations?user=HAtfBjoAAAAJ&hl=en&oi=ao"
   - author:
       name: "Jeroen Vanbaar"
@@ -20,7 +20,7 @@ authors:
       link:
   - author:
       name: "Srinath Sridhar"
-      affiliation: 1,2
+      affiliation: "1,2"
       link: "https://cs.brown.edu/people/ssrinath/"
 affiliations:
   - "<sup>1</sup> Brown University"
@@ -31,11 +31,11 @@ redirect_from:
   - /projects/geodiffuser/
 ---
 
-{% include icons.html arXiv="https://arxiv.org/" %}
+{% include icons.html paper="https://arxiv.org/pdf/2404.14403.pdf" %}
 
 ## Overview
 
-{% include full_image.html path="/assets/images/projects/geodiffuser/Teaser_5.jpg" %}
+{% include full_image.html path="/assets/images/projects/geodiffuser/Teaser_small.001.jpeg" %}
 
 The success of image generative models has enabled us to build methods that can edit images based on text or other user input. However, these methods are bespoke, imprecise, require additional information, or are limited to only 2D image edits. We present GeoDiffuser, a zero-shot optimization-based method that unifies common 2D and 3D image-based object editing capabilities into a single method. Our key insight is to view image editing operations as geometric transformations. We show that these transformations can be directly incorporated into the attention layers in diffusion models to implicitly perform editing operations. Our training-free optimization method uses an objective function that seeks to preserve object style but generate plausible images, for instance with accurate lighting and shadows. It also inpaints disoccluded parts of the image where the object was originally located. Given a natural image and user input, we segment the foreground object using SAM and estimate a corresponding transform which is used by our optimization approach for editing. GeoDiffuser can perform common 2D and 3D edits like object translation, 3D rotation, and removal. We present quantitative results, including a perceptual study, that shows how our approach is better than existing methods.
 
@@ -67,12 +67,14 @@ Each example presents the input image at the top followed by the edited image at
 
 ## Citation
 
-    @InProceedings{sajnani2024_geodiffuser,
-    author={Rahul Sajnani and Jeroen Vanbaar and Jie Min and Kapil Katyal and Srinath Sridhar},
-    title={GeoDiffuser: Geometry-Based Image Editing with Diffusion Models},
-    booktitle = {Arxiv},
-    month = {April},
-    year={2024}}
+    @misc{sajnani2024geodiffuser,
+      title={GeoDiffuser: Geometry-Based Image Editing with Diffusion Models}, 
+      author={Rahul Sajnani and Jeroen Vanbaar and Jie Min and Kapil Katyal and Srinath Sridhar},
+      year={2024},
+      eprint={2404.14403},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+    }
 
 ## Acknowledgements
 
