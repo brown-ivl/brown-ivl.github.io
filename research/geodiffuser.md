@@ -35,7 +35,7 @@ redirect_from:
 
 ## Overview
 
-{% include full_image.html path="/assets/images/projects/geodiffuser/Teaser_small.001.jpeg" %}
+{% include full_image.html path="/assets/images/projects/geodiffuser/Teaser_updated.001.jpeg" %}
 
 The success of image generative models has enabled us to build methods that can edit images based on text or other user input. However, these methods are bespoke, imprecise, require additional information, or are limited to only 2D image edits. We present GeoDiffuser, a zero-shot optimization-based method that unifies common 2D and 3D image-based object editing capabilities into a single method. Our key insight is to view image editing operations as geometric transformations. We show that these transformations can be directly incorporated into the attention layers in diffusion models to implicitly perform editing operations. Our training-free optimization method uses an objective function that seeks to preserve object style but generate plausible images, for instance with accurate lighting and shadows. It also inpaints disoccluded parts of the image where the object was originally located. Given a natural image and user input, we segment the foreground object using SAM and estimate a corresponding transform which is used by our optimization approach for editing. GeoDiffuser can perform common 2D and 3D edits like object translation, 3D rotation, and removal. We present quantitative results, including a perceptual study, that shows how our approach is better than existing methods.
 
@@ -57,7 +57,7 @@ GeoDiffuser proposes a novel attention sharing mechanism that performs both 2D a
 
 ## Results
 
-{% include full_image.html path="/assets/images/projects/geodiffuser/results_gallery_1.jpg" alt="Gallery 1" %}
+{% include full_image.html path="/assets/images/projects/geodiffuser/Gallery_updated_final.jpg" alt="Gallery 1" %}
 {% include full_image.html path="/assets/images/projects/geodiffuser/results_gallery_2.jpg" alt="Gallery 1" %}
 
 ## Limitations
