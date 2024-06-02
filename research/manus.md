@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "MANUS: Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians"
+title: "MANUS: Markerless Grasp Capture using Articulated 3D Gaussians"
 authors:
   - author:
       name: "Chandradeep Pokhariya"
@@ -40,22 +40,15 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="https://arxiv.org/pdf/2312.02137.pdf" %}
+{% include icons.html paper="https://arxiv.org/pdf/2312.02137.pdf" code="https://github.com/brown-ivl/manus" dataset="https://github.com/brown-ivl/manus#manus-grasps-dataset" %}
+
 
 {% include video.html path="/assets/images/projects/manus/webpage-teaser-second.mp4" alt="[Video Teaser]" %}
 
 ---
 # Abstract
 
-Understanding how we grasp objects with our hands has important applications in areas like robotics and mixed reality.
-However, this challenging problem requires accurate modeling of the contact between hands and objects.
-To capture grasps, existing methods use skeletons, meshes, or parametric models that can cause misalignments resulting in inaccurate contacts.
-We present **MANUS**, a method for Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians. 
-We build a novel articulated 3D Gaussians representation that extends 3D Gaussian splatting for high-fidelity representation of articulating hands.
-Since our representation uses Gaussian primitives, it enables us to efficiently and accurately estimate contacts between the hand and the object.
-For the most accurate results, our method requires tens of camera views that current datasets do not provide.
-We therefore build **MANUS Grasps** dataset, a new dataset that contains hand-object grasps viewed from 53 cameras across 30+ scenes, 3 subjects, and comprising over 7M frames.
-In addition to extensive qualitative results, we also show that our method outperforms others on a quantitative contact evaluation method that uses paint transfer from the object to the hand.
+Understanding how we grasp objects with our hands has important applications in areas like robotics and mixed reality. However, this challenging problem requires accurate modeling of the contact between hands and objects. To capture grasps, existing methods use skeletons, meshes, or parametric models that does not represent hand shape accurately resulting in inaccurate contacts. We present **MANUS**, a method for Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians. We build a novel articulated 3D Gaussians representation that extends 3D Gaussian splatting for high-fidelity representation of articulating hands. Since our representation uses Gaussian primitives optimized from the multi view pixel-aligned losses, it enables us to efficiently and accurately estimate contacts between the hand and the object. For the most accurate results, our method requires tens of camera views that current datasets do not provide. We therefore build **MANUSGrasps**, a new dataset that contains hand-object grasps viewed from 50+ cameras across 30+ scenes, 3 subjects, and comprising over 7M frames. In addition to extensive qualitative results, we also show that our method outperforms others on a quantitative contact evaluation method that uses paint transfer from the object to the hand.
 
 {% include full_image.html path="/assets/images/projects/manus/teaser.png" alt="[Teaser Figure]" %}
 
@@ -63,7 +56,7 @@ In addition to extensive qualitative results, we also show that our method outpe
 # MANUS Grasps Dataset
 **To be released soon**
 
-MANUS-Grasps is a large multi-view RGB grasp dataset that captures hand-object interactions from 53 cameras. It contains over 7 million frames and provides full 360-degree coverage of 400+ grasps in over 30 diverse everyday scenarios.
+MANUS-Grasps is a large multi-view RGB grasp dataset that captures hand-object interactions from 50+ cameras. It contains over 7 million frames and provides full 360-degree coverage of grasps in over 30 diverse everyday scenarios.
 A unique feature of the dataset is 15 evaluation sequences of the capture of ground truth contact through the use of wet paint on the object. The paint transfers to the hand during grasping, providing visual evidence of the contact area.
 The dataset also includes 2D and 3D hand joint locations along with hand and object segmentation masks.
 
