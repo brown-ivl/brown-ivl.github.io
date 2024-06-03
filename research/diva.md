@@ -57,7 +57,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="https://arxiv.org/abs/2307.16897" code="https://github.com/brown-ivl/DiVa360" %}
+{% include icons.html paper="https://arxiv.org/abs/2307.16897" code="https://github.com/brown-ivl/DiVa360" dataset="#downloading-data"%}
 
 <div class="center">
     <video autoplay="autoplay"
@@ -72,15 +72,15 @@ redirect_from:
     </video>
 </div>
 
-<div class="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eWDvmBQP7Uk?si=0TFsY7VMaA0LTUxS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
 ## Abstract
 
 {% include full_image.html path="/assets/images/projects/diva/teaser.png" alt="DiVa Teaser" %}
 
 Advances in neural fields are enablling high-fidelity capture of shape and appearance of dynamic 3D scenes. However, this capbabilities lag behind those offered by conventional representations such as 2D videos because of algorithmic challenges and the lack of large-scale multi-view real-world datasets. We address the dataset limitations with DiVa-360, a real-world 360° **d**ynam**i**c **v**isu**a**l dataset that contains synchronized high-resolution and long-duration multi-view video sequences of table-scale scenes captured using a customized low-cost system with 53 cameras. It contains 21 object-centric sequences categorized by different motion types, 25 intricate hand-object interaction sequences, and 8 long-duration sequences for a total of 17.4M frames. In addition, we provide foreground-background segmentation masks, synchronized audio, and text descriptions. We benchmark the state-of-the-art dynamic neural field methods on DiVa-360 and provide insights about existing methods and future challenges on long-duration neural field capture.
+
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/obeSJTUlXUs?si=f4IpuJFSkqgTI97s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Downloading Data
 We store out dynamic and static dataset on AWS, so to download the data to your local machine, we use AWS CLI. You will first need to install AWS CLI. Follow the instructions depending on your machine. You can find the installation instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html). 
