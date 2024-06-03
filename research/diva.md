@@ -47,10 +47,10 @@ authors:
       affiliation: 1
       link:
 affiliations:
-  - "<sup>1</sup>[Brown University]"
-  - "<sup>2</sup>[CVIT, IIIT Hyderabad]"
-  - "<sup>3</sup>[I3S-CNRS/Université Côte d’Azur]"
-  - "*[Equal Contributions]"
+  - "<sup>1</sup>Brown University"
+  - "<sup>2</sup>CVIT, IIIT Hyderabad"
+  - "<sup>3</sup>I3S-CNRS/Université Côte d’Azur"
+  - "*[Equal Contribution]"
 journal: ""
 redirect_from:
   - add redirect_path here
@@ -62,7 +62,7 @@ redirect_from:
 <div class="center">
     <video autoplay="autoplay"
       style="margin: 1rem"
-      width="560" 
+      width="800" 
       height="315"
       loop
       controls

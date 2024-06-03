@@ -4,6 +4,10 @@
         "image": "images/teaching/cv2022Fall.png",
         "sems": [
             {
+                "sem": "Spring 2024",        
+                "page": "https://browncsci1430.github.io/"
+            }, 
+            {
                 "sem": "Fall 2022",        
                 "page": "https://cs.brown.edu/courses/csci1430/2022_Fall/index.html"
             }, 

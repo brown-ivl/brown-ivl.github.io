@@ -3,6 +3,8 @@ layout: page
 title: Interactive 3D Vision & Learning Lab (IVL)
 carousels:
   - images:
+      - image: /assets/images/carousel/2024_summer_01.jpg
+      - image: /assets/images/carousel/2024_summer_02.jpg
       - image: /assets/images/carousel/2023_summer_01.jpg
       - image: /assets/images/carousel/2021_fall_01.jpg
       - image: /assets/images/carousel/2022_summer_01.jpg
@@ -15,7 +17,7 @@ carousels:
   </div>
   <div class="intro-text col-sm">
     <p>
-      The Interactive 3D Vision & Learning Lab (IVL) led by <a href="https://cs.brown.edu/people/ssrinath/">Srinath Sridhar</a>, part of <a href="https://visual.cs.brown.edu/">Brown Visual Computing</a>, works on 3D computer vision and machine learning problems to better understand how humans interact with the world. Our research spans 3D spatiotemporal visual understanding of objects, humans in motion, and human-object interactions. Please see the <a href="https://ivl.cs.brown.edu/#/research"> research tab</a> for details on our research.
+      The Interactive 3D Vision & Learning Lab (IVL) led by <a href="https://cs.brown.edu/people/ssrinath/">Srinath Sridhar</a>, part of <a href="https://visual.cs.brown.edu/">Brown Visual Computing</a>, works on 3D computer vision and machine learning problems to better understand how humans interact with the world. Our research spans 3D spatiotemporal visual understanding of objects, humans in motion, and human-object interactions. Please see the <a href="research.html"> publications tab</a> for details on our research.
     </p>
   </div>
 
@@ -27,7 +29,9 @@ carousels:
 
 ### Updates
 
-- **_Feb-2024_** [MANUS](https://ivl.cs.brown.edu/research/manus.html) and [DiVa-360](https://diva360.github.io/) have been accepted to CVPR 2024. More details coming soon.
+- **_Feb-2024_** [MANUS](https://ivl.cs.brown.edu/research/manus.html) and [DiVa-360](https://ivl.cs.brown.edu/research/diva) have been accepted to CVPR 2024. More details coming soon.
+
+- **_Jan-2024_** [Qiuhong Anna Wei](https://github.com/QiuhongAnnaWei) has been selected as an Honorable Mention for the <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/" target="_blank">2023-2024 Outstanding Undergraduate Researcher Award (URA)</a>.
   
 - **_Oct-2023_** [Hyp-NeRF](https://hyp-nerf.github.io/) has been accepted to NeurIPS 2023. Please see the [research page](https://ivl.cs.brown.edu/research.html) for more details.
   

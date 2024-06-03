@@ -1,4 +1,20 @@
 [
+      {
+        "category": "Publications",
+        "year": 2024,
+        "dateOfPublication": "2024",
+        "title": "MANUS: Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians",
+        "authors": "Chandradeep Pokhariya, Ishaan N Shah*, Angela Xing*, Zekun Li, Kefan Chen, Avinash Sharma, Srinath Sridhar (* Equal Authors)",
+        "journal": "CVPR 2024",
+        "projectPage": "https://ivl.cs.brown.edu/research/manus.html",
+        "pdf": "https://arxiv.org/pdf/2312.02137.pdf",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/manus-small.gif"
+    },
     {
         "category": "Publications",
         "year": 2024,
@@ -14,22 +30,6 @@
         "pubman": "",
         "video": "",
         "image": "images/papers/diva_icon.gif"
-    },
-    {
-        "category": "Publications",
-        "year": 2023,
-        "dateOfPublication": "2023",
-        "title": "LEGO-Net: Learning Regular Rearrangements of Objects in Rooms",
-        "authors": "Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas",
-        "journal": "CVPR 2023",
-        "projectPage": "/research/lego-net",
-        "pdf": "https://arxiv.org/abs/2301.09629",
-        "bibTex": "",
-        "moreInfo": "",
-        "googlePatents": "",
-        "pubman": "",
-        "video": "",
-        "image": "images/papers/lego-net.png"
     },
     {
         "category": "Publications",
