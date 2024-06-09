@@ -3,6 +3,8 @@ layout: page
 title: Interactive 3D Vision & Learning Lab (IVL)
 carousels:
   - images:
+      - image: /assets/images/carousel/2024_summer_01.jpg
+      - image: /assets/images/carousel/2024_summer_02.jpg
       - image: /assets/images/carousel/2023_summer_01.jpg
       - image: /assets/images/carousel/2021_fall_01.jpg
       - image: /assets/images/carousel/2022_summer_01.jpg
