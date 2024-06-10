@@ -1,4 +1,20 @@
 [
+    {
+        "category": "Publications",
+        "year": 2024,
+        "dateOfPublication": "2024",
+        "title": "GenHeld: Generating and Editing HandHeld Objects",
+        "authors": "Chaerin Min, Srinath Sridhar",
+        "journal": "ArXiv 2024",
+        "projectPage": "https://ivl.cs.brown.edu/research/genheld.html",
+        "pdf": "https://arxiv.org/abs/2406.05059",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/genheld-small.png"
+    },
       {
         "category": "Publications",
         "year": 2024,

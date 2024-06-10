@@ -5,11 +5,11 @@ authors:
   - author:
       name: "Chaerin Min"
       affiliation: 1
-      link:
+      link: https://chaerinmin.github.io
   - author:
       name: "Srinath Sridhar"
       affiliation: 1+
-      link:
+      link: https://cs.brown.edu/people/ssrinath/index.html
 affiliations:
   - "<sup>1</sup>[Brown University]"
   - "<sup>+</sup>[Corresponding Author]"
@@ -19,7 +19,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="[add link here]" code="https://github.com/ChaerinMin/GenHeld"%}
+{% include icons.html paper="https://arxiv.org/abs/2406.05059" code="https://github.com/ChaerinMin/GenHeld"%}
 
 {% include full_image.html path="/assets/images/projects/genheld/teaser.png" alt="[teaser]" %}
 
@@ -98,8 +98,14 @@ We provide more comparison results. Even with giving the object category as text
 
 
 # Citations
-
-    Coming soon
+    @misc{min2024genheld,
+          title={GenHeld: Generating and Editing Handheld Objects}, 
+          author={Chaerin Min and Srinath Sridhar},
+          year={2024},
+          eprint={2406.05059},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+    }
 
 <!-- # Acknowledgements -->
 
