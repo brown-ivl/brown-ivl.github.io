@@ -3,6 +3,22 @@
         "category": "Publications",
         "year": 2024,
         "dateOfPublication": "2024",
+        "title": "GenHeld: Generating and Editing HandHeld Objects",
+        "authors": "Chaerin Min, Srinath Sridhar",
+        "journal": "ArXiv 2024",
+        "projectPage": "https://ivl.cs.brown.edu/research/genheld.html",
+        "pdf": "https://arxiv.org/abs/2406.05059",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/genheld-small.png"
+    },
+    {
+        "category": "Publications",
+        "year": 2024,
+        "dateOfPublication": "2024",
         "title": "GeoDiffuser: Geometry-Based Image Editing with Diffusion Models",
         "authors": "Rahul Sajnani, Jeroen Vanbaar, Jie Min, Kapil Katyal, Srinath Sridhar",
         "journal": "arXiv Preprint",
@@ -15,7 +31,7 @@
         "video": "",
         "image": "images/papers/GeoDiffuser_edit.gif"
     },
-      {
+    {
         "category": "Publications",
         "year": 2024,
         "dateOfPublication": "2024",
