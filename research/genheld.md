@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "GenHeld: Generating and Editing HandHeld Objects"
+title: "GenHeld: Generating and Editing Handheld Objects"
 authors:
   - author:
       name: "Chaerin Min"
@@ -107,7 +107,8 @@ We provide more comparison results. Even with giving the object category as text
           primaryClass={cs.CV}
     }
 
-<!-- # Acknowledgements -->
+# Acknowledgements
+This work was supported by NASA grant #80NSSC23M0075, and NSF CAREER grant #2143576.
 
 # Contact
 
