@@ -1,4 +1,20 @@
 [
+    {
+        "category": "Publications",
+        "year": 2024,
+        "dateOfPublication": "2024",
+        "title": "GeoDiffuser: Geometry-Based Image Editing with Diffusion Models",
+        "authors": "Rahul Sajnani, Jeroen Vanbaar, Jie Min, Kapil Katyal, Srinath Sridhar",
+        "journal": "In Review",
+        "projectPage": "https://ivl.cs.brown.edu/research/geodiffuser.html",
+        "pdf": "https://arxiv.org/pdf/2404.14403",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/GeoDiffuser_edit.gif"
+    },
       {
         "category": "Publications",
         "year": 2024,
