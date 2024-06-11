@@ -51,7 +51,7 @@ affiliations:
   - "<sup>2</sup>CVIT, IIIT Hyderabad"
   - "<sup>3</sup>I3S-CNRS/Université Côte d’Azur"
   - "*[Equal Contribution]"
-journal: ""
+journal: CVPR 2024 (Highlight)
 redirect_from:
   - add redirect_path here
   - another path here
