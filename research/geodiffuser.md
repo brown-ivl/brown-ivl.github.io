@@ -33,11 +33,47 @@ redirect_from:
 
 {% include icons.html paper="https://arxiv.org/pdf/2404.14403.pdf" %}
 
+## Real Image Editing with GeoDiffuser
+#### 2D and 3D Edits
+
+{% include gallery.html 
+img="/assets/images/projects/geodiffuser/movement/1.gif, 
+     /assets/images/projects/geodiffuser/movement/10.gif,
+     /assets/images/projects/geodiffuser/movement/4.gif,
+     /assets/images/projects/geodiffuser/movement/18.gif,
+     /assets/images/projects/geodiffuser/movement/16.gif,
+     /assets/images/projects/geodiffuser/movement/17.gif,
+     /assets/images/projects/geodiffuser/movement/19.gif,
+     /assets/images/projects/geodiffuser/movement/20.gif,
+     /assets/images/projects/geodiffuser/movement/12.gif,
+     /assets/images/projects/geodiffuser/movement/13.gif,
+     /assets/images/projects/geodiffuser/movement/9.gif,
+     /assets/images/projects/geodiffuser/movement/21.gif,
+     "
+img_width="24.9%" %}
+
+#### Object Removal
+
+{% include gallery.html 
+img="/assets/images/projects/geodiffuser/removal/1.gif, 
+     /assets/images/projects/geodiffuser/removal/2.gif,
+     /assets/images/projects/geodiffuser/removal/3.gif,
+     /assets/images/projects/geodiffuser/removal/4.gif,
+     /assets/images/projects/geodiffuser/removal/5.gif,
+     /assets/images/projects/geodiffuser/removal/6.gif,
+     /assets/images/projects/geodiffuser/removal/9.gif,
+     /assets/images/projects/geodiffuser/removal/8.gif,
+     "
+img_width="24.9%" %}
+
+
 ## Overview
 
 {% include full_image.html path="/assets/images/projects/geodiffuser/Teaser_updated.001.jpeg" %}
 
 The success of image generative models has enabled us to build methods that can edit images based on text or other user input. However, these methods are bespoke, imprecise, require additional information, or are limited to only 2D image edits. We present GeoDiffuser, a zero-shot optimization-based method that unifies common 2D and 3D image-based object editing capabilities into a single method. Our key insight is to view image editing operations as geometric transformations. We show that these transformations can be directly incorporated into the attention layers in diffusion models to implicitly perform editing operations. Our training-free optimization method uses an objective function that seeks to preserve object style but generate plausible images, for instance with accurate lighting and shadows. It also inpaints disoccluded parts of the image where the object was originally located. Given a natural image and user input, we segment the foreground object using SAM and estimate a corresponding transform which is used by our optimization approach for editing. GeoDiffuser can perform common 2D and 3D edits like object translation, 3D rotation, and removal. We present quantitative results, including a perceptual study, that shows how our approach is better than existing methods.
+
+
 
 
 ## General Editing Framework
