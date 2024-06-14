@@ -48,9 +48,8 @@ img="/assets/images/projects/geodiffuser/movement/1.gif,
      /assets/images/projects/geodiffuser/movement/12.gif,
      /assets/images/projects/geodiffuser/movement/13.gif,
      /assets/images/projects/geodiffuser/movement/9.gif,
-     /assets/images/projects/geodiffuser/movement/21.gif,
-     "
-img_width="24.9%" %}
+     /assets/images/projects/geodiffuser/movement/21.gif"
+img_width="24.95%" %}
 
 #### Object Removal
 
@@ -62,9 +61,8 @@ img="/assets/images/projects/geodiffuser/removal/1.gif,
      /assets/images/projects/geodiffuser/removal/5.gif,
      /assets/images/projects/geodiffuser/removal/6.gif,
      /assets/images/projects/geodiffuser/removal/9.gif,
-     /assets/images/projects/geodiffuser/removal/8.gif,
-     "
-img_width="24.9%" %}
+     /assets/images/projects/geodiffuser/removal/8.gif"
+img_width="24.95%" %}
 
 
 ## Overview
