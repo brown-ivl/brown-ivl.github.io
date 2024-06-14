@@ -1,0 +1,9 @@
+<!-- This is to create an image gallery -->
+<!-- How to use: {include gallery.html img="#,#,#,#", img_width=#%} -->
+{% assign gallery_path = include.img | split: "," %}
+
+<div class="row gallery-items-div">
+    {% for image_path in gallery_path %}
+        <img class="gallery-content-item-col img-fluid" src="{{ image_path }}" alt="{{ image_path }}" style="width:{{ include.img_width }}"/>
+    {% endfor %}
+</div>

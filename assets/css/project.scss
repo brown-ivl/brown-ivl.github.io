@@ -53,7 +53,21 @@ h2 {
         height: 49%;
         object-fit: contain;
     }
+    
 
+}
+
+.gallery-items-div {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    .gallery-content-item-col {
+        // width: 49%;
+        height: auto;
+        padding-top: 10px;
+        object-fit: contain;
+    }
 }
 
 
