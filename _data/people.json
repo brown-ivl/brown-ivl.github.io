@@ -6,14 +6,6 @@
         "imgPath": "images/people/srinath.png",
         "alt": "Srinath Sridhar Profile Picture"   ,
         "link": "https://cs.brown.edu/people/ssrinath/index.html"
-    },
-    {
-        "category": "PhD Students",
-        "name": "Arthur Chen",
-        "years": "2022 - Present",
-        "imgPath": "images/people/arthur.jpg",
-        "alt": "Arthur Chen Profile Picture",
-        "link": "https://arthurchen0518.github.io/"
     },    
     {
         "category": "PhD Students",
@@ -22,7 +14,15 @@
         "imgPath": "images/people/rao.jpg",
         "alt": "Rao Fu Profile Picture",
         "link": "https://freddierao.github.io/"
-    },   
+    },
+    {
+        "category": "PhD Students",
+        "name": "Arthur Chen",
+        "years": "2022 - Present",
+        "imgPath": "images/people/arthur.jpg",
+        "alt": "Arthur Chen Profile Picture",
+        "link": "https://arthurchen0518.github.io/"
+    },
     {
         "category": "PhD Students",
         "name": "Rahul Sajnani",
