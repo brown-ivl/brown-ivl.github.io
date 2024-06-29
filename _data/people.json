@@ -73,14 +73,6 @@
     }, 
     {
         "category": "Undergraduate/Master's Students",
-        "name": "Dylan Hu",
-        "years": "2023 - Present",
-        "imgPath": "images/people/Dylan_Hu.jpg",
-        "alt": "Dylan Hu Profile Picture",
-        "link": "https://dylan.hu/"
-    }, 
-    {
-        "category": "Undergraduate/Master's Students",
         "name": "Qiuhong (Anna) Wei",
         "years": "2021 - Present",
         "imgPath": "images/people/anna.png",
@@ -99,7 +91,7 @@
         "category": "Undergraduate/Master's Students",
         "name": "Caroline Zhang",
         "years": "2023 - Present",
-        "imgPath": "images/people/default.png",
+        "imgPath": "images/people/Caroline_Zhang.jpg",
         "alt": "Caroline Zhang Profile Picture"
     }, 
     {
@@ -111,12 +103,17 @@
         "link": "https://coreqode.github.io"     
     }, 
     {
-        "category": "Research Staff/Visitors",
+        "category": "Brown IVL Alumni",
         "name": "Dingxi Zhang",
-        "years": "2023 - Present",
-        "imgPath": "images/people/Dingxi_Zhang.jpg",
-        "alt": "Dingxi Zhang Profile Picture",
+        "years": "2023 - 2024",
+        "status": "",
     },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Dylan Hu",
+        "years": "2023",
+        "status": "Next: Microsoft"
+    },     
     {
         "category": "Brown IVL Alumni",
         "name": "Theo McArn",
