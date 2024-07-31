@@ -29,7 +29,7 @@ redirect_from:
       loop
       controls
       muted="muted">
-      <source src="/assets/images/projects/egosonics/teaser.mp4" type="video/mp4">
+      <source src="/assets/images/projects/egosonics/videos/teaser.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 </div>
@@ -70,13 +70,13 @@ We introduce EgoSonics, a method to generate semantically meaningful and synchro
     </video>
 </div>
 
-## Results: Open-Vocabulary Generation
+## Generated Samples from EgoSonics (our method)
 
-We show open-vocabulary generation results, including bird-eye view(left), egocentric views(middle), and egocentric tour(right). AnyHome comprehends and extends user's textual inputs, and produces structured scene with realistic texture. It can create a serene and culturally rich environment("tea house"), synthesize unique house types("cat cafe"), and render a more dramatic and stylized ambiance("haunted house").
+Following is a set of uncurated examples of video-to-audio generation on unseen Ego4D clips using EgoSonics (our method).
 
 <div class="row aligned-items-div" style="align-items: center">
-  <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/>
-  <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/>
+<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/> -->
+<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/> -->
     <video
         class="content-item-three-col"
         autoplay="autoplay"
@@ -85,17 +85,12 @@ We show open-vocabulary generation results, including bird-eye view(left), egoce
         muted="muted"
         data-setup='{"fluid": true}'>
         <source
-            src="/assets/images/projects/anyhome/tea.mov"
+            src="/assets/images/projects/egosonics/videos/example1.mp4"
             type="video/mp4"
         />
         Your browser does not support the video tag.
     </video>
-</div>
-
-<div class="row aligned-items-div" style="align-items: center">
-  <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/haunted_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/>
-  <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/haunted_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/>
-    <video
+  <video
         class="content-item-three-col"
         autoplay="autoplay"
         loop
@@ -103,17 +98,12 @@ We show open-vocabulary generation results, including bird-eye view(left), egoce
         muted="muted"
         data-setup='{"fluid": true}'>
         <source
-            src="/assets/images/projects/anyhome/haunted.mov"
+            src="/assets/images/projects/egosonics/videos/example1.mp4"
             type="video/mp4"
         />
         Your browser does not support the video tag.
     </video>
-</div>
-
-<div class="row aligned-items-div" style="align-items: center">
-  <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/cat_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/>
-  <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/cat_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/>
-    <video
+  <video
         class="content-item-three-col"
         autoplay="autoplay"
         loop
@@ -121,12 +111,15 @@ We show open-vocabulary generation results, including bird-eye view(left), egoce
         muted="muted"
         data-setup='{"fluid": true}'>
         <source
-            src="/assets/images/projects/anyhome/cat.mov"
+            src="/assets/images/projects/egosonics/videos/example1.mp4"
             type="video/mp4"
         />
         Your browser does not support the video tag.
     </video>
 </div>
+
+
+
 
 
 ## Results: Open-Vocabulary Editing
