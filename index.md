@@ -29,6 +29,10 @@ carousels:
 
 ### Updates
 
+- **_July-2024_** [AnyHome](https://ivl.cs.brown.edu/research/anyhome.html) accepted to ECCV 2024. [Constrained 6-DoF Grasp Generation](https://constrained-grasp-diffusion.github.io/) work accepted to IROS 2024. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
+
+- **_June-2024_** Srinath gave an invited talk at the [30th Year Anniversary of the Max Planck Institute for Informatics](https://30years.mpi-inf.mpg.de/) in November 2023. A [recording of his talk is now available here](https://www.youtube.com/watch?v=ZxhZMuKItnA).
+  
 - **_Feb-2024_** [MANUS](https://ivl.cs.brown.edu/research/manus.html) and [DiVa-360](https://ivl.cs.brown.edu/research/diva) have been accepted to CVPR 2024. More details coming soon.
 
 - **_Jan-2024_** [Qiuhong Anna Wei](https://github.com/QiuhongAnnaWei) has been selected as an Honorable Mention for the <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/" target="_blank">2023-2024 Outstanding Undergraduate Researcher Award (URA)</a>.
