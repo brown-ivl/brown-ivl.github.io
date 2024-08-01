@@ -89,13 +89,12 @@ The dataset also includes 2D and 3D hand joint locations along with hand and obj
 
 # Citations
 ```
-@misc{pokhariya2024manus,
-      title={MANUS: Markerless Grasp Capture using Articulated 3D Gaussians}, 
-      author={Chandradeep Pokhariya and Ishaan N Shah and Angela Xing and Zekun Li and Kefan Chen and Avinash Sharma and Srinath Sridhar},
-      year={2024},
-      eprint={2312.02137},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{pokhariya2024manus,
+  title={MANUS: Markerless Grasp Capture using Articulated 3D Gaussians},
+  author={Pokhariya, Chandradeep and Shah, Ishaan Nikhil and Xing, Angela and Li, Zekun and Chen, Kefan and Sharma, Avinash and Sridhar, Srinath},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2197--2208},
+  year={2024}
 }
 ```
 
