@@ -135,12 +135,12 @@ Examples showcase the capability to modify room types, layouts, object appearanc
 Taking a free-form textual input, our pipeline generates the house-scale scene by: (i) comprehending and elaborating on the user's textual input through querying an LLM with templated prompts; (ii) converting textual descriptions into base geometry using structured intermediate representations; (iii) employing an SDS process with a differentiable renderer to refine object placements; and (iv) applying depth-conditioned texture inpainting for egocentric texture generation.
 
 ## Citations
-    @inproceedings{wen2023anyhome,
-        title={AnyHome: Open-Vocabulary Generation of Structured and Textured 3D Homes}, 
-        author={Aashish Rai and Zehao Wen and Zichen Liu and Srinath Sridhar},
-        booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
-        year={2024},
-    }
+    @article{rai2024egosonics,
+  title={EgoSonics: Generating Synchronized Audio for Silent Egocentric Videos},
+  author={Rai, Aashish and Sridhar, Srinath},
+  journal={arXiv preprint arXiv:2407.20592},
+  year={2024}
+}
 
 ## Acknowledgements
 This research was supported by AFOSR grant FA9550-21-1-0214. The authors thank Dylan Hu, Selena Ling, Kai Wang and Daniel Ritchie
