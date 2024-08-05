@@ -215,20 +215,20 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
 <div class="row aligned-items-div" style="align-items: center">
 <!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/> -->
 <!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/> -->
-    <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>GT/Original</p>
-        <source
-            src="/assets/images/projects/egosonics/compare/gt8.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
+  <video
+      class="content-item-three-col"
+      autoplay="false"
+      loop
+      controls
+      muted="false"
+      data-setup='{"fluid": true}'>
+      <p>GT/Original</p>
+      <source
+          src="/assets/images/projects/egosonics/compare/gt8.mp4"
+          type="video/mp4"
+      />
+      Your browser does not support the video tag.
+  </video>
   <video
         class="content-item-three-col"
         autoplay="false"
