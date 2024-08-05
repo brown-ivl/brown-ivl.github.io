@@ -359,10 +359,10 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
 
 ## Citations
     @article{rai2024egosonics,
-    title={EgoSonics: Generating Synchronized Audio for Silent Egocentric Videos},
-    author={Rai, Aashish and Sridhar, Srinath},
-    journal={arXiv preprint arXiv:2407.20592},
-    year={2024}
+        title={EgoSonics: Generating Synchronized Audio for Silent Egocentric Videos},
+        author={Rai, Aashish and Sridhar, Srinath},
+        journal={arXiv preprint arXiv:2407.20592},
+        year={2024}
     }
 
 ## Acknowledgements
