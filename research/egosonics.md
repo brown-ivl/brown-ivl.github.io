@@ -72,6 +72,7 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
   </video>
 </div>
 
+<br>
 
 <div class="row aligned-items-div" style="align-items: center">
 
@@ -118,6 +119,7 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
   </video>
 </div>
 
+<br>
 
 <div class="row aligned-items-div" style="align-items: center">
 
@@ -213,157 +215,147 @@ The following figure describes the training of Syncronet model. A trainable copy
 Below are examples of video-to-audio generation on unseen Ego4D clips for our method and the baseline.
 
 <div class="row aligned-items-div" style="align-items: center">
-<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/> -->
-<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/> -->
-    <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>GT/Original</p>
-        <source
-            src="/assets/images/projects/egosonics/compare/gt8.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
-  <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>EgoSonics(ours)</p>
-        <source
-            src="/assets/images/projects/egosonics/example8.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
-  <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>DIff-Foley</p>
-        <source
-            src="/assets/images/projects/egosonics/compare/baseline8.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
+
+<video
+    class="content-item-three-col"
+    autoplay="false"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
+    <p>GT/Original</p>
+    <source
+        src="/assets/images/projects/egosonics/compare/gt8.mp4"
+        type="video/mp4"
+    />
+</video>
+<video
+      class="content-item-three-col"
+      autoplay="false"
+      loop
+      controls
+      muted="false"
+      data-setup='{"fluid": true}'>
+      <p>EgoSonics(ours)</p>
+      <source
+          src="/assets/images/projects/egosonics/example8.mp4"
+          type="video/mp4"
+      />
+  </video>
+<video
+      class="content-item-three-col"
+      autoplay="false"
+      loop
+      controls
+      muted="false"
+      data-setup='{"fluid": true}'>
+      <p>DIff-Foley</p>
+      <source
+          src="/assets/images/projects/egosonics/compare/baseline8.mp4"
+          type="video/mp4"
+      />
+  </video>
 </div>
 
+<br>
 
 <div class="row aligned-items-div" style="align-items: center">
-<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/> -->
-<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/> -->
-    <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>GT/Original</p>
-        <source
-            src="/assets/images/projects/egosonics/compare/gt9.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
-  <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>EgoSonics(ours)</p>
-        <source
-            src="/assets/images/projects/egosonics/example9.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
-  <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>DIff-Foley</p>
-        <source
-            src="/assets/images/projects/egosonics/compare/baseline9.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
+
+<video
+    class="content-item-three-col"
+    autoplay="false"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
+    <source
+        src="/assets/images/projects/egosonics/compare/gt9.mp4"
+        type="video/mp4"
+    />
+    Your browser does not support the video tag.
+</video>
+<video
+    class="content-item-three-col"
+    autoplay="false"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
+    <source
+        src="/assets/images/projects/egosonics/example9.mp4"
+        type="video/mp4"
+    />
+    Your browser does not support the video tag.
+</video>
+<video
+    class="content-item-three-col"
+    autoplay="false"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
+    <source
+        src="/assets/images/projects/egosonics/compare/baseline9.mp4"
+        type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
+<br>
 
 <div class="row aligned-items-div" style="align-items: center">
-<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_topdown.png" alt="/assets/images/projects/anyhome/tea_topdown.png"/> -->
-<!--   <img class="content-item-three-col img-fluid" src="/assets/images/projects/anyhome/tea_ego.png" alt="/assets/images/projects/anyhome/tea_ego.png"/> -->
-    <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>GT/Original</p>
-        <source
-            src="/assets/images/projects/egosonics/compare/gt10.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
-  <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>EgoSonics(ours)</p>
-        <source
-            src="/assets/images/projects/egosonics/example10.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
-  <video
-        class="content-item-three-col"
-        autoplay="false"
-        loop
-        controls
-        muted="false"
-        data-setup='{"fluid": true}'>
-        <p>DIff-Foley</p>
-        <source
-            src="/assets/images/projects/egosonics/compare/baseline10.mp4"
-            type="video/mp4"
-        />
-        Your browser does not support the video tag.
-    </video>
+
+<video
+    class="content-item-three-col"
+    autoplay="false"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
+    <source
+        src="/assets/images/projects/egosonics/compare/gt10.mp4"
+        type="video/mp4"
+    />
+    Your browser does not support the video tag.
+</video>
+<video
+    class="content-item-three-col"
+    autoplay="false"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
+    <source
+        src="/assets/images/projects/egosonics/example10.mp4"
+        type="video/mp4"
+    />
+    Your browser does not support the video tag.
+</video>
+<video
+    class="content-item-three-col"
+    autoplay="false"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
+    <source
+        src="/assets/images/projects/egosonics/compare/baseline10.mp4"
+        type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 
 
 ## Citations
-  @article{rai2024egosonics,
-  title={EgoSonics: Generating Synchronized Audio for Silent Egocentric Videos},
-  author={Rai, Aashish and Sridhar, Srinath},
-  journal={arXiv preprint arXiv:2407.20592},
-  year={2024}
-}
+    @article{rai2024egosonics,
+        title={EgoSonics: Generating Synchronized Audio for Silent Egocentric Videos},
+        author={Rai, Aashish and Sridhar, Srinath},
+        journal={arXiv preprint arXiv:2407.20592},
+        year={2024}
+    }
 
 ## Acknowledgements
 This work was supported by NASA grant #80NSSC23M0075.
