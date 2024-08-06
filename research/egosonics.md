@@ -225,7 +225,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     data-setup='{"fluid": true}'>
     <p>GT/Original</p>
     <source
-        src="/assets/images/projects/egosonics/compare/gt8.mp4"
+        src="/assets/images/projects/egosonics/videos/compare/gt8.mp4"
         type="video/mp4"
     />
 </video>
@@ -238,7 +238,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
       data-setup='{"fluid": true}'>
       <p>EgoSonics(ours)</p>
       <source
-          src="/assets/images/projects/egosonics/example8.mp4"
+          src="/assets/images/projects/egosonics/videos/example8.mp4"
           type="video/mp4"
       />
   </video>
@@ -251,7 +251,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
       data-setup='{"fluid": true}'>
       <p>DIff-Foley</p>
       <source
-          src="/assets/images/projects/egosonics/compare/baseline8.mp4"
+          src="/assets/images/projects/egosonics/videos/compare/baseline8.mp4"
           type="video/mp4"
       />
   </video>
@@ -269,7 +269,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     muted="false"
     data-setup='{"fluid": true}'>
     <source
-        src="/assets/images/projects/egosonics/compare/gt9.mp4"
+        src="/assets/images/projects/egosonics/videos/compare/gt9.mp4"
         type="video/mp4"
     />
     Your browser does not support the video tag.
@@ -282,7 +282,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     muted="false"
     data-setup='{"fluid": true}'>
     <source
-        src="/assets/images/projects/egosonics/example9.mp4"
+        src="/assets/images/projects/egosonics/videos/example9.mp4"
         type="video/mp4"
     />
     Your browser does not support the video tag.
@@ -295,7 +295,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     muted="false"
     data-setup='{"fluid": true}'>
     <source
-        src="/assets/images/projects/egosonics/compare/baseline9.mp4"
+        src="/assets/images/projects/egosonics/videos/compare/baseline9.mp4"
         type="video/mp4"
     />
     Your browser does not support the video tag.
@@ -314,7 +314,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     muted="false"
     data-setup='{"fluid": true}'>
     <source
-        src="/assets/images/projects/egosonics/compare/gt10.mp4"
+        src="/assets/images/projects/egosonics/videos/compare/gt10.mp4"
         type="video/mp4"
     />
     Your browser does not support the video tag.
@@ -327,7 +327,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     muted="false"
     data-setup='{"fluid": true}'>
     <source
-        src="/assets/images/projects/egosonics/example10.mp4"
+        src="/assets/images/projects/egosonics/videos/example10.mp4"
         type="video/mp4"
     />
     Your browser does not support the video tag.
@@ -340,7 +340,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     muted="false"
     data-setup='{"fluid": true}'>
     <source
-        src="/assets/images/projects/egosonics/compare/baseline10.mp4"
+        src="/assets/images/projects/egosonics/videos/compare/baseline10.mp4"
         type="video/mp4"
     />
     Your browser does not support the video tag.
