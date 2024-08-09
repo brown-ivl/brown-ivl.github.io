@@ -31,11 +31,7 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
 
 <video
     class="content-item-three-col"
-    autoplay="autoplay"
-    loop
-    controls
-    muted="false"
-    data-setup='{"fluid": true}'>
+    controls=""
     <source
         src="/assets/images/projects/egosonics/videos/example2.mp4"
         type="video/mp4"
@@ -45,11 +41,7 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
 
 <video
       class="content-item-three-col"
-      autoplay="false"
-      loop
-      controls
-      muted="false"
-      data-setup='{"fluid": true}'>
+      controls=""
       <source
           src="/assets/images/projects/egosonics/videos/example10.mp4"
           type="video/mp4"
@@ -59,11 +51,7 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
   
 <video
       class="content-item-three-col"
-      autoplay="false"
-      loop
-      controls
-      muted="false"
-      data-setup='{"fluid": true}'>
+      controls=""
       <source
           src="/assets/images/projects/egosonics/videos/example4.mp4"
           type="video/mp4"
