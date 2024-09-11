@@ -31,7 +31,11 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
 
 <video
     class="content-item-three-col"
-    controls=""
+    autoplay="autoplay"
+    loop
+    controls
+    muted="false"
+    data-setup='{"fluid": true}'>
     <source
         src="/assets/images/projects/egosonics/videos/example2.mp4"
         type="video/mp4"
@@ -41,7 +45,11 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
 
 <video
       class="content-item-three-col"
-      controls=""
+      autoplay="false"
+      loop
+      controls
+      muted="false"
+      data-setup='{"fluid": true}'>
       <source
           src="/assets/images/projects/egosonics/videos/example10.mp4"
           type="video/mp4"
@@ -51,7 +59,11 @@ Following is a set of uncurated examples of video-to-audio generation on unseen 
   
 <video
       class="content-item-three-col"
-      controls=""
+      autoplay="false"
+      loop
+      controls
+      muted="false"
+      data-setup='{"fluid": true}'>
       <source
           src="/assets/images/projects/egosonics/videos/example4.mp4"
           type="video/mp4"
@@ -383,10 +395,7 @@ Although EgoSonics can generate good-quality audio for egocentric videos, there 
         year={2024}
     }
 
-## Acknowledgements
-This work was supported by NASA grant #80NSSC23M0075.
 
 ## Contact
 
 Aashish Rai ([aashish@brown.edu](aashish@brown.edu))
-
