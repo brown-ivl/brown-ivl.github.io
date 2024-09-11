@@ -25,11 +25,31 @@ permalink: /people
     {% endfor %}
 </div>
 
+## Postdocs
+<div class="row people-category">
+    {% for person in site.data.people %}
+        {% if (person.category == "Postdoc") %}
+        <div class="person-item">
+            <a href="{{person.link}}" target="_blank">
+                <img class="card-img-top img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
+            </a>
+            <div class="people-info">
+                <h5 class="card-title">{{person.name}}</h5>
+                <div class="card-text"> 
+                    <h6>{{ person.years }} </h6>
+                    <h6>{{ person.moreInfo }} </h6>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
 ## PhD Students
 
 <div class="row people-category">
     {% for person in site.data.people %}
-        {% if person.category == "PhD Students" %}
+        {% if (person.category == "PhD Students") %}
         <div class="person-item">
             <a href="{{person.link}}" target="_blank">
                 <img class="card-img-top img-fluid" src="assets/{{ person.imgPath }}" alt="{{person.name}}">
@@ -67,7 +87,7 @@ permalink: /people
     {% endfor %}
 </div>
 
-## Research Staff/Visitors
+<!-- ## Research Staff/Visitors -->
 
 <div class="row people-category">
     {% for person in site.data.people %}
