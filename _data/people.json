@@ -8,6 +8,14 @@
         "link": "https://cs.brown.edu/people/ssrinath/index.html"
     },    
     {
+        "category": "Postdoc",
+        "name": "Tao Lu",
+        "years": "2024 - Present",
+        "imgPath": "images/people/lutao2024.png",
+        "alt": "Tao Lu's Profile Picture",
+        "link": "https://inspirelt.github.io/"
+    },
+    {
         "category": "PhD Students",
         "name": "Rao Fu",
         "years": "2021 - Present",
@@ -70,20 +78,12 @@
         "imgPath": "images/people/zekun_li.jpg",
         "alt": "Zekun Li Profile Picture",
         "link": "https://kunkun0w0.github.io/"
-    }, 
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Qiuhong (Anna) Wei",
-        "years": "2021 - Present",
-        "imgPath": "images/people/anna.png",
-        "alt": "Qiuhong Wei Profile Picture",
-        "link": "https://github.com/QiuhongAnnaWei"
-    },   
+    },
     {
         "category": "Undergraduate/Master's Students",
         "name": "Angela Xing",
         "years": "2022 - Present",
-        "imgPath": "images/people/Angela_Xing.jpg",
+        "imgPath": "images/people/angela.jpeg",
         "alt": "Angela Xing Profile Picture"       ,
         "link": "https://xing-angela.github.io/"
     }, 
@@ -93,11 +93,29 @@
         "years": "2023 - Present",
         "imgPath": "images/people/Caroline_Zhang.jpg",
         "alt": "Caroline Zhang Profile Picture"
-    }, 
+    },
     {
-        "category": "Research Staff/Visitors",
+        "category": "Undergraduate/Master's Students",
+        "name": "Wanjia Fu",
+        "years": "2023 - Present",
+        "imgPath": "images/people/wfu16.jpg",
+        "alt": "Wanjia Fu's Profile Picture"       ,
+        "link": "https://wanjia-fu.com/"
+    },  
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Qiuhong (Anna) Wei",
+        "years": "2021 - 2024",
+        "status": "Next: CMU",
+        "imgPath": "images/people/anna.png",
+        "alt": "Qiuhong Wei Profile Picture",
+        "link": "https://github.com/QiuhongAnnaWei"
+    },   
+    {
+        "category": "Brown IVL Alumni",
         "name": "Chandradeep Pokhariya",
-        "years": "2022 - Present",
+        "years": "2022 - 2024",
+        "status": "Next: IIT Delhi",
         "imgPath": "images/people/chandradeep.jpeg",
         "alt": "Chandradeep Pokhariya Profile Picture",
         "link": "https://coreqode.github.io"     
@@ -114,6 +132,12 @@
         "years": "2023",
         "status": "Next: Microsoft"
     },     
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Shivam Duggal",
+        "years": "2020 - 2021",
+        "status": "Next: Master's student at CMU"
+    }, 
     {
         "category": "Brown IVL Alumni",
         "name": "Theo McArn",
