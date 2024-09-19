@@ -80,6 +80,14 @@
         "link": "https://kunkun0w0.github.io/"
     },
     {
+        "category": "PhD Students",
+        "name": "Xiaoyan Cong",
+        "years": "2024 - Present",
+        "imgPath": "images/people/xiaoyan_cong.jpg",
+        "alt": "Xiaoyan Cong's Profile Picture",
+        "link": ""
+    },
+    {
         "category": "Undergraduate/Master's Students",
         "name": "Angela Xing",
         "years": "2022 - Present",
@@ -89,11 +97,12 @@
     }, 
     {
         "category": "Undergraduate/Master's Students",
-        "name": "Caroline Zhang",
-        "years": "2023 - Present",
-        "imgPath": "images/people/Caroline_Zhang.jpg",
-        "alt": "Caroline Zhang Profile Picture"
-    },
+        "name": "Theo McArn",
+        "imgPath": "images/people/Theo.jpeg",
+        "alt": "Theo McArn's Profile Picture",
+        "years": "2022 - Present",
+        "link": "https://www.linkedin.com/in/theo-mcarn"
+    },      
     {
         "category": "Undergraduate/Master's Students",
         "name": "Wanjia Fu",
@@ -101,7 +110,30 @@
         "imgPath": "images/people/wfu16.jpg",
         "alt": "Wanjia Fu's Profile Picture"       ,
         "link": "https://wanjia-fu.com/"
-    },  
+    },
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Arman Mohammadi",
+        "years": "2024 - Present",
+        "imgPath": "images/people/Arman_Mohammadi.jpg",
+        "alt": "Arman Mohammadi's Profile Picture"       ,
+        "link": "https://www.linkedin.com/in/arman-mohammadi-afg"
+    },
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Patrick Ortiz",
+        "years": "2024 - Present",
+        "imgPath": "images/people/patrick_ortiz.jpg",
+        "alt": "Patrick Ortiz's Profile Picture"       ,
+        "link": "https://www.linkedin.com/in/arman-mohammadi-afg"
+    },    
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Caroline Zhang",
+        "years": "2023 - 2024",
+        "imgPath": "images/people/Caroline_Zhang.jpg",
+        "alt": "Caroline Zhang Profile Picture"
+    },
     {
         "category": "Brown IVL Alumni",
         "name": "Qiuhong (Anna) Wei",
@@ -138,12 +170,6 @@
         "years": "2020 - 2021",
         "status": "Next: Master's student at CMU"
     }, 
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Theo McArn",
-        "years": "2022 - 2023",
-        "status": ""
-    },      
     {
         "category": "Brown IVL Alumni",
         "name": "Jacob Frausto",
