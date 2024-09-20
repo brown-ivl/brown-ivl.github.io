@@ -125,7 +125,7 @@
         "years": "2024 - Present",
         "imgPath": "images/people/patrick_ortiz.jpg",
         "alt": "Patrick Ortiz's Profile Picture"       ,
-        "link": "https://www.linkedin.com/in/arman-mohammadi-afg"
+        "link": "https://www.linkedin.com/in/patrick-ortiz"
     },    
     {
         "category": "Brown IVL Alumni",
@@ -164,12 +164,6 @@
         "years": "2023",
         "status": "Next: Microsoft"
     },     
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Shivam Duggal",
-        "years": "2020 - 2021",
-        "status": "Next: Master's student at CMU"
-    }, 
     {
         "category": "Brown IVL Alumni",
         "name": "Jacob Frausto",
@@ -226,27 +220,6 @@
     },
     {
         "category": "Brown IVL Alumni",
-        "name": "Tarun Rajnish",
-        "years": "2022",
-        "status": "Next: Software Engineer at Starbucks"
-        },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Helen Huang",
-        "years": "2022",
-        "status": "Next: Undergraduate at Brown University"
-    },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Siddharth Diwan",
-        "years": "2021",
-        "imgPath": "images/people/siddharth.jpg",
-        "alt": "Siddharth Diwan Profile Picture",
-        "link": "https://www.linkedin.com/in/siddharth-diwan/?originalSubdomain=in",
-        "status": "Next: Undergraduate at Brown University"
-    },  
-    {
-        "category": "Brown IVL Alumni",
         "name": "Trevor Houchens",
         "years": "2021",
         "imgPath": "images/people/trevor.jpg",
@@ -280,42 +253,6 @@
         "name": "Radhika Dua",
         "years": "2020 - 2021",
         "status": "Student at KAIST"      
-    },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Aparna Natarajan",
-        "years": "2021",
-        "status": ""
-    },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Shivam Duggal",
-        "years": "2020 - 2021",
-        "status": "Next: Master's student at CMU"
-    },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Farnaz Nouraei",
-        "years": "2020 - 2021",
-        "status": "Next: PhD student at Northeastern University"
-    },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Qimin Chen",
-        "years": "2020 - 2021",
-        "status": "UCSD, Next: PhD student at Simon Fraser University"
-    },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Eliza Macneal",
-        "years": "2021",
-        "status": ""
-    },
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Daniel Masotti",
-        "years": "2021",
-        "status": ""
     },
     {
         "category": "Brown IVL Alumni",
