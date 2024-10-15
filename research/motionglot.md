@@ -19,9 +19,25 @@ redirect_from:
 ---
 
 
-<b>Tl;dr:</b>  Techniques from Multi-lingual LLMs can be adpated to train a GPT for motion generation across embodiments with different output dimensions. MotionGlot is a single GPT model capable of performing  multiple motion related tasks across multiple embodiments. 
+{% include icons.html paper= "" code= "" %}
 
-### Text to robot Motion
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+    <div style="text-align: center ">
+<b>Tl;dr:</b>  Techniques from Multi-lingual LLMs can be adpated to train a GPT for motion generation across embodiments with different output dimensions. MotionGlot is a single GPT model capable of performing  a multitude of motion related tasks across multiple embodiments. 
+    </div>
+</div>
+<p style="margin-bottom:0.3cm;"> </p>
+
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/55h64Wv-F9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<p style="margin-bottom:0.3cm;"> </p>
+
+## Results 
+
+#### Text to robot Motion
 <p style="margin-bottom:0.3cm;"> </p>
 
 <div class="gallery">
@@ -41,7 +57,7 @@ redirect_from:
 
 <p style="margin-bottom:0.5cm;"> </p>
 
-### Text to Human Motion
+#### Text to Human Motion
 
 <div class="gallery">
   <div style="display: inline-block; width: 30.95%; text-align: center;">
@@ -60,7 +76,7 @@ redirect_from:
 
 <p style="margin-bottom:0.5cm;"> </p>
 
-### Q & A with Human Motion
+#### Q & A with Human Motion
 
 <div class="gallery">
   <div style="display: inline-block; width: 30.95%; text-align: center;">
@@ -79,7 +95,7 @@ redirect_from:
 
 <p style="margin-bottom:0.5cm;"> </p>
 
-### Robot Goal reaching 
+#### Robot Goal reaching 
 
 {% include gallery.html 
 img="/assets/images/projects/motionglot/goal_reaching/goal1_1.png, 
@@ -90,7 +106,7 @@ img_width="30.95%" %}
 <p style="margin-bottom:0.1cm;"> </p>
 
 
-### Motion Captioning 
+#### Motion Captioning 
 
 <div class="gallery">
   <div style="display: inline-block; width: 30.95%; text-align: center;">
@@ -109,15 +125,38 @@ img_width="30.95%" %}
 
 <p style="margin-bottom:0.5cm;"> </p>
 
-### Method Overview
+
+## Abstract 
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+    <div style="text-align: center ">
+
+This paper introduces MotionGlot, a model that can generate motion across multiple embodiments with different action dimensions, such as quadruped robots and human bodies. By leveraging the well-established training procedures commonly used in large language models (LLMs), we introduce an instruction-tuning template specifically designed for motion- related tasks. Our approach demonstrates that the principles underlying LLM training can be successfully adapted to learn a wide range of motion generation tasks across multiple embodiments with different action dimensions. We demonstrate the various abilities of MotionGlot on a set of 6 tasks and report an average improvement of 35.3% across tasks. Additionally, we contribute two new datasets: (1) a dataset of expert-controlled
+quadruped locomotion with approximately 48,000 trajectories paired with direction-based text annotations, and (2) a dataset of over 23,000 situational text prompts for human motion generation tasks. Finally, we conduct hardware experiments to validate the capabilities of our system in real-world applications.
+    </div>
+</div>
+
+## Method Overview
 
 <p style="margin-bottom:1cm;"> </p>
 {% include gallery.html 
 img="/assets/images/projects/motionglot/overview.svg" %}
 
-### Dataset
+<div style="display: flex; justify-content: space-between; width: 100%;">
+    <div style="text-align: center ">
+        MotionGlot is a GPT model which is capable of motion generation across multiple embodiments with different action spaces, the above figure depicts the overview of our approach. Our training procedure involves two steps, in the first stage (a) a VQ-VAE learns a discrete latent codebook that represents a motion vocabulary per embodiment. This process, known as motion tokenization, is similar to text tokenization.
+        The motion vocabulary across embodiments are then appended to the existing vocabulary of GPT-2, creating a unified motion and text vocabulary. In the second step (b), our proposed instruction template is used to train the autoregressive GPT.
+    </div>
+</div>
 
-To be released Soon 
+## Dataset
+
+<b> To be released Soon </b> 
+
+### Citation
+
+### Acknowledgements
+
 ### Contact 
 
 Sudarshan Harithas: sudarshan_harithas@brown.edu
