@@ -1,4 +1,21 @@
 [
+
+    {
+        "category": "Publications",
+        "year": 2024,
+        "dateOfPublication": "2024",
+        "title": "MotionGlot: A Multi-Embodied Motion Generation Model",
+        "authors": "Sudarshan Harithas, Srinath Sridhar",
+        "journal": "Arxiv",
+        "projectPage": "https://ivl.cs.brown.edu/research/motionglot.html",
+        "pdf": "",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/motionglot.gif"
+    },
     {
         "category": "Publications",
         "year": 2024,
