@@ -24,7 +24,7 @@ redirect_from:
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
     <div style="text-align: center ">
-<b>Tl;dr:</b>  Techniques from Multi-lingual LLMs can be adpated to train a GPT for motion generation across embodiments with different output dimensions. MotionGlot is a single GPT model capable of performing  a multitude of motion related tasks across multiple embodiments. 
+<b>Tl;dr:</b>  Techniques from Multi-lingual LLMs can be adpated to train a GPT for motion generation across embodiments with different output dimensions. MotionGlot consists of a single GPT model capable of performing  a multitude of motion related tasks across multiple embodiments. 
     </div>
 </div>
 <p style="margin-bottom:0.3cm;"> </p>
@@ -127,12 +127,15 @@ img_width="30.95%" %}
 
 
 ## Abstract 
+<p style="margin-bottom:0.5cm;"> </p>
+
+{% include gallery.html 
+img="/assets/images/projects/motionglot/abstract.svg" %}
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
     <div style="text-align: center ">
 
-This paper introduces MotionGlot, a model that can generate motion across multiple embodiments with different action dimensions, such as quadruped robots and human bodies. By leveraging the well-established training procedures commonly used in large language models (LLMs), we introduce an instruction-tuning template specifically designed for motion- related tasks. Our approach demonstrates that the principles underlying LLM training can be successfully adapted to learn a wide range of motion generation tasks across multiple embodiments with different action dimensions. We demonstrate the various abilities of MotionGlot on a set of 6 tasks and report an average improvement of 35.3% across tasks. Additionally, we contribute two new datasets: (1) a dataset of expert-controlled
-quadruped locomotion with approximately 48,000 trajectories paired with direction-based text annotations, and (2) a dataset of over 23,000 situational text prompts for human motion generation tasks. Finally, we conduct hardware experiments to validate the capabilities of our system in real-world applications.
+This paper introduces MotionGlot, a model that can generate motion across multiple embodiments with different action dimensions, such as quadruped robots and human bodies. By leveraging the well-established training procedures commonly used in large language models (LLMs), we introduce an instruction-tuning template specifically designed for motion-related tasks. Our approach demonstrates that the principles underlying LLM training can be successfully adapted to learn a wide range of motion generation tasks across multiple embodiments with different action dimensions. We demonstrate the various abilities of MotionGlot on a set of 6 tasks and report an average improvement of 35.3% across tasks. Additionally, we contribute two new datasets: (1) a dataset of expert-controlled quadruped locomotion with approximately 48,000 trajectories paired with direction-based text annotations, and (2) a dataset of over 23,000 situational text prompts for human motion generation tasks. Finally, we conduct hardware experiments to validate the capabilities of our system in real-world applications. The above figure depicts MotionGlot's ability to perform many motion-related tasks across diverse embodiments with different action dimensions.
     </div>
 </div>
 
