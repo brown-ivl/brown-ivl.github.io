@@ -19,7 +19,7 @@ redirect_from:
 ---
 
 
-{% include icons.html paper= "" code= "" %}
+{% include icons.html paper= "https://arxiv.org/abs/2410.16623" code= "" %}
 
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
@@ -162,6 +162,8 @@ img="/assets/images/projects/motionglot/overview.svg" %}
 
 
 ### Acknowledgements
+
+This research was supported by the Office of Naval Research (ONR) grant N00014-22-1-259.
 
 ### Contact 
 
