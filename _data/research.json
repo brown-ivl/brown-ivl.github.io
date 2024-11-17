@@ -1,5 +1,36 @@
 [
-
+    {
+        "category": "Publications",
+        "year": 2025,
+        "dateOfPublication": "2025",
+        "title": "GeoDiffuser: Geometry-Based Image Editing with Diffusion Models",
+        "authors": "Rahul Sajnani, Jeroen Vanbaar, Jie Min, Kapil Katyal, Srinath Sridhar",
+        "journal": "WACV 2025",
+        "projectPage": "https://ivl.cs.brown.edu/research/geodiffuser.html",
+        "pdf": "https://arxiv.org/pdf/2404.14403",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/GeoDiffuser_edit.gif"
+    },
+    {
+        "category": "Publications",
+        "year": 2025,
+        "dateOfPublication": "2025",
+        "title": "EgoSonics: Generating Synchronized Audio for Silent Egocentric Videos",
+        "authors": "Aashish Rai, Srinath Sridhar",
+        "journal": "WACV 2025",
+        "projectPage": "https://ivl.cs.brown.edu/research/egosonics",
+        "pdf": "https://arxiv.org/pdf/2407.20592",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/egosonics.jpg"
+    },
     {
         "category": "Publications",
         "year": 2024,
@@ -47,22 +78,6 @@
         "pubman": "",
         "video": "",
         "image": "images/papers/genheld-small.png"
-    },
-    {
-        "category": "Publications",
-        "year": 2024,
-        "dateOfPublication": "2024",
-        "title": "GeoDiffuser: Geometry-Based Image Editing with Diffusion Models",
-        "authors": "Rahul Sajnani, Jeroen Vanbaar, Jie Min, Kapil Katyal, Srinath Sridhar",
-        "journal": "arXiv Preprint",
-        "projectPage": "https://ivl.cs.brown.edu/research/geodiffuser.html",
-        "pdf": "https://arxiv.org/pdf/2404.14403",
-        "bibTex": "",
-        "moreInfo": "",
-        "googlePatents": "",
-        "pubman": "",
-        "video": "",
-        "image": "images/papers/GeoDiffuser_edit.gif"
     },
     {
         "category": "Publications",
