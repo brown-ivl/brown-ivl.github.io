@@ -137,8 +137,8 @@ Downloading raw data (note that this is a total of 1.4 TB of data):
 $ globus transfer $diva360_ep:/raw_data/ $personal_ep:<path to destination> --recursive
 $ globus transfer $diva360_ep:/raw_data_long/ $personal_ep:<path to destination> --recursive
 # Downloading a single sequence
-globus transfer $diva360_ep:/raw_data/synced/2023-05-02_session_<sequence>_synced.tar.gz $personal_ep:<path to destination>/2023-05-02_session_<sequence>_synced.tar.gz
-globus transfer $diva360_ep:/raw_data_long/synced/2023-10-21_session_<sequence>_synced.tar.gz $personal_ep:<path to destination>/2023-10-21_session_<sequence>_synced.tar.gz
+$ globus transfer $diva360_ep:/raw_data/synced/2023-05-02_session_<sequence>_synced.tar.gz $personal_ep:<path to destination>/2023-05-02_session_<sequence>_synced.tar.gz
+$ globus transfer $diva360_ep:/raw_data_long/synced/2023-10-21_session_<sequence>_synced.tar.gz $personal_ep:<path to destination>/2023-10-21_session_<sequence>_synced.tar.gz
 ```
 Downloading processed data (note that this is a total of 1.8 TB of data):
 ```
