@@ -42,49 +42,49 @@ redirect_from:
 
 {% include icons.html paper="https://arxiv.org/\f" code="https://github.com/brown-ivl/gigahands" dataset="https://github.com/brown-ivl/gigahands" %}
 
-
-{% include video.html path="/assets/images/projects/gigahands/teaser_video_small.mp4" alt="[Video Teaser]" %}
+{% include full_image.html path="/assets/images/projects/gigahands/teaser.jpg" alt="[Teaser Figure]" %}
+**We present GigaHands, a massive annotated bimanual hand activity dataset, unlocking new possibilities for animations, robotics and beyond.**
+Each column above shows an activity sequence from the dataset. The bottom row show other annotations in the dataset including text, hand shape, object shape and pose (left half images). The right half images show novel views from dynamic radiance field fitting.
 
 ---
 # Abstract
-Understanding bimanual human hand activities is a critical problem in AI and robotics. We cannot build large models of bimanual activities because existing datasets lack the scale, coverage of diverse hand activities, and detailed annotations. We introduce GigaHands, a massive annotated dataset capturing 34 hours of bimanual hand activities from 56 subjects and 417 objects, totaling 14k motion clips derived from 183 million frames paired with 84k text annotations. Our markerless capture setup and data acquisition protocol enable fully automatic 3D hand and object estimation while minimizing the effort required for text annotation. The scale and diversity of GigaHands enable broad applications, including text-driven action synthesis, hand motion
+Understanding bimanual human hand activities is a critical problem in AI and robotics. We cannot build large models of bimanual activities because existing datasets lack the scale, coverage of diverse hand activities, and detailed annotations. We introduce GigaHands, a massive annotated dataset capturing 34 hours of bimanual hand activities from **56 subjects** and **417 objects**, totaling **14k motion clips** derived from **183 million frames** paired with **84k text annotations**. Our markerless capture setup and data acquisition protocol enable fully automatic 3D hand and object estimation while minimizing the effort required for text annotation. The scale and diversity of GigaHands enable broad applications, including text-driven action synthesis, hand motion
 captioning, and dynamic radiance field reconstruction.
-
-{% include full_image.html path="/assets/images/projects/gigahands/teaser.jpg" alt="[Teaser Figure]" %}
+{% include video.html path="/assets/images/projects/gigahands/teaser_video_small.mp4" alt="[Video Teaser]" %}
 
 ---
 # Dataset Annotations
 **To be released soon**
 
-GigaHands is a diverse, massive, and fully-annotated 3D bimanual hand activities dataset. It includes **34hrs** of activities, **14k** hand motions clips paired with **84k** text annotation, and over **183M** unique hand images. All images in our dataset are fully annotated with: detailed activity text descriptions; 3D hand shape and pose; MANO hand meshes; 3D object shape, pose and appearance; hand/object segmentation masks; 2D/3D hand keypoints; camera pose.
-
-{% include video.html path="/assets/images/projects/gigahands/example_video.mp4" alt="[Dataset]" %}
+GigaHands is a diverse, massive, and fully-annotated 3D bimanual hand activities dataset. All sequences in GigaHands are fully annotated with: detailed activity text descriptions; 3D hand shape and pose; 3D object shape, pose and appearance; hand/object segmentation masks; 2D/3D hand keypoints; camera pose.
+{% include video.html path="/assets/images/projects/gigahands/example_video_small.mp4" alt="[Dataset]" %}
 
 ---
 # Application: Text-driven Motion Generation
-{% include video.html path="/assets/images/projects/gigahands/motion_generation_video.mp4" alt="[Motion Results]" %}
+We showcase text-driven motion generation enabled by training a generative model with GigaHands.
+{% include video.html path="/assets/images/projects/gigahands/motion_small.mp4" alt="[Motion Results]" %}
 
 ---
 # Application: Motion Captioning
 
 <b><u>Within Dataset</u></b>
-{% include video.html path="/assets/images/projects/gigahands/motion_caption_video.mp4" alt="[Caption Result]" %}
+We showcase 3D hand motion captioning by training a generative model with GigaHands.
+{% include video.html path="/assets/images/projects/gigahands/caption_small.mp4" alt="[Caption Result]" %}
 
 <b><u>In-the-Wild Dataset</u></b>
-{% include video.html path="/assets/images/projects/gigahands/motion_caption_itw_video.mp4" alt="[Caption in-th-wild Result]" %}
+Using only GigaHands, we enable 3D hand motion captioning for other datasets.
+{% include video.html path="/assets/images/projects/gigahands/caption_itw_small.mp4" alt="[Caption in-th-wild Result]" %}
 
 ---
-# Method Overview
-
-{% include full_image.html path="/assets/images/projects/manus/methodHand.png" alt="[MANUS Hand]" %}
-
-{% include full_image.html path="/assets/images/projects/manus/methodManus.png" alt="[MANUS]" %}
-
-
 # Citations
 ```
-@inproceedings{
-  
+@misc{fu2024gigahands,
+        title={GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities}, 
+        author={Rao Fu, Dingxi Zhang, Alex Jiang, Wanjia Fu, Austin Funk, Daniel Ritchie and Srinath Sridhar},
+        year={2024},
+        eprint={},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
 }
 ```
 
