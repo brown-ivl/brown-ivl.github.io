@@ -40,7 +40,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="https://arxiv.org/\f" code="https://github.com/brown-ivl/gigahands" dataset="https://github.com/brown-ivl/gigahands" %}
+{% include icons.html paper="https://www.arxiv.org/abs/2412.04244" code="https://github.com/brown-ivl/gigahands" dataset="https://github.com/brown-ivl/gigahands" %}
 
 {% include full_image.html path="/assets/images/projects/gigahands/teaser.jpg" alt="[Teaser Figure]" %}
 **We present GigaHands, a massive annotated bimanual hand activity dataset, unlocking new possibilities for animations, robotics and beyond.**
@@ -79,13 +79,14 @@ Using only GigaHands, we enable 3D hand motion captioning for other datasets.
 ---
 # Citations
 ```
-@misc{fu2024gigahands,
-        title={GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities}, 
-        author={Rao Fu, Dingxi Zhang, Alex Jiang, Wanjia Fu, Austin Funk, Daniel Ritchie and Srinath Sridhar},
-        year={2024},
-        eprint={},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
+@misc{fu2024gigahandsmassiveannotateddataset,
+      title={GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities}, 
+      author={Rao Fu and Dingxi Zhang and Alex Jiang and Wanjia Fu and Austin Funk and Daniel Ritchie and Srinath Sridhar},
+      year={2024},
+      eprint={2412.04244},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.04244}, 
 }
 ```
 
