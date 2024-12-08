@@ -40,7 +40,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="https://arxiv.org/\f" code="https://github.com/brown-ivl/gigahands" dataset="https://github.com/brown-ivl/gigahands" %}
+{% include icons.html paper="https://www.arxiv.org/abs/2412.04244" code="https://github.com/brown-ivl/gigahands" dataset="https://github.com/brown-ivl/gigahands" %}
 
 {% include full_image.html path="/assets/images/projects/gigahands/teaser.jpg" alt="[Teaser Figure]" %}
 **We present GigaHands, a massive annotated bimanual hand activity dataset, unlocking new possibilities for animations, robotics and beyond.**
@@ -50,7 +50,8 @@ Each column above shows an activity sequence from the dataset. The bottom row sh
 # Abstract
 Understanding bimanual human hand activities is a critical problem in AI and robotics. We cannot build large models of bimanual activities because existing datasets lack the scale, coverage of diverse hand activities, and detailed annotations. We introduce GigaHands, a massive annotated dataset capturing 34 hours of bimanual hand activities from **56 subjects** and **417 objects**, totaling **14k motion clips** derived from **183 million frames** paired with **84k text annotations**. Our markerless capture setup and data acquisition protocol enable fully automatic 3D hand and object estimation while minimizing the effort required for text annotation. The scale and diversity of GigaHands enable broad applications, including text-driven action synthesis, hand motion
 captioning, and dynamic radiance field reconstruction.
-{% include video.html path="/assets/images/projects/gigahands/teaser_video_small.mp4" alt="[Video Teaser]" %}
+{% include video.html path="/assets/images/projects/gigahands/gigahands_explain.mp4" alt="[Video Teaser]" %}
+(video contains audio)
 
 ---
 # Dataset Annotations
@@ -78,13 +79,14 @@ Using only GigaHands, we enable 3D hand motion captioning for other datasets.
 ---
 # Citations
 ```
-@misc{fu2024gigahands,
-        title={GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities}, 
-        author={Rao Fu, Dingxi Zhang, Alex Jiang, Wanjia Fu, Austin Funk, Daniel Ritchie and Srinath Sridhar},
-        year={2024},
-        eprint={},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
+@misc{fu2024gigahandsmassiveannotateddataset,
+      title={GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities}, 
+      author={Rao Fu and Dingxi Zhang and Alex Jiang and Wanjia Fu and Austin Funk and Daniel Ritchie and Srinath Sridhar},
+      year={2024},
+      eprint={2412.04244},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.04244}, 
 }
 ```
 
