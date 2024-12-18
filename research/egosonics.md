@@ -27,6 +27,8 @@ redirect_from:
 
 Following is a set of uncurated examples of video-to-audio generation on unseen Ego4D clips using EgoSonics (our method).
 
+(Unmute videos to hear the audio.)
+
 <div class="row aligned-items-div" style="align-items: center">
 
 <video
@@ -214,7 +216,11 @@ The following figure describes the training of Syncronet model. A trainable copy
 
 Below are examples of video-to-audio generation on unseen Ego4D clips for our method and the baseline.
 
+(Unmute videos to hear the audio.)
+
 <div class="row aligned-items-div" style="align-items: center">
+
+<p>GT/Original &nbsp &nbsp &nbsp &nbsp &nbsp EgoSonics(Ours) &nbsp &nbsp &nbsp &nbsp &nbsp Baseline</p>
 
 <video
     class="content-item-three-col"
@@ -223,7 +229,6 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
     controls
     muted="false"
     data-setup='{"fluid": true}'>
-    <p>GT/Original</p>
     <source
         src="/assets/images/projects/egosonics/videos/compare/gt8.mp4"
         type="video/mp4"
@@ -236,7 +241,6 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
       controls
       muted="false"
       data-setup='{"fluid": true}'>
-      <p>EgoSonics(ours)</p>
       <source
           src="/assets/images/projects/egosonics/videos/example8.mp4"
           type="video/mp4"
@@ -249,7 +253,6 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
       controls
       muted="false"
       data-setup='{"fluid": true}'>
-      <p>DIff-Foley</p>
       <source
           src="/assets/images/projects/egosonics/videos/compare/baseline8.mp4"
           type="video/mp4"
