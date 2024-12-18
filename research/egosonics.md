@@ -220,7 +220,7 @@ Below are examples of video-to-audio generation on unseen Ego4D clips for our me
 
 <div class="row aligned-items-div" style="align-items: center">
 
-<p>GT/Original &nbsp &nbsp &nbsp &nbsp &nbsp EgoSonics(Ours) &nbsp &nbsp &nbsp &nbsp &nbsp Baseline</p>
+<p>GT/Original               EgoSonics(Ours)               Baseline</p>
 
 <video
     class="content-item-three-col"
