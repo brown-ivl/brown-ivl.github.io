@@ -77,6 +77,11 @@ Using only GigaHands, we enable 3D hand motion captioning for other datasets.
 {% include video.html path="/assets/images/projects/gigahands/caption_itw_small.mp4" alt="[Caption in-th-wild Result]" %}
 
 ---
+# Application: Dynamic 3D Scene Reconstruction
+GigaHands provides hand motions captured from **51 camera views**, enabling dynamic 3D scene reconstruction. The examples below showcase frame-wise 2DGS (Huang et al.) reconstruction results.
+{% include video.html path="/assets/images/projects/gigahands/2dgs.mp4" alt="[Reconstruction Result]" %}
+
+---
 # Citations
 ```
 @misc{fu2024gigahandsmassiveannotateddataset,
