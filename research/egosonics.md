@@ -13,7 +13,7 @@ authors:
 
 affiliations:
   - "Brown University"
-journal: Arxiv 2024
+journal: WACV 2025
 redirect_from:
   - add redirect_path here
   - another path here
@@ -391,8 +391,8 @@ Although EgoSonics can generate good-quality audio for egocentric videos, there 
     @article{rai2024egosonics,
         title={EgoSonics: Generating Synchronized Audio for Silent Egocentric Videos},
         author={Rai, Aashish and Sridhar, Srinath},
-        journal={arXiv preprint arXiv:2407.20592},
-        year={2024}
+        journal={IEEE/CVF Winter Conference on Applications of Computer Vision},
+        year={2025}
     }
 
 
