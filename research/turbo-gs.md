@@ -4,15 +4,15 @@ title: "Turbo-GS: Accelerating 3D Gaussian Fitting for High-Quality Radiance Fie
 authors:
   - author:
       name: "Tao Lu"
-      affiliation: 1
+      affiliation: 1*
       link: 
   - author:
       name: "Ankit Dhiman"
-      affiliation: 2
+      affiliation: 2*
       link: 
   - author:
       name: "Srinath R"
-      affiliation: 2
+      affiliation: 2*
       link: 
   - author:
       name: "Emre Arslan"
@@ -36,17 +36,18 @@ authors:
       link: 
 affiliations:
   - "<sup>1</sup>[Brown University]"
-  - "<sup>2</sup>[IISc]"
+  - "<sup>2</sup>[Indian Institute of Science, Bangalore]"
   - "<sup>3</sup>[Cornell University]"
+  - "*[Equal Contributions]"
 journal: ""
 redirect_from:
   - add redirect_path here
   - another path here
 ---
 
-{% include icons.html paper="https://ivl.cs.brown.edu/research/turbo-gs.html"%}
+{% include icons.html paper="https://ivl.cs.brown.edu/research/turbo-gs.html" code="https://github.com/inspirelt/Turbo-GS"%}
 
-{% include video.html path="/assets/images/projects/turbo-gs/main_4K_4x.mp4" alt="[Video Teaser]" %}
+{% include video.html path="/assets/images/projects/turbo-gs/main_long.mp4" alt="[Video Teaser]" %}
 
 **TL;DR** We introduce Turbo-GS, which employs frequent and effective densification, better initialization, and batched training to achieve higher quality results with fewer iterations.
 
@@ -85,7 +86,8 @@ Our method fits 3DGS **several times faster** than current state of the art meth
           primaryClass={cs.CV}
     }
 
-<!-- eprint={TODO} -->
+# Acknowledgements
+This research was supported by NASA grant #80NSSC23M0075, and NSF CAREER grant #2143576. Collaboration between Brown and IISc was facilitated through Kotak Mahindra Bank's Visiting Chair Professorship for Srinath.
 
 # Contact
 Tao Lu ([contact email](tao_lu@brown.edu))
