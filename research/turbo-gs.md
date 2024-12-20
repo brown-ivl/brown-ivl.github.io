@@ -45,7 +45,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="https://ivl.cs.brown.edu/research/turbo-gs.html" code="https://github.com/inspirelt/Turbo-GS"%}
+{% include icons.html paper="https://arxiv.org/abs/2412.13547" code="https://github.com/inspirelt/Turbo-GS"%}
 
 {% include video.html path="/assets/images/projects/turbo-gs/main_long.mp4" alt="[Video Teaser]" %}
 
