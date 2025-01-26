@@ -68,7 +68,7 @@ Given reference images, our model transforms hands to target poses while faithfu
 Given a synthetic hand dataset, FoundHand can transform it to the in-the-wild domain with realistic appearance and background, improving existing 3D hand estimation after finetun-
 ing on our generated data.
 
-{% include video.html path="/assets/images/projects/foundhand/videos/doamin_transfer.mp4" alt="[Domain Transfer]" %}
+{% include video.html path="/assets/images/projects/foundhand/videos/domain_transfer.mp4" alt="[Domain Transfer]" %}
 
 ## Core Capability 3: Novel View Synthesis
 
