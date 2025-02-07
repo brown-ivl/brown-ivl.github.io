@@ -128,6 +128,54 @@
         "link": "https://www.linkedin.com/in/patrick-ortiz"
     },    
     {
+        "category": "Undergraduate/Master's Students",
+        "name": "Hang Nguyen",
+        "years": "2025 - Present",
+        "imgPath": "images/people/hang_nguyen.jpg",
+        "alt": "Hang Nguyen Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Rui Zhou",
+        "years": "2025 - Present",
+        "imgPath": "images/people/rui_zhou.jpg",
+        "alt": "Rui Zhou Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Yiyang Zhang",
+        "years": "2025 - Present",
+        "imgPath": "images/people/yiyang.jpg",
+        "alt": "Yiyang Zhang Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Tamar Kreitman",
+        "years": "2025 - Present",
+        "imgPath": "images/people/tamar.jpg",
+        "alt": "Tamar Kreitman Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Praccho Muna-McQuay",
+        "years": "2025 - Present",
+        "imgPath": "images/people/praccho.jpg",
+        "alt": "Praccho Muna-McQuay Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Emre Arslan",
+        "years": "2025 - Present",
+        "imgPath": "#",
+        "alt": "Emre Arslan Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
         "category": "Brown IVL Alumni",
         "name": "Caroline Zhang",
         "years": "2023 - 2024",
