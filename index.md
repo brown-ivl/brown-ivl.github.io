@@ -3,6 +3,7 @@ layout: page
 title: Interactive 3D Vision & Learning Lab (IVL)
 carousels:
   - images:
+      - image: /assets/images/carousel/2024_fall_01.jpg
       - image: /assets/images/carousel/2024_summer_01.jpg
       - image: /assets/images/carousel/2024_summer_02.jpg
       - image: /assets/images/carousel/2023_summer_01.jpg
@@ -29,6 +30,8 @@ carousels:
 
 ### Updates
 
+- **_Feb-2025_** [MotionGlot](https://ivl.cs.brown.edu/research/motionglot.html), [ViTa-Zero](#), and [DA-VIL](https://dualarmvil.github.io/Dual-Arm-VIL) work accepted to ICRA 2025. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
+- **_Oct-2024_** [GeoDiffuser](https://ivl.cs.brown.edu/research/anyhome.html) and [EgoSonics](https://constrained-grasp-diffusion.github.io/) work accepted to WACV 2025. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
 - **_July-2024_** [AnyHome](https://ivl.cs.brown.edu/research/anyhome.html) accepted to ECCV 2024. [Constrained 6-DoF Grasp Generation](https://constrained-grasp-diffusion.github.io/) work accepted to IROS 2024. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
 
 - **_June-2024_** Srinath gave an invited talk at the [30th Year Anniversary of the Max Planck Institute for Informatics](https://30years.mpi-inf.mpg.de/) in November 2023. A [recording of his talk is now available here](https://www.youtube.com/watch?v=ZxhZMuKItnA).
