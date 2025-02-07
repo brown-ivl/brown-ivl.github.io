@@ -129,6 +129,22 @@
     },    
     {
         "category": "Undergraduate/Master's Students",
+        "name": "Praccho Muna-McQuay",
+        "years": "2024 - Present",
+        "imgPath": "images/people/praccho.png",
+        "alt": "Praccho Muna-McQuay Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
+        "name": "Emre Arslan",
+        "years": "2024 - Present",
+        "imgPath": "images/people/emre.jpg",
+        "alt": "Emre Arslan Profile Picture"       ,
+        "link": "https://ivl.cs.brown.edu/people.html"
+    }, 
+    {
+        "category": "Undergraduate/Master's Students",
         "name": "Hang Nguyen",
         "years": "2025 - Present",
         "imgPath": "images/people/hang_nguyen.jpg",
@@ -157,22 +173,6 @@
         "years": "2025 - Present",
         "imgPath": "images/people/tamar.jpg",
         "alt": "Tamar Kreitman Profile Picture"       ,
-        "link": "https://ivl.cs.brown.edu/people.html"
-    }, 
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Praccho Muna-McQuay",
-        "years": "2025 - Present",
-        "imgPath": "images/people/praccho.jpg",
-        "alt": "Praccho Muna-McQuay Profile Picture"       ,
-        "link": "https://ivl.cs.brown.edu/people.html"
-    }, 
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Emre Arslan",
-        "years": "2025 - Present",
-        "imgPath": "#",
-        "alt": "Emre Arslan Profile Picture"       ,
         "link": "https://ivl.cs.brown.edu/people.html"
     }, 
     {
