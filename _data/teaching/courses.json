@@ -1,11 +1,26 @@
 [
     {
+        "title": "CSCI 2952-K: Topics in 3D Computer Vision and Machine Learning",
+        "image": "images/teaching/2952k.jpeg",
+        "sems": [
+            {
+                "sem": "Spring 2025",  
+                "page": "https://cs.brown.edu/courses/csci2952k/"
+            },
+            {
+                "sem": "Fall 2020",  
+                "page": "https://cs.brown.edu/courses/csci2952k/"
+            }
+        ]       
+    },
+    
+    {
         "title": "CSCI 1430: Introduction to Computer Vision",
         "image": "images/teaching/cv2022Fall.png",
         "sems": [
             {
                 "sem": "Fall 2024",        
-                "page": "https://browncsci1430.github.io/"
+                "page": "https://cs.brown.edu/courses/csci1430/2024_Fall/index.html"
             }, 
             {
                 "sem": "Spring 2024",        
@@ -27,6 +42,7 @@
             }
         ]        
     },    
+    
     {
         "title": "CSCI 2952-O: A Practical Introduction to Advanced 3D Robot Perception",
         "image": "images/teaching/52-o.jpeg",
@@ -40,15 +56,5 @@
                 "page": "http://cs.brown.edu/courses/csci2952o/"
             }
         ]        
-    },
-    {
-        "title": "CSCI 2952-K: Topics in 3D Computer Vision and Machine Learning",
-        "image": "images/teaching/2952k.jpeg",
-        "sems": [
-            {
-                "sem": "Fall 2020",  
-                "page": "https://cs.brown.edu/courses/csci2952k/"
-            }
-        ]       
     }
 ]

@@ -118,15 +118,7 @@
         "imgPath": "images/people/Arman_Mohammadi.jpg",
         "alt": "Arman Mohammadi's Profile Picture"       ,
         "link": "https://www.linkedin.com/in/arman-mohammadi-afg"
-    },
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Patrick Ortiz",
-        "years": "2024 - Present",
-        "imgPath": "images/people/patrick_ortiz.jpg",
-        "alt": "Patrick Ortiz's Profile Picture"       ,
-        "link": "https://www.linkedin.com/in/patrick-ortiz"
-    },    
+    },   
     {
         "category": "Undergraduate/Master's Students",
         "name": "Praccho Muna-McQuay",
@@ -139,41 +131,57 @@
         "category": "Undergraduate/Master's Students",
         "name": "Emre Arslan",
         "years": "2024 - Present",
-        "imgPath": "images/people/no_photo.png",
+        "imgPath": "images/people/emre.jpg",
         "alt": "Emre Arslan Profile Picture"       ,
         "link": "https://ivl.cs.brown.edu/people.html"
     }, 
     {
         "category": "Undergraduate/Master's Students",
-        "name": "Hang Nguyen",
+        "name": "Alex Jiang",
         "years": "2025 - Present",
-        "imgPath": "images/people/hang_nguyen.jpg",
-        "alt": "Hang Nguyen Profile Picture"       ,
+        "imgPath": "images/people/no_photo.png",
+        "alt": "Alex Jiang's Profile Picture"       ,
         "link": "https://ivl.cs.brown.edu/people.html"
     }, 
     {
-        "category": "Undergraduate/Master's Students",
-        "name": "Rui Zhou",
-        "years": "2025 - Present",
-        "imgPath": "images/people/rui_zhou.jpg",
-        "alt": "Rui Zhou Profile Picture"       ,
-        "link": "https://www.linkedin.com/in/rui-zhou-354646200"
+        "category": "Brown IVL Alumni",
+        "name": "Gaurav (visitor)",
+        "years": "2024",
+        "imgPath": "images/people/no_photo.png.png",
+        "alt": "Gaurav's Profile Picture"       ,
+        "link": "#"
     }, 
     {
-        "category": "Undergraduate/Master's Students",
-        "name": "Yiyang Zhang",
-        "years": "2025 - Present",
-        "imgPath": "images/people/yiyang.jpg",
-        "alt": "Yiyang Zhang Profile Picture"       ,
-        "link": "https://ivl.cs.brown.edu/people.html"
+        "category": "Brown IVL Alumni",
+        "name": "Patrick Ortiz",
+        "years": "2024",
+        "imgPath": "images/people/patrick_ortiz.jpg",
+        "alt": "Patrick Ortiz's Profile Picture"       ,
+        "link": "https://www.linkedin.com/in/patrick-ortiz"
     }, 
     {
-        "category": "Undergraduate/Master's Students",
-        "name": "Tamar Kreitman",
-        "years": "2025 - Present",
-        "imgPath": "images/people/tamar.jpg",
-        "alt": "Tamar Kreitman Profile Picture"       ,
-        "link": "https://ivl.cs.brown.edu/people.html"
+        "category": "Brown IVL Alumni",
+        "name": "Gabrielle Shieh",
+        "years": "2023 - 2024",
+        "imgPath": "images/people/no_photo.png.png",
+        "alt": "Gabrielle Shieh's Profile Picture"       ,
+        "link": "#"
+    }, 
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Serena Pulopot",
+        "years": "2024",
+        "imgPath": "images/people/no_photo.png.png",
+        "alt": "Serena Pulopot's Profile Picture"       ,
+        "link": "#"
+    }, 
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Fuka Ikeda",
+        "years": "2024",
+        "imgPath": "images/people/no_photo.png.png",
+        "alt": "Fuka Ikeda's Profile Picture"       ,
+        "link": "#"
     }, 
     {
         "category": "Brown IVL Alumni",
