@@ -31,7 +31,7 @@ redirect_from:
   - /projects/geodiffuser/
 ---
 
-{% include icons.html paper="https://arxiv.org/pdf/2404.14403.pdf" %}
+{% include icons.html paper="https://arxiv.org/pdf/2404.14403.pdf" code="https://github.com/RahulSajnani/GeoDiffuser" %}
 
 ## Real Image Editing with GeoDiffuser
 #### 2D and 3D Edits
