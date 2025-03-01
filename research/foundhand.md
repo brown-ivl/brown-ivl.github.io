@@ -89,6 +89,14 @@ FoundHand can generate hand videos and achieves natural and anatomically plausib
 
 {% include video.html path="/assets/images/projects/foundhand/videos/video_synthesis.mp4" alt="[Video Synthesis]" %}
 
+
+## Zero-Shot Application 3: Hand-Object Interaction
+
+Without explicit object supervision, FoundHand synthesizes physically plausible object behaviors, including rigid motion (move cup) and non-rigid deformation (squish sponge), demonstrating an implicit understanding of object properties and dynamics.
+
+{% include video.html path="/assets/images/projects/foundhand/videos/hoi.mp4" alt="[Hand Object Interaction]" %}
+
+
 ## Citations
     @article{chen2024foundhand,
             title={FoundHand: Large-Scale Domain-Specific Learning for Controllable Hand Image Generation},
