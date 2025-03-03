@@ -44,9 +44,7 @@ carousels:
 
   <details>
   <summary> More Updates </summary>
-
   <article markdown="1" class="post-content">
-
 - **_Feb-2024_** [MANUS](https://ivl.cs.brown.edu/research/manus.html) and [DiVa-360](https://ivl.cs.brown.edu/research/diva) have been accepted to CVPR 2024. More details coming soon.
 
 - **_Jan-2024_** [Qiuhong Anna Wei](https://github.com/QiuhongAnnaWei) has been selected as an Honorable Mention for the <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/" target="_blank">2023-2024 Outstanding Undergraduate Researcher Award (URA)</a>.
@@ -94,7 +92,6 @@ carousels:
 - **_Mar-2019_** Read my [Twitter thread](https://twitter.com/drsrinathsridha/status/1113314946136268800) about interesting hand facts that you may not have known before.
 
 </article>
-
 </details>
 
 {% include carousel.html height="50" unit="%" duration="5" number="1" %}
