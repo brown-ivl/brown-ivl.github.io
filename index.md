@@ -30,6 +30,8 @@ carousels:
 
 ### Updates
 
+- **_Mar-2025_** [GeoDiffuser](https://ivl.cs.brown.edu/research/anyhome.html) has won the [Best Student Paper award](https://ivl.cs.brown.edu/assets/images/awards/2025_WACV_BestPaper.jpg) at WACV 2025!
+
 - **_Feb-2025_** [GigaHands](https://ivl.cs.brown.edu/research/gigahands.html), [FoundHand](https://ivl.cs.brown.edu/research/foundhand.html), and [UVGS](https://aashishrai3799.github.io/uvgs/) all accepted to CVPR 2025.
 
 - **_Feb-2025_** [MotionGlot](https://ivl.cs.brown.edu/research/motionglot.html), [ViTa-Zero](#), and [DA-VIL](https://dualarmvil.github.io/Dual-Arm-VIL) work accepted to ICRA 2025. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
