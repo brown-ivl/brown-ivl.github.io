@@ -41,7 +41,12 @@ carousels:
 - **_July-2024_** [AnyHome](https://ivl.cs.brown.edu/research/anyhome.html) accepted to ECCV 2024. [Constrained 6-DoF Grasp Generation](https://constrained-grasp-diffusion.github.io/) work accepted to IROS 2024. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
 
 - **_June-2024_** Srinath gave an invited talk at the [30th Year Anniversary of the Max Planck Institute for Informatics](https://30years.mpi-inf.mpg.de/) in November 2023. A [recording of his talk is now available here](https://www.youtube.com/watch?v=ZxhZMuKItnA).
-  
+
+  <details>
+  <summary> More Updates </summary>
+
+  <article markdown="1" class="post-content">
+
 - **_Feb-2024_** [MANUS](https://ivl.cs.brown.edu/research/manus.html) and [DiVa-360](https://ivl.cs.brown.edu/research/diva) have been accepted to CVPR 2024. More details coming soon.
 
 - **_Jan-2024_** [Qiuhong Anna Wei](https://github.com/QiuhongAnnaWei) has been selected as an Honorable Mention for the <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/" target="_blank">2023-2024 Outstanding Undergraduate Researcher Award (URA)</a>.
@@ -50,12 +55,6 @@ carousels:
   
 - **_Jul-2023_** Two NeRF papers from IVL and collaborators will appear at ICCV 2023. Please see the [research page](https://ivl.cs.brown.edu/research.html) for more details.
   
-
-<details>
-  <summary> More Updates </summary>
-
-  <article markdown="1" class="post-content">
-
 - **_Feb-2023_** IVL will present papers on canonicalizing neural fields, room rearrangement, and text-to-3D shape at CVPR 2023. More details coming soon.
   
 - **_Oct-2022_** At NeurIPS, Rao Fu will be presenting our work on **recursive** 3D shape generation. Please see the [project page](https://ivl.cs.brown.edu/research/shapecrafter) for details.
