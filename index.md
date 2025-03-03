@@ -30,15 +30,15 @@ carousels:
 
 ### Updates
 
-- **_Mar-2025_** [GeoDiffuser](https://ivl.cs.brown.edu/research/anyhome.html) has won the [Best Student Paper award](https://ivl.cs.brown.edu/assets/images/awards/2025_WACV_BestPaper.jpg) at WACV 2025!
+- **_Mar-2025_** [GeoDiffuser](https://ivl.cs.brown.edu/research/geodiffuser.html) has won the [Best Student Paper award](https://ivl.cs.brown.edu/assets/images/awards/2025_WACV_BestPaper.jpg) at WACV 2025!
 
 - **_Feb-2025_** [GigaHands](https://ivl.cs.brown.edu/research/gigahands.html), [FoundHand](https://ivl.cs.brown.edu/research/foundhand.html), and [UVGS](https://aashishrai3799.github.io/uvgs/) all accepted to CVPR 2025.
 
-- **_Feb-2025_** [MotionGlot](https://ivl.cs.brown.edu/research/motionglot.html), [ViTa-Zero](#), and [DA-VIL](https://dualarmvil.github.io/Dual-Arm-VIL) work accepted to ICRA 2025. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
+- **_Feb-2025_** [MotionGlot](https://ivl.cs.brown.edu/research/motionglot.html), [ViTa-Zero](#), and [DA-VIL](https://dualarmvil.github.io/Dual-Arm-VIL) work accepted to ICRA 2025.
   
-- **_Oct-2024_** [GeoDiffuser](https://ivl.cs.brown.edu/research/anyhome.html) and [EgoSonics](https://constrained-grasp-diffusion.github.io/) work accepted to WACV 2025. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
+- **_Oct-2024_** [GeoDiffuser](https://ivl.cs.brown.edu/research/geodiffuser.html) and [EgoSonics](https://ivl.cs.brown.edu/research/egosonics.html) work accepted to WACV 2025.
   
-- **_July-2024_** [AnyHome](https://ivl.cs.brown.edu/research/anyhome.html) accepted to ECCV 2024. [Constrained 6-DoF Grasp Generation](https://constrained-grasp-diffusion.github.io/) work accepted to IROS 2024. Please see the [publications](https://ivl.cs.brown.edu/research.html) tab for details.
+- **_July-2024_** [AnyHome](https://ivl.cs.brown.edu/research/anyhome.html) accepted to ECCV 2024. [Constrained 6-DoF Grasp Generation](https://constrained-grasp-diffusion.github.io/) work accepted to IROS 2024.
 
 - **_June-2024_** Srinath gave an invited talk at the [30th Year Anniversary of the Max Planck Institute for Informatics](https://30years.mpi-inf.mpg.de/) in November 2023. A [recording of his talk is now available here](https://www.youtube.com/watch?v=ZxhZMuKItnA).
   
