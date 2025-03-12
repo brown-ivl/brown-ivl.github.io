@@ -85,8 +85,16 @@
         "years": "2024 - Present",
         "imgPath": "images/people/xiaoyan_cong.jpg",
         "alt": "Xiaoyan Cong's Profile Picture",
-        "link": ""
+        "link": "https://oliver-cong02.github.io/"
     },
+    {
+        "category": "PhD Students",
+        "name": "Gaurav Singh",
+        "years": "2025 - Present",
+        "imgPath": "images/people/no_photo.png",
+        "alt": "Gaurav's Profile Picture"       ,
+        "link": "https://vanhalen42.github.io/"
+    },     
     {
         "category": "Undergraduate/Master's Students",
         "name": "Angela Xing",
@@ -142,15 +150,7 @@
         "imgPath": "images/people/no_photo.png",
         "alt": "Alex Jiang's Profile Picture"       ,
         "link": "https://ivl.cs.brown.edu/people.html"
-    }, 
-    {
-        "category": "Brown IVL Alumni",
-        "name": "Gaurav Singh (visitor)",
-        "years": "2024",
-        "imgPath": "images/people/no_photo.png.png",
-        "alt": "Gaurav's Profile Picture"       ,
-        "link": "#"
-    }, 
+    },
     {
         "category": "Brown IVL Alumni",
         "name": "Patrick Ortiz",
