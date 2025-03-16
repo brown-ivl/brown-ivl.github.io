@@ -30,6 +30,8 @@ carousels:
 
 ### Updates
 
+- **_Mar-2025_** Srinath gave a short course on Radiance Fields at the Indian Institute of Science ([Kotak IISc AI-ML Centre](https://kiac.iisc.ac.in/)) in January 2025. A [recording of the course is now available](https://www.youtube.com/watch?v=dEX8vZlxf5A&list=PLzs3eMWUmDsNAPzqR8ucQMRnBHYyMX_jc&index=1).
+
 - **_Mar-2025_** [GeoDiffuser](https://ivl.cs.brown.edu/research/geodiffuser.html) has won the [Best Student Paper award](https://ivl.cs.brown.edu/assets/images/awards/2025_WACV_BestPaper.jpg) at WACV 2025!
 
 - **_Feb-2025_** [GigaHands](https://ivl.cs.brown.edu/research/gigahands.html), [FoundHand](https://ivl.cs.brown.edu/research/foundhand.html), and [UVGS](https://aashishrai3799.github.io/uvgs/) accepted to CVPR 2025.
