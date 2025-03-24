@@ -153,11 +153,13 @@ Examples showcase the capability to modify room types, layouts, object appearanc
 Taking a free-form textual input, our pipeline generates the house-scale scene by: (i) comprehending and elaborating on the user's textual input through querying an LLM with templated prompts; (ii) converting textual descriptions into base geometry using structured intermediate representations; (iii) employing an SDS process with a differentiable renderer to refine object placements; and (iv) applying depth-conditioned texture inpainting for egocentric texture generation.
 
 ## Citations
-    @inproceedings{wen2023anyhome,
-        title={AnyHome: Open-Vocabulary Generation of Structured and Textured 3D Homes}, 
-        author={Rao Fu and Zehao Wen and Zichen Liu and Srinath Sridhar},
-        booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
-        year={2024},
+    @inproceedings{fu2024anyhome,
+    title={Anyhome: Open-vocabulary generation of structured and textured 3d homes},
+    author={Fu, Rao and Wen, Zehao and Liu, Zichen and Sridhar, Srinath},
+    booktitle={European Conference on Computer Vision},
+    pages={52--70},
+    year={2024},
+    organization={Springer}
     }
 
 ## Acknowledgements
