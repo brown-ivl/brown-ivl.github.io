@@ -34,13 +34,13 @@ affiliations:
   - "<sup>1</sup>[Brown University]"
   - "<sup>2</sup>[ETH Zurich]"
   - "*[Equal Contributions]"
-journal: ""
+journal: CVPR 2025
 redirect_from:
   - add redirect_path here
   - another path here
 ---
 
-{% include icons.html paper="https://www.arxiv.org/abs/2412.04244" code="https://github.com/brown-ivl/gigahands" dataset="https://github.com/brown-ivl/gigahands" %}
+{% include icons.html paper="https://www.arxiv.org/abs/2412.04244" code="https://github.com/Kristen-Z/GigaHands" dataset="https://github.com/Kristen-Z/GigaHands" %}
 
 {% include full_image.html path="/assets/images/projects/gigahands/teaser.jpg" alt="[Teaser Figure]" %}
 **We present GigaHands, a massive annotated bimanual hand activity dataset, unlocking new possibilities for animations, robotics and beyond.**
@@ -72,8 +72,8 @@ We showcase text-driven motion generation enabled by training a generative model
 We showcase 3D hand motion captioning by training a generative model with GigaHands.
 {% include video.html path="/assets/images/projects/gigahands/caption_small.mp4" alt="[Caption Result]" %}
 
-<b><u>In-the-Wild Dataset</u></b>
-Using only GigaHands, we enable 3D hand motion captioning for other datasets.
+<b><u>Other Dataset</u></b>
+Using generative model trained only GigaHands, we enable 3D hand motion captioning for other datasets.
 {% include video.html path="/assets/images/projects/gigahands/caption_itw_small.mp4" alt="[Caption in-th-wild Result]" %}
 
 ---
@@ -82,17 +82,20 @@ GigaHands provides hand motions captured from **51 camera views**, enabling dyna
 {% include video.html path="/assets/images/projects/gigahands/2dgs.mp4" alt="[Reconstruction Result]" %}
 
 ---
+# Application: Motion Retargeting (with Physics)
+Thanks to the accurate 3D motion tracking, complex manipulation sequences can be retargeted to robot grippers (inspire hand).
+{% include video.html path="/assets/images/projects/gigahands/motion_retarget.mp4" alt="[Retarget Result]" %}
+
+---
 # Citations
 ```
-@misc{fu2024gigahandsmassiveannotateddataset,
-      title={GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities}, 
-      author={Rao Fu and Dingxi Zhang and Alex Jiang and Wanjia Fu and Austin Funk and Daniel Ritchie and Srinath Sridhar},
-      year={2024},
-      eprint={2412.04244},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.04244}, 
+@article{fu2025gigahands,
+  title={GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities},
+  author={Fu, Rao and Zhang, Dingxi and Jiang, Alex and Fu, Wanjia and Fund, Austin and Ritchie, Daniel and Sridhar, Srinath},
+  year={2025},
+  publisher={CVPR 2025}
 }
+
 ```
 
 # Acknowledgements
