@@ -29,7 +29,7 @@ authors:
 affiliations:
   - "<sup>1</sup>[Brown University]"
   - "<sup>2</sup>[Meta Reality Labs]"
-journal: ""
+journal: "CVPR 2025 (<span style=\"color:red\">Highlight</span>)"
 redirect_from:
   - add redirect_path here
   - another path here
