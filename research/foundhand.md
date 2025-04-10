@@ -35,7 +35,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="https://arxiv.org/abs/2412.02690" demo="https://huggingface.co/spaces/Chaerin5/FoundHand" %}
+{% include icons.html paper="https://arxiv.org/abs/2412.02690" demo="https://huggingface.co/spaces/Chaerin5/FoundHand" codejune=""%}
 <img src="/assets/images/projects/foundhand/foundhand_teaser.png" alt="Method Teaser" width="100%"/>
 
 We present **FoundHand**, a domain-specific image generation model that can synthesize realistic single and dual hand images.
