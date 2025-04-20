@@ -83,7 +83,7 @@ GigaHands provides hand motions captured from **51 camera views**, enabling dyna
 
 ---
 # Application: Motion Retargeting (with Physics)
-Thanks to the accurate 3D motion tracking, complex manipulation sequences can be retargeted to robot grippers (inspire hand).
+Thanks to the accurate 3D motion tracking, complex manipulation sequences can be retargeted to robot grippers (inspire hand) with ManipTrans (Li et al.).
 {% include video.html path="/assets/images/projects/gigahands/motion_retarget.mp4" alt="[Retarget Result]" %}
 
 ---
