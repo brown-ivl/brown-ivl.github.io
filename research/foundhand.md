@@ -29,13 +29,13 @@ authors:
 affiliations:
   - "<sup>1</sup>[Brown University]"
   - "<sup>2</sup>[Meta Reality Labs]"
-journal: ""
+journal: "CVPR 2025 (<span style=\"color:red\">Highlight</span>)"
 redirect_from:
   - add redirect_path here
   - another path here
 ---
 
-{% include icons.html paper="https://arxiv.org/abs/2412.02690" demo="https://huggingface.co/spaces/Chaerin5/FoundHand" %}
+{% include icons.html paper="https://arxiv.org/abs/2412.02690" demo="https://huggingface.co/spaces/Chaerin5/FoundHand" codecoming=""%}
 <img src="/assets/images/projects/foundhand/foundhand_teaser.png" alt="Method Teaser" width="100%"/>
 
 We present **FoundHand**, a domain-specific image generation model that can synthesize realistic single and dual hand images.
