@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
+
+  <!-- <meta http-equiv="x-ua-compatible" content="ie=edge"> -->
+
+  <title>V-HOP</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- mirror: F0%9F%AA%9E&lt -->
+
+  <link rel="stylesheet" type="text/css" href="./ClimateNeRF_files/slick.css">
+  <link rel="stylesheet" type="text/css" href="./ClimateNeRF_files/slick-theme.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/bulma.min.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/bulma-slider.min.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/font-awesome.min.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/codemirror.min.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/app.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/index.css">
+  <link rel="stylesheet" href="./ClimateNeRF_files/select.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="resources/glide.core.min.css">
+  <link rel="stylesheet" href="resources/glide.theme.min.css">
+  <link rel="stylesheet" href="resources/glide-custom.css">
+  <script src="resources/handlers.js"></script>
+  <script src="./ClimateNeRF_files/jquery.min.js"></script>
+  <script src="./ClimateNeRF_files/bootstrap.min.js"></script>
+  <script src="./ClimateNeRF_files/codemirror.min.js"></script>
+  <script src="./ClimateNeRF_files/clipboard.min.js"></script>
+  <script src="./ClimateNeRF_files/video_comparison.js"></script>
+  <script src="./ClimateNeRF_files/select.js"></script>
+  <script src="./ClimateNeRF_files/bulma-slider.min.js"></script>
+  <script src="./ClimateNeRF_files/bulma-carousel.min.js"></script>
+  <!-- <script src="./ClimateNeRF_files/app.js"></script> -->
+  <script src="./ClimateNeRF_files/index.js"></script>
+  <!-- <script src="./ClimateNeRF_files/slick.js"></script> -->
+
+  <script src="resources/glide.min.js"></script>
+  <script>
+    window.onload = function () {
+      new Glide("#dynamic-carousel", {
+        type: "carousel",
+        perView: 1.68,
+        focusAt: "center",
+        autoplay: 20000,
+        hoverpause: true
+      }).mount();
+      new Glide("#static-carousel", {
+        type: "carousel",
+        perView: 1.68,
+        focusAt: "center",
+        autoplay: 3000,
+        hoverpause: true
+      }).mount();
+      new Glide("#realtime-carousel", {
+        type: "carousel",
+        perView: 2.05,
+        focusAt: "center",
+        autoplay: 3000,
+        hoverpause: true
+      }).mount();
+    };
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZ6PES7EKD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-RZ6PES7EKD');
+  </script>
+</head>
+
+<body>
+  <div class="container" id="header" style="text-align: center; margin: auto;">
+    <div class="row" id="title-row" style="max-width: 100%; margin: 0 auto; display: inline-block">
+      <h2 class="col-md-12 text-center" id="title">
+        <b>V-HOP</b>: Visuo-Haptic 6D Object Pose Tracking
+      </h2>
+      <h3 class="col-md-12 text-center" id="title">
+        <b>RSS</b>2025<br>
+      </h3>
+    </div>
+  </div>
+  <script>
+  </script>
+  <div class="container" id="main">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <ul class="list-inline">
+          <li> <a href="https://lhy.xyz/">Hongyu Li<sup>1</sup></a> </li>
+          <li> <a href="https://saulbatman.github.io/"> Mingxi Jia<sup>1</sup></a> </li>
+          <li> <a href="https://scholar.google.com/citations?user=Zddf-sEAAAAJ&hl=en">Tuluhan Akbulut<sup>1</sup></a>
+          </li>
+          <li> <a href="https://yuxng.github.io/">Yu Xiang<sup>2</sup></a> </li>
+          <li> <a href="https://cs.brown.edu/people/gdk/">George Konidaris<sup>1</sup></a> </li>
+          <li> <a href="https://cs.brown.edu/people/ssrinath/">Srinath Sridhar<sup>1</sup></a> </li>
+        </ul>
+        <ul class="list-inline">
+          <li> <sup>1</sup>Brown University</li>
+          <li> <sup>2</sup>The University of Texas at Dallas</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+        <span class="link-block">
+          <a href="https://arxiv.org/abs/2502.17434" class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas"
+                data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"
+                data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z">
+                </path>
+              </svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+            </span>
+            <span>Paper</span>
+          </a>
+        </span>
+        <span class="link-block">
+          <a href="#" class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab"
+                data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+              </svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+            </span>
+            <span>Code (Coming Soon)</span>
+          </a>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <center>
+          <img src="./ClimateNeRF_files/images/v-hop-teaser.png" class="img-responsive" alt="overview" width="80%"
+            style="max-height: 450px;margin:auto;">
+        </center>
+        <h3>
+          Abstract
+        </h3>
+        <div class="text-justify">
+          Humans naturally integrate vision and haptics for robust object perception during manipulation. The loss of
+          either modality significantly degrades performance. Inspired by this multisensory integration, prior object
+          pose estimation research has attempted to combine visual and haptic/tactile feedback. Although these works
+          demonstrate improvements in controlled environments or synthetic datasets, they often underperform vision-only
+          approaches in real-world settings due to poor generalization across diverse grippers, sensor layouts, or
+          sim-to-real environments. Furthermore, they typically estimate the object pose for each frame independently,
+          resulting in less coherent tracking over sequences in real-world deployments. To address these limitations, we
+          introduce a novel unified haptic representation that effectively handles multiple gripper embodiments.
+          Building on this representation, we introduce a new visuo-haptic transformer-based object pose tracker that
+          seamlessly integrates visual and haptic input. We validate our framework in our dataset and the Feelsight
+          dataset, demonstrating significant performance improvement on challenging sequences. Notably, our method
+          achieves superior generalization and robustness across novel embodiments, objects, and sensor types (both
+          taxel-based and vision-based tactile sensors). In real-world experiments, we demonstrate that our approach
+          outperforms state-of-the-art visual trackers by a large margin. We further show that we can achieve precise
+          manipulation tasks by incorporating our real-time object tracking result into motion plans, underscoring the
+          advantages of visuo-haptic perception.
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h3>
+          Tracking Experiments
+        </h3>
+
+        <center>
+          <div class="video-compare-container" id="ours" style="width: 100%">
+            <video class="video" id="simulation_video" loop="" playsinline="" autoplay="" muted=""
+              poster="ClimateNeRF_files/loading.gif" src="ClimateNeRF_files/drill.mp4"
+              onplay="resizeAndPlay(this)">
+
+            </video>
+            <canvas class="videoMerge" id="simulation_videoMerge"></canvas>
+          </div>
+          <video class="video" id="baseline" loop="" playsinline="" autoplay="" muted=""
+            poster="ClimateNeRF_files/loading.gif" src="ClimateNeRF_files/drill.mp4" style="width: 0%">
+          </video>
+          <h4>
+            Object
+          </h4>
+          <ul class="nav nav-pills nav-justified" id="sim-view-ul" style="width: 60%">
+            <li role="presentation" class="active"><a href="javascript: void(0);" onclick="ChangeSim(0);">Power Drill</a>
+            </li>
+            <li role="presentation"><a href="javascript: void(0);" onclick="ChangeSim(1);">Sugar Box</a></li>
+            <li role="presentation"><a href="javascript: void(0);" onclick="ChangeSim(2);">Tomato Can</a></li>
+            <li role="presentation"><a href="javascript: void(0);" onclick="ChangeSim(3);">Mug</a></li>
+          </ul>
+        </center>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h3>
+          Dataset Visualization 
+        </h3>
+
+        <div class="text-justify">
+          We develop a multi-embodied dataset using NVIDIA Isaac Sim to enable cross-embodiment learning and thorough evaluation:
+        </div>
+
+        <table width="100%">
+          <tbody>
+            <tr>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000001.png" class="img-responsive">
+              </td>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000002.png" class="img-responsive">
+              </td>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000005.png" class="img-responsive">
+              </td>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000006.png" class="img-responsive">
+              </td>
+              </tr><tr>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000007.png" class="img-responsive">
+              </td>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000008.png" class="img-responsive">
+              </td>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000010.png" class="img-responsive">
+              </td>
+              <td align="center" valign="top" width="25%">
+                <img src="./ClimateNeRF_files/images/dataset/rgb_000011.png" class="img-responsive">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <iframe width="946" height="532" src="https://www.youtube.com/embed/Q-NWmvfo-Tc?si=7CPX6XoDZUQKCzhR"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h3>
+          Citation
+        </h3>
+        If you find our project useful, please consider citing:
+        <br />
+
+        <div class="CodeMirror cm-s-default CodeMirror-wrap">
+          <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 38.28px; left: 647px;">
+            <textarea autocorrect="off" autocapitalize="off" spellcheck="false"
+              style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"
+              tabindex="0"></textarea>
+          </div>
+          <div class="CodeMirror-vscrollbar" cm-not-content="true">
+            <div style="min-width: 1px; height: 0px;"></div>
+          </div>
+          <div class="CodeMirror-hscrollbar" cm-not-content="true">
+            <div style="height: 100%; min-height: 1px; width: 0px;"></div>
+          </div>
+          <div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div>
+          <div class="CodeMirror-gutter-filler" cm-not-content="true"></div>
+          <div class="CodeMirror-scroll" tabindex="-1">
+            <div class="CodeMirror-sizer"
+              style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 111px; padding-right: 0px; padding-bottom: 0px;">
+              <div style="position: relative; top: 0px;">
+                <div class="CodeMirror-lines">
+                  <div style="position: relative; outline: none;">
+                    <div class="CodeMirror-measure">AخA</div>
+                    <div class="CodeMirror-measure"></div>
+                    <div style="position: relative; z-index: 1;"></div>
+                    <div class="CodeMirror-cursors">
+                      <div class="CodeMirror-cursor" style="left: 647px; top: 34.28px; height: 17.1406px;">&nbsp;</div>
+                    </div>
+                    <div class="CodeMirror-code" style="">
+                      <pre
+                        class=" CodeMirror-line "><span style="padding-right: 0.1px;">@inproceedings{li2025vhop,</span></pre>
+                      <pre
+                        class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp;  title={V-HOP: Visuo-Haptic 6D Object Pose Tracking}, </span></pre>
+                      <pre
+                        class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp;  author={Hongyu Li and Mingxi Jia and Tuluhan Akbulut and Yu Xiang and George Konidaris and Srinath Sridhar},</span></pre>
+                      <pre
+                        class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp;  booktitle={Proceedings of Robotics: Science and Systems},</span></pre>
+                      <pre
+                        class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp;  year={2025}</span></pre>
+                      <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">}</span></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="position: absolute; height: 15px; width: 1px; top: 111px;"></div>
+            <div class="CodeMirror-gutters" style="display: none; height: 126px;"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h3>
+          Acknowledgements
+        </h3>
+
+        The website template was borrowed from
+        <a href="https://climatenerf.github.io/">ClimateNeRF</a>,
+         <a href="http://mgharbi.com/">Michaël Gharbi</a>, <A
+          href="https://dorverbin.github.io/refnerf/index.html">RefNeRF</a> , <A
+          href="https://nerfies.github.io/">Nerfies</A> and <A
+          href="https://hhsinping.github.io/svs/supp/visual_comparison.html">Semantic View Synthesis</a>.
+
+      </div>
+    </div>
+  </div>
+</body>
+f
+
+</html>
