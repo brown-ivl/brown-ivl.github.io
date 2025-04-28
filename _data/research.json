@@ -86,7 +86,7 @@
         "title": "ViTa-Zero: Zero-shot Visuotactile Object 6D Pose Estimation",
         "authors": "Hongyu Li, James Akl, Srinath Sridhar, Tye Brady, Taskin Padir",
         "journal": "ICRA 2025",
-        "projectPage": "https://ivl.cs.brown.edu/research.html",
+        "projectPage": "/research/vita-zero",
         "pdf": "http://arxiv.org/abs/2504.13179",
         "bibTex": "",
         "moreInfo": "",

@@ -93,4 +93,4 @@ We thank Ying Wang, Tao Lu, Zekun Li, and Xiaoyan Cong for their valuable discus
 This research was conducted using computational resources and services at the Center for Computation and Visualization, Brown University.
 
 # Contact
-Hongyu Li ([contact email](hli230@cs.brown.edu))
+Hongyu Li ([contact email](mailto:hli230@cs.brown.edu))
