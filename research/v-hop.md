@@ -80,7 +80,7 @@ The visual modality, based on FoundationPose, uses a visual encoder to process R
 ```
 @inproceedings{li2025vhop,
     title={V-HOP: Visuo-Haptic 6D Object Pose Tracking}, 
-    author={Hongyu Li and Mingxi Jia and Tuluhan Akbulut and Yu Xiang and George Konidaris and Srinath Sridhar},
+    author={Li, Hongyu and Jia, Mingxi and Akbulut, Tuluhan and Xiang, Yu and Konidaris, George and Sridhar, Srinath},
     booktitle={Proceedings of Robotics: Science and Systems},
     year={2025}
 }
