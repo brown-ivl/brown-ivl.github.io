@@ -37,7 +37,7 @@ redirect_from:
 
 {% include icons.html paper="https://www.arxiv.org/abs/2502.17434" codecoming="#" %}
 
-{% include full_image.html path="/assets/images/projects/v-hop/v-hop-teaser.png" alt="[Teaser Figure]" %}
+{% include full_image.html path="/assets/images/projects/v-hop/v-hop-teaser.jpg" alt="[Teaser Figure]" %}
 
 ---
 # Abstract
