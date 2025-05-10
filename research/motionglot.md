@@ -19,7 +19,7 @@ redirect_from:
 ---
 
 
-{% include icons.html paper= "https://arxiv.org/abs/2410.16623" code= "" %}
+{% include icons.html paper= "https://arxiv.org/abs/2410.16623" code= "https://github.com/sudarshan-s-harithas/MotionGlot-A-Multi-Embodied-Motion-Generation-Model"%}
 
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
@@ -158,7 +158,16 @@ img="/assets/images/projects/motionglot/overview.svg" %}
 
 ### Citation
 
-<b> To be included post arxiv release </b> 
+
+```
+@article{harithas2024motionglot,
+  title={MotionGlot: A Multi-Embodied Motion Generation Model},
+  author={Harithas, Sudarshan and Sridhar, Srinath},
+  journal={arXiv preprint arXiv:2410.16623},
+  year={2024}
+} 
+```
+
 
 
 ### Acknowledgements
