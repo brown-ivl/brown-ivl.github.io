@@ -35,7 +35,7 @@ redirect_from:
   - another path here
 ---
 
-{% include icons.html paper="https://www.arxiv.org/abs/2502.17434" codecoming="#" %}
+{% include icons.html paper="https://www.arxiv.org/abs/2502.17434" code="https://github.com/brown-ivl/v-hop"%}
 
 {% include full_image.html path="/assets/images/projects/v-hop/v-hop-teaser.jpg" alt="[Teaser Figure]" %}
 
