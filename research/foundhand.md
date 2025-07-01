@@ -98,11 +98,13 @@ Without explicit object supervision, FoundHand synthesizes physically plausible 
 
 
 ## Citations
-    @article{chen2024foundhand,
-            title={FoundHand: Large-Scale Domain-Specific Learning for Controllable Hand Image Generation},
-            author={Chen, Kefan and Min, Chaerin and Zhang, Linguang and Hampali, Shreyas and Keskin, Cem and Sridhar, Srinath},
-            journal={arXiv preprint arXiv:2412.02690},
-            year={2024}
+    @InProceedings{Chen_2025_CVPR,
+        author    = {Chen, Kefan and Min, Chaerin and Zhang, Linguang and Hampali, Shreyas and Keskin, Cem and Sridhar, Srinath},
+        title     = {FoundHand: Large-Scale Domain-Specific Learning for Controllable Hand Image Generation},
+        booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+        month     = {June},
+        year      = {2025},
+        pages     = {17448-17460}
     }
 
 ## Acknowledgements
