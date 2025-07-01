@@ -25,7 +25,7 @@ authors:
 affiliations:
   - "<sup>1</sup> Brown University"
   - "<sup>2</sup> Amazon Robotics"
-journal: 
+journal: "WACV 2025 (<span style=\"color:red\">Best Student Paper</span>)"
 redirect_from:
   - /projects/geodiffuser
   - /projects/geodiffuser/
