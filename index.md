@@ -3,6 +3,7 @@ layout: page
 title: Interactive 3D Vision & Learning Lab (IVL)
 carousels:
   - images:
+      - image: /assets/images/carousel/2025_cvpr_01.jpg
       - image: /assets/images/carousel/2025_spring_02.jpg
       - image: /assets/images/carousel/2025_spring_01.jpg
       - image: /assets/images/carousel/2024_fall_01.jpg
@@ -30,6 +31,8 @@ carousels:
 </div>
 
 ### Updates
+
+- **_June-2025_** [InteractAvatar](https://arthurchen0518.github.io/InteractAvatar) accepted to ICCV 2025.
 
 - **_Apr-2025_** [V-HOP](/research/v-hop.html) accepted to RSS 2025.
 
