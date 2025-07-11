@@ -95,6 +95,20 @@ Franka picks up a cube of a different color, based on where the touch is on its 
 <!-- ## Citations
 
     Add your bibtex citation here! Be sure to indent the citation by 4 spaces. -->
+---
+
+# Citations
+```
+@misc{fu2025unitacwholerobottouchsensing,
+      title={UniTac: Whole-Robot Touch Sensing Without Tactile Sensors}, 
+      author={Wanjia Fu and Hongyu Li and Ivy X. He and Stefanie Tellex and Srinath Sridhar},
+      year={2025},
+      eprint={2507.07980},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2507.07980}, 
+}
+```
 
 ## Acknowledgements
 This work is supported by the Office of Naval Research (ONR) grant #N00014-22-1-259. Wanjia was supported by a UTRA award and a Randy Pausch Fellowship.
