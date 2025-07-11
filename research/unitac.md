@@ -31,6 +31,7 @@ redirect_from:
 
 
 ---
+{% include icons.html paper="https://arxiv.org/abs/2507.07980" codecoming="#" %}
 
 {% include full_image.html path="/assets/images/projects/unitac/tactile-teaser.jpg" alt="[Teaser Figure]" %}
 
