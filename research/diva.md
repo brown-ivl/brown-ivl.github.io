@@ -108,7 +108,8 @@ To download all resulting videos, run the following command (note that this is 6
 ```
 aws s3 cp s3://diva360/all_videos/ <path_to_destination> --recursive --no-sign-request
 ``` -->
-### Setup
+
+<!-- ### Setup
 We store our dataset on Globus, so to download the data to your local machine, we use Globus Command Line Interface (Globus-CLI) and Globus Connect Personal (GCP). You will first need to install GCP. Follow these intructions depending on your machine: [Mac](https://docs.globus.org/globus-connect-personal/install/mac/), [Windows](https://docs.globus.org/how-to/globus-connect-personal-windows/), [Linux](https://docs.globus.org/how-to/globus-connect-personal-linux/).
 
 Note: When you are installing GCP, you will have to name your collection/endpoint. You are free to name it however you choose, but we suggest naming it "&lt;name&gt; personal machine". 
@@ -173,7 +174,19 @@ Assuming you have the following `batch_transfer.txt` file:
 To check the status of your transfer, use the following command:
 ```
 globus task show <task ID>
-```
+``` -->
+You can download the data [here](https://www.dropbox.com/scl/fo/j68f78vlzt9q2z334294u/AHZ7i6znu9zQJXhs3n1Pmko?rlkey=7e59p9e9ex8lakyuslrhg9afj&st=e1ztwgmv&dl=0). Please note that the dataset is large. Here is a breakdown of required storage:
+
+<div style="display: flex; flex-direction: row;">
+    <div>
+        <ul style="list-style: none;">
+            <li>Raw Data: 1.4 TB</li>
+            <li>Processed Data: 1.8 TB</li>
+            <li>Trained Models: 6 TB</li>
+            <li>Rendered Videos: 63.1 GB</li>
+        </ul>
+    </div>
+</div>
 
 ### Sequences
 <details>
