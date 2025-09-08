@@ -96,7 +96,7 @@
         "link": "https://wanjia-fu.com/"
     },
     {
-        "category": "Brown IVL Alumni",
+        "category": "Undergraduate/Master's Students",
         "name": "Praccho Muna-McQuay",
         "years": "2024 - Present",
         "imgPath": "images/people/praccho.png",
@@ -108,7 +108,7 @@
         "category": "Undergraduate/Master's Students",
         "name": "Tamar Kreitman",
         "years": "2025 - Present",
-        "imgPath": "images/people/no_photo.jpg",
+        "imgPath": "images/people/no_photo.png",
         "alt": "Tamar's Profile Picture",
         "link": ""
     },    
@@ -178,7 +178,7 @@
         "category": "Brown IVL Alumni",
         "name": "Gabrielle Shieh",
         "years": "2023 - 2024",
-        "imgPath": "images/people/no_photo.png.png",
+        "imgPath": "images/people/no_photo.png",
         "alt": "Gabrielle Shieh's Profile Picture"       ,
         "link": "#"
     }, 
@@ -186,7 +186,7 @@
         "category": "Brown IVL Alumni",
         "name": "Serena Pulopot",
         "years": "2024",
-        "imgPath": "images/people/no_photo.png.png",
+        "imgPath": "images/people/no_photo.png",
         "alt": "Serena Pulopot's Profile Picture"       ,
         "link": "#"
     }, 
@@ -194,7 +194,7 @@
         "category": "Brown IVL Alumni",
         "name": "Fuka Ikeda",
         "years": "2024",
-        "imgPath": "images/people/no_photo.png.png",
+        "imgPath": "images/people/no_photo.png",
         "alt": "Fuka Ikeda's Profile Picture"       ,
         "link": "#"
     }, 
