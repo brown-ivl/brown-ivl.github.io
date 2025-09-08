@@ -25,7 +25,7 @@ permalink: /people
     {% endfor %}
 </div>
 
-## Postdocs
+<!--## Postdocs
 <div class="row people-category">
     {% for person in site.data.people %}
         {% if (person.category == "Postdoc") %}
@@ -43,7 +43,7 @@ permalink: /people
         </div>
         {% endif %}
     {% endfor %}
-</div>
+</div>-->
 
 ## PhD Students
 
