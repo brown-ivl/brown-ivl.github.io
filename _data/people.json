@@ -8,14 +8,6 @@
         "link": "https://cs.brown.edu/people/ssrinath/index.html"
     },    
     {
-        "category": "Postdoc",
-        "name": "Tao Lu",
-        "years": "2024 - Present",
-        "imgPath": "images/people/lutao2024.png",
-        "alt": "Tao Lu's Profile Picture",
-        "link": "https://inspirelt.github.io/"
-    },
-    {
         "category": "PhD Students",
         "name": "Rao Fu",
         "years": "2021 - Present",
@@ -47,14 +39,6 @@
         "alt": "Aashish Rai Profile Picture",
         "link": "https://aashishrai3799.github.io/"
     },  
-    {
-        "category": "PhD Students",
-        "name": "Hongyu Li",
-        "years": "2023 - Present",
-        "imgPath": "images/people/Hongyu_li.jpg",
-        "alt": "Hongyu Li Profile Picture",
-        "link": "https://lhy.xyz/"
-    },    
     {
         "category": "PhD Students",
         "name": "Sudarshan Harithas",
@@ -105,14 +89,6 @@
     }, 
     {
         "category": "Undergraduate/Master's Students",
-        "name": "Theo McArn",
-        "imgPath": "images/people/Theo.jpeg",
-        "alt": "Theo McArn's Profile Picture",
-        "years": "2022 - Present",
-        "link": "https://www.linkedin.com/in/theo-mcarn"
-    },      
-    {
-        "category": "Undergraduate/Master's Students",
         "name": "Wanjia Fu",
         "years": "2023 - Present",
         "imgPath": "images/people/wfu16.jpg",
@@ -120,37 +96,76 @@
         "link": "https://wanjia-fu.com/"
     },
     {
-        "category": "Undergraduate/Master's Students",
-        "name": "Arman Mohammadi",
-        "years": "2024 - Present",
-        "imgPath": "images/people/Arman_Mohammadi.jpg",
-        "alt": "Arman Mohammadi's Profile Picture"       ,
-        "link": "https://www.linkedin.com/in/arman-mohammadi-afg"
-    },   
-    {
-        "category": "Undergraduate/Master's Students",
+        "category": "Brown IVL Alumni",
         "name": "Praccho Muna-McQuay",
         "years": "2024 - Present",
         "imgPath": "images/people/praccho.png",
         "alt": "Praccho Muna-McQuay Profile Picture"       ,
-        "link": "https://praccho.io"
-    }, 
+        "link": "https://praccho.io",
+        "status": ""        
+    },     
     {
         "category": "Undergraduate/Master's Students",
+        "name": "Tamar Kreitman",
+        "years": "2025 - Present",
+        "imgPath": "images/people/no_photo.jpg",
+        "alt": "Tamar's Profile Picture",
+        "link": ""
+    },    
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Theo McArn",
+        "imgPath": "images/people/Theo.jpeg",
+        "alt": "Theo McArn's Profile Picture",
+        "years": "2022 - 2025",
+        "link": "https://www.linkedin.com/in/theo-mcarn",
+        "status": ""
+    },          
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Arman Mohammadi",
+        "years": "2024 - 2025",
+        "imgPath": "images/people/Arman_Mohammadi.jpg",
+        "alt": "Arman Mohammadi's Profile Picture",
+        "link": "https://www.linkedin.com/in/arman-mohammadi-afg",
+        "status": ""        
+    },   
+    {
+        "category": "Brown IVL Alumni",
         "name": "Emre Arslan",
-        "years": "2024 - Present",
+        "years": "2024 - 2025",
         "imgPath": "images/people/emre.jpg",
         "alt": "Emre Arslan Profile Picture"       ,
-        "link": "https://ivl.cs.brown.edu/people.html"
+        "link": "https://ivl.cs.brown.edu/people.html",
+        "status": ""      
     }, 
     {
-        "category": "Undergraduate/Master's Students",
+        "category": "Brown IVL Alumni",
         "name": "Alex Jiang",
-        "years": "2025 - Present",
+        "years": "2025",
         "imgPath": "images/people/no_photo.png",
         "alt": "Alex Jiang's Profile Picture"       ,
-        "link": "https://ivl.cs.brown.edu/people.html"
+        "link": "https://ivl.cs.brown.edu/people.html",
+        "status": ""      
     },
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Hongyu Li",
+        "years": "2023 - 2025",
+        "imgPath": "images/people/Hongyu_li.jpg",
+        "alt": "Hongyu Li Profile Picture",
+        "link": "https://lhy.xyz/"
+        "status": "Next: PhD Student at Brown"        
+    },        
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Tao Lu",
+        "years": "2024 - 2025",
+        "imgPath": "images/people/lutao2024.png",
+        "alt": "Tao Lu's Profile Picture",
+        "link": "https://inspirelt.github.io/"
+        "status": "Next: Microsoft"
+    },    
     {
         "category": "Brown IVL Alumni",
         "name": "Patrick Ortiz",
