@@ -154,7 +154,7 @@
         "years": "2023 - 2025",
         "imgPath": "images/people/Hongyu_li.jpg",
         "alt": "Hongyu Li Profile Picture",
-        "link": "https://lhy.xyz/"
+        "link": "https://lhy.xyz/",
         "status": "Next: PhD Student at Brown"        
     },        
     {
@@ -163,8 +163,8 @@
         "years": "2024 - 2025",
         "imgPath": "images/people/lutao2024.png",
         "alt": "Tao Lu's Profile Picture",
-        "link": "https://inspirelt.github.io/"
-        "status": "Next: Microsoft"
+        "link": "https://inspirelt.github.io/",
+        "status": ""
     },    
     {
         "category": "Brown IVL Alumni",
