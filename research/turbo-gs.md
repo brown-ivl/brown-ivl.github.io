@@ -3,11 +3,11 @@ layout: project
 title: "Turbo-GS: Accelerating 3D Gaussian Fitting for High-Quality Radiance Fields"
 authors:
   - author:
-      name: "Tao Lu"
-      affiliation: 1*
+      name: "Ankit Dhiman"
+      affiliation: 2*
       link: 
   - author:
-      name: "Ankit Dhiman"
+      name: "Tao Lu"
       affiliation: 2*
       link: 
   - author:
