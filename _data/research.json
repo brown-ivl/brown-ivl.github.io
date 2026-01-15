@@ -163,7 +163,7 @@
         "year": 2024,
         "dateOfPublication": "2024",
         "title": "Turbo-GS: Accelerating 3D Gaussian Fitting for High-Quality Radiance Fields",
-        "authors": "Tao Lu, Ankit Dhiman, Srinath R, Emre Arslan, Angela Xing, Yuanbo Xiangli, Venkatesh Babu Radhakrishnan, Srinath Sridhar",
+        "authors": "Ankit Dhiman, Tao Lu, Srinath R, Emre Arslan, Angela Xing, Yuanbo Xiangli, Venkatesh Babu Radhakrishnan, Srinath Sridhar",
         "journal": "ArXiv 2024",
         "projectPage": "https://ivl.cs.brown.edu/research/turbo-gs",
         "pdf": "https://arxiv.org/abs/2412.13547",
