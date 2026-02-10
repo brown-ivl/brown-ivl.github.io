@@ -1,6 +1,21 @@
 [
     {
         "category": "Publications",
+        "year": 2026,
+        "dateOfPublication": "2026",
+        "title": "SLoFT: End-to-End Semantic Localization with Floorplan and Transformer",
+        "authors": "Chaerin Min, Hongsheng Yu, Fengtao Fan, Srinath Sridhar, Qiuxuan Wu, Chao Guo",
+        "journal": "ICRA 2026",
+        "projectPage": "",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/sloft_ivl.gif"
+    },
+    {
+        "category": "Publications",
         "year": 2025,
         "dateOfPublication": "2025",
         "title": "UniTac: Whole-Robot Touch Sensing Without Tactile Sensors",
@@ -13,6 +28,36 @@
         "pubman": "",
         "video": "",
         "image": "images/papers/UniTac.gif"
+    },
+    {
+        "category": "Publications",
+        "year": 2025,
+        "dateOfPublication": "2025",
+        "title": "InteractAvatar: Modeling Hand-Face Interaction in Photorealistic Avatars with Deformable Gaussians",
+        "authors": "Kefan Chen, Sergiu Oprea, Justin Theiss, Sreyas Mohan, Srinath Sridhar, Aayush Prakash",
+        "journal": "ICCV 2025",
+        "projectPage": "https://arthurchen0518.github.io/InteractAvatar",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/interact_avatar.jpg"
+    },
+    {
+        "category": "Publications",
+        "year": 2025,
+        "dateOfPublication": "2025",
+        "title": "DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion",
+        "authors": "Dvij Kalaria , Sudarshan Harithas , Pushkal Katara , Sangkyung Kwak , Sarthak Bhagat, S. Shankar Sastry, Srinath Sridhar, Sai Vemprala, Ashish Kapoor, Jonathan Huang",
+        "journal": "ArXiv 2025",
+        "projectPage": "https://genrobo.github.io/DreamControl",
+        "bibTex": "",
+        "moreInfo": "",
+        "googlePatents": "",
+        "pubman": "",
+        "video": "",
+        "image": "images/papers/dream_control.gif"
     },
     {
         "category": "Publications",
