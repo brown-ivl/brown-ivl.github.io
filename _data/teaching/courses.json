@@ -1,5 +1,16 @@
 [
     {
+        "title": "Short course on Radiance Fields in Visual Computing and Artificial Intelligence",
+        "image": "images/teaching/ai_course_2025.png",
+        "sems": [
+            {
+                "sem": "January 2025",  
+                "page": "https://www.youtube.com/playlist?list=PLzs3eMWUmDsNAPzqR8ucQMRnBHYyMX_jc"
+            }
+        ]       
+    },
+
+    {
         "title": "CSCI 2952-K: Topics in 3D Computer Vision and Machine Learning",
         "image": "images/teaching/2952k.jpeg",
         "sems": [
