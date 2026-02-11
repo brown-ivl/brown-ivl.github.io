@@ -43,9 +43,8 @@ carousels:
 - **_Sept-2025_** [Rao Fu](https://risingstars-eecs.mit.edu/participants/rao-fu) received MIT EECS Rising Star.
 
 
-  <details>
+<details>
   <summary> More Updates </summary>
-
   <article markdown="1" class="post-content">
 
 - **_June-2025_** [InteractAvatar](https://arthurchen0518.github.io/InteractAvatar) accepted to ICCV 2025.
