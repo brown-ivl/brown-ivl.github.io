@@ -32,6 +32,16 @@ carousels:
 
 ### Updates
 
+- **_Jan-2026_** [SLoFT](#) accepted to ICRA 2026.
+
+- **_Dec-2025_** IVL's research featured in [Boston Globe](https://archive.is/1bc5M).
+
+- **_Nov-2025_** [DyTact](https://oliver-cong02.github.io/DyTact.github.io) accepted to 3DV 2026.
+ 
+- **_Nov-2025_** [GenHSI](https://kunkun0w0.github.io/project/GenHSI) accepted to WACV 2026.
+
+- **_Sept-2025_** [Rao Fu](https://risingstars-eecs.mit.edu/participants/rao-fu) received MIT EECS Rising Star.
+
 - **_June-2025_** [InteractAvatar](https://arthurchen0518.github.io/InteractAvatar) accepted to ICCV 2025.
 
 - **_Apr-2025_** [V-HOP](/research/v-hop.html) accepted to RSS 2025.

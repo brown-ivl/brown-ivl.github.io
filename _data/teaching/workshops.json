@@ -1,5 +1,11 @@
 [
     {
+        "title": "Radiance Fields in Visual Computing and Artificial Intelligence",
+        "year": "2025",   
+        "page": "https://www.youtube.com/playlist?list=PLzs3eMWUmDsNAPzqR8ucQMRnBHYyMX_jc",
+        "image": "images/teaching/ai_course_2025.png"
+    },
+    {
         "title": "SIGGRAPH 2023 Course on Neural Fields in Visual Computing",
         "year": "2023",        
         "page": "https://neuralfields.cs.brown.edu/siggraph23.html",
