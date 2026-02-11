@@ -42,7 +42,7 @@ carousels:
 
 - **_Sept-2025_** [Rao Fu](https://risingstars-eecs.mit.edu/participants/rao-fu) received MIT EECS Rising Star.
 
-
+<!--Make sure to not have any tabs or white spaces before the details tag below-->
 <details>
   <summary> More Updates </summary>
   <article markdown="1" class="post-content">
