@@ -8,7 +8,7 @@ authors:
       affiliation: 
       link: https://srinathsridhar.com/
 affiliations:
-  - "Brown University"
+  - ""
 ---
 
 Vincent Sitzmann recently wrote a blog post on the Flavor of the Bitter Lesson for Computer Vision. In it, he argues that computer vision, as we know it today, might go away with what’s left becoming part of end-to-end perception-action models. This post is timely, and its questioning of 3D representations mirrors several of my group’s recent conversations.
