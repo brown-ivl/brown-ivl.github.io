@@ -60,7 +60,7 @@ Does that mean computer vision as a field now obsolete? I don’t think so.
 
 In fact, there is a flavor of sweetness to the lesson: an exciting opportunity to re-examine what our community thinks of as fundamental problems, representations, data, and techniques—and how they can co-exist in a world where leveraging computation is the most effective path. Perhaps the ideas that emerge from this re-examination will help us solve dexterous manipulation, general 4D spatial intelligence, or efficient continual learning.
 
-At Brown IVL, we are really excited about what’s to come and curious to listen to hear from others. We are co-organizing the <a href="https://ivl.cs.brown.edu/4dworldmodels/" target="_blank">4D World Models workshop</a> at CVPR which could offer a venue for further discussion and debate.
+At Brown IVL, we are really excited about what’s to come and curious to hear from others. We are co-organizing the <a href="https://ivl.cs.brown.edu/4dworldmodels/" target="_blank">4D World Models workshop</a> at CVPR which could offer a venue for further discussion and debate.
 
 *Thanks to Rahul Sajnani, Aashish Rai, Arthur Chen, Rao Fu, and Sudarshan Harithas for their feedback on this post.*
 
