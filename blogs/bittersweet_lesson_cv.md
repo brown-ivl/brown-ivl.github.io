@@ -3,8 +3,7 @@ layout: blog
 title: "The flavor of the bittersweet lesson for computer vision"
 date: February 25, 2026
 authors:
-  - author:
-      name: "Srinath Sridhar"
+  - author:      name: "Srinath Sridhar"
       affiliation: 
       link: https://srinathsridhar.com/
 affiliations:
@@ -69,7 +68,7 @@ At Brown IVL, we are really excited about what’s to come and curious to hear f
 
 *Thanks to Rahul Sajnani, Aashish Rai, Arthur Chen, Rao Fu, Sudarshan Harithas, and Gaurav Singh for their feedback on this post.*
 
-### Notes
+#### Notes
 
 1.  In our <a href="https://ivl.cs.brown.edu/research/v-hop" target="_blank">V-HOP</a> work, Brown PhD student Hongyu Li showed that that touch information together with proprioception can effectively be used as a 3D constraint for 6DoF pose estimation.
 2.  Measurement could involve ‘reconstruction’. CT scans are reconstructed from X-ray projections. Images are reconstructed from photoreceptor responses and <a href="https://en.wikipedia.org/wiki/Demosaicing" target="_blank">demosaicing</a> of the <a href="https://en.wikipedia.org/wiki/Bayer_filter" target="_blank">Bayer pattern</a> in color filter arrays.
