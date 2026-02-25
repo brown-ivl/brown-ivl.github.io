@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "The flavor of the lesson might be bittersweet for Computer Vision"
+title: "The flavor of the bittersweet lesson for computer vision"
 date: February 24, 2026
 authors:
   - author:
@@ -10,10 +10,6 @@ authors:
 affiliations:
   - ""
 ---
-
-# The flavor of the bittersweet lesson for computer vision
-
-Srinath Sridhar
 
 Vincent Sitzmann recently wrote a blog post on [the Flavor of the Bitter Lesson for Computer Vision](https://www.vincentsitzmann.com/blog/bitter_lesson_of_cv/). In it, he argues that computer vision, as we know it today, might go away, and what’s left of it might become part of end-to-end perception-action models. This post is timely, and reflects the conversations that many of us in the community have been having.
 
