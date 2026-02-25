@@ -32,6 +32,8 @@ carousels:
 
 ### Updates
 
+- **_Feb-2026_** Three papers accepted to CVPR 2026. More details coming soon.
+  
 - **_Jan-2026_** [SLoFT](#) accepted to ICRA 2026.
 
 - **_Dec-2025_** IVL's research featured in [Boston Globe](https://archive.is/1bc5M).
