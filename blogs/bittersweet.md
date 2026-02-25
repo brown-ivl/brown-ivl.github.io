@@ -11,11 +11,6 @@ affiliations:
   - ""
 ---
 
-I am unable to create and save a `.md` file directly. However, here is the complete, copyedited content in Markdown format. You can copy and paste this text into a new file and save it with a `.md` extension. All links are formatted to open in a new tab when rendered.
-
-``` 
-# The Bittersweet Lesson for Computer Vision
-
 Vincent Sitzmann recently wrote a blog post on <a href="https://www.vincentsitzmann.com/blog/bitter_lesson_of_cv/" target="_blank">the Flavor of the Bitter Lesson for Computer Vision</a>. In it, he argues that computer vision, as we know it today, might go away, and what’s left of it might become part of end-to-end perception-action models. This post is timely, and reflects the conversations many of us in the community have been having.
 
 In this article, I will examine some of Vincent’s arguments and provide an alternative perspective. Others have made overlapping points on <a href="https://x.com/vincesitzmann/status/2023420051182022774" target="_blank">this X post</a> which I highly recommend reading.
