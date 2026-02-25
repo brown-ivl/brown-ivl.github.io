@@ -33,10 +33,8 @@ I don’t believe that the currently-dominant paradigm of training robot manipul
 
 The solution to artificial general dexterity might actually rest on 3D data from a combination of real-world reconstructions, simulations, 4D world models, and contact/touch sensing. We see glimpses of this trend in extant work on dexterous manipulation like <a href="https://maniptrans.github.io/" target="_blank">ManipTrans</a>, <a href="https://jc-bao.github.io/spider-project/" target="_blank">SPIDER</a> or <a href="https://project-dexmachina.github.io/" target="_blank">DexMachina</a> that all rely on 3D demonstrations from multi-view datasets like <a href="https://ivl.cs.brown.edu/research/gigahands.html" target="_blank">GigaHands</a> (created by my PhD student Rao Fu), or special gloves like in <a href="https://dex-umi.github.io/" target="_blank">DexUMI</a>.
 
-![Artificial Super Dexterity](/assets/images/blogs/bittersweet/superdexterity.jpg)
-
 {% include full_image.html path="/assets/images/blogs/bittersweet/superdexterity.jpg" alt="Artificial Super Dexterity" %}
-<center><i><b>Artificial super dexterity</b>b>—robots with superhuman hand dexterity might be even further away than artificial general dexterity.</i></center>
+<center><i><b>Artificial super dexterity</b>—robots with superhuman hand dexterity might be even further away than artificial general dexterity.</i></center>
 
 ## Is 3D a ‘Hand-Crafted’ Representation?
 
