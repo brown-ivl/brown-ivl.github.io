@@ -11,9 +11,6 @@ affiliations:
   - ""
 ---
 
-I can provide the content in Markdown format, which you can then save as an `.md` file.
-
-``` markdown
 # The flavor of the bittersweet lesson for computer vision
 
 Srinath Sridhar
@@ -77,5 +74,3 @@ At Brown IVL, we are really excited about what’s to come and curious to listen
 *\[2\]: It’s worth noting that DUST3R and VGGT benefit from 2D pre-training.*
 
 *\[3\]: We are seeing early signs of methods that can reconstruct 3D in a single forward pass from a single image.*
-
-```
