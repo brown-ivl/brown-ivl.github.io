@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "The flavor of the bittersweet lesson for computer vision"
-date: February 24, 2026
+date: February 25, 2026
 authors:
   - author:
       name: "Srinath Sridhar"
