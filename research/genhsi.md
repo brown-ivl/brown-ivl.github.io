@@ -130,7 +130,7 @@ To render them into a holistic 3D-aware keyframes and interpolate as HSI video v
 ```
 
 # Acknowledgements
-This work was supported by Meta, and an AWS Cloud Credits award.
+This work was supported by NSF CAREER grant #2143576, a grant from Meta Reality Labs, and an AWS Cloud Credits award.
 
 # Contact
 Zekun Li ([contact email](mailto:zekun_li1@brown.edu))
