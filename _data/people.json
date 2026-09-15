@@ -8,12 +8,13 @@
         "link": "https://srinathsridhar.com"
     },    
     {
-        "category": "PhD Students",
+        "category": "Brown IVL Alumni",
         "name": "Rao Fu",
-        "years": "2021 - Present",
+        "years": "2021 - 2026",
         "imgPath": "images/people/rao.jpg",
         "alt": "Rao Fu Profile Picture",
-        "link": "https://freddierao.github.io/"
+        "link": "https://freddierao.github.io/",
+        "status": "Postdoc at UC Berkeley"
     },
     {
         "category": "PhD Students",
