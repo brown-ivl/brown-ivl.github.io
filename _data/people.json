@@ -78,25 +78,35 @@
         "imgPath": "images/people/Gaurav_Singh.jpg",
         "alt": "Gaurav's Profile Picture"       ,
         "link": "https://vanhalen42.github.io/"
-    },     
+    },  
+   {
+        "category": "PhD Students",
+        "name": "Ipek Oztas",
+        "years": "2026 - Present",
+        "imgPath": "images/people/Ipek_Oztas.jpg",
+        "alt": "Ipek's Profile Picture"       ,
+        "link": "https://ipekoztas.github.io/"
+    },      
     {
-        "category": "Undergraduate/Master's Students",
+        "category": "Brown IVL Alumni",
         "name": "Angela Xing",
-        "years": "2022 - Present",
+        "years": "2022 - 2026",
         "imgPath": "images/people/angela.jpeg",
         "alt": "Angela Xing Profile Picture"       ,
-        "link": "https://xing-angela.github.io/"
+        "link": "https://xing-angela.github.io/",
+        "status": "ML Engineer at Waymo"
     }, 
     {
-        "category": "Undergraduate/Master's Students",
+        "category": "Brown IVL Alumni",
         "name": "Wanjia Fu",
-        "years": "2023 - Present",
+        "years": "2023 - 2026",
         "imgPath": "images/people/wfu16.jpg",
         "alt": "Wanjia Fu's Profile Picture"       ,
-        "link": "https://wanjia-fu.com/"
+        "link": "https://wanjia-fu.com/",
+        "status": "PhD Student at UPenn"
     },
     {
-        "category": "Undergraduate/Master's Students",
+        "category": "Brown IVL Alumni",
         "name": "Praccho Muna-McQuay",
         "years": "2024 - Present",
         "imgPath": "images/people/praccho.png",
