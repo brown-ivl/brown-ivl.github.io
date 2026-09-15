@@ -8,15 +8,6 @@
         "link": "https://srinathsridhar.com"
     },    
     {
-        "category": "Brown IVL Alumni",
-        "name": "Rao Fu",
-        "years": "2021 - 2026",
-        "imgPath": "images/people/rao.jpg",
-        "alt": "Rao Fu Profile Picture",
-        "link": "https://freddierao.github.io/",
-        "status": "Postdoc at UC Berkeley"
-    },
-    {
         "category": "PhD Students",
         "name": "Arthur Chen",
         "years": "2022 - Present",
@@ -89,6 +80,23 @@
         "link": "https://ipekoztas.github.io/"
     },      
     {
+        "category": "Undergraduate/Master's Students",
+        "name": "Tamar Kreitman",
+        "years": "2025 - Present",
+        "imgPath": "images/people/no_photo.png",
+        "alt": "Tamar's Profile Picture",
+        "link": ""
+    },    
+    {
+        "category": "Brown IVL Alumni",
+        "name": "Rao Fu",
+        "years": "2021 - 2026",
+        "imgPath": "images/people/rao.jpg",
+        "alt": "Rao Fu Profile Picture",
+        "link": "https://freddierao.github.io/",
+        "status": "Postdoc at UC Berkeley"
+    },    
+    {
         "category": "Brown IVL Alumni",
         "name": "Angela Xing",
         "years": "2022 - 2026",
@@ -115,14 +123,6 @@
         "link": "https://praccho.io",
         "status": ""        
     },     
-    {
-        "category": "Undergraduate/Master's Students",
-        "name": "Tamar Kreitman",
-        "years": "2025 - Present",
-        "imgPath": "images/people/no_photo.png",
-        "alt": "Tamar's Profile Picture",
-        "link": ""
-    },    
     {
         "category": "Brown IVL Alumni",
         "name": "Theo McArn",
